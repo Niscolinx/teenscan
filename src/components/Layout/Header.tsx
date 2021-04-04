@@ -5,7 +5,7 @@ const Header = () => {
             
         <div>
         <h2>Logo</h2>
-        <input/>
+        <input className='subHeader_input'/>
             </div>
         
         </div>
