@@ -1,7 +1,14 @@
 .modal {
-    background-color: red;
+    position: relative;
+
+     & > :link,
+    & > :visited {
+        text-decoration: none;
+        color: $color-grey-dark;
+    }
 
     .category{
         background-color: yellow;
+        position: absolute;
     }
 }
