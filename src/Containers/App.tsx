@@ -94,27 +94,28 @@ function App() {
 
     return (
         <div className='rootApp'>
-            <Layout isAdmin={location} siteOwner={props.siteOwner}>
                 {AuthGuard}
-            </Layout>
+            {/* <Layout isAdmin={location} siteOwner={props.siteOwner}>
+            </Layout> */}
         </div>
     )
 }
 
-const mapStateToProps = (state) => {
-    return {
-        siteOwner: state.auth.siteOwner,
-        //auth: state.auth.tokenId,
-        auth: 'jnsdkfms'
-    }
-}
+// const mapStateToProps = (state) => {
+//     return {
+//         siteOwner: state.auth.siteOwner,
+//         //auth: state.auth.tokenId,
+//         auth: 'jnsdkfms'
+//     }
+// }
 
-const mapDispatchToProps = (dispatch) => {
-    return {
-        onCheckState: (tokenId, userId) =>
-            dispatch(actions.authSuccess(tokenId, userId)),
-        onInitActivities: () => dispatch(actions.initActivities()),
-    }
-}
+// const mapDispatchToProps = (dispatch) => {
+//     return {
+//         onCheckState: (tokenId, userId) =>
+//             dispatch(actions.authSuccess(tokenId, userId)),
+//         onInitActivities: () => dispatch(actions.initActivities()),
+//     }
+// }
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App))
+//export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App))
+export default App
