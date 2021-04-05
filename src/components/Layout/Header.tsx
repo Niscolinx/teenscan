@@ -1,3 +1,6 @@
+import {IoMdNotificationsOutline} from 'react-icons/io'
+import {AiOutlineHeart} from 'react-icons/ai'
+
 
 const Header = () => {
     return (
@@ -5,6 +8,7 @@ const Header = () => {
             
         <div>
         <h2>Logo</h2>
+        <li>my learning</li>
         <input className='subHeader_input'/>
             </div>
         
