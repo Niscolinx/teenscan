@@ -48,7 +48,10 @@
     background: orangered;
     justify-content: space-around;
     grid-column: 1 / -1;
-   grid-template-columns: min-content minmax(min-content, 8rem) 2fr repeat(2, 1fr) minmax(min-content, .5fr);
+    grid-template-columns: min-content minmax(min-content, 8rem) 2fr repeat(
+            2,
+            1fr
+        ) minmax(min-content, 0.5fr);
 }
 
 .section-header {

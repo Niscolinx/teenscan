@@ -7,9 +7,9 @@ const Header = () => {
         <>
             <img src={Logo} alt="logo"/>
             <Link to='/'>Categories</Link>
-            <div className="input-box">
-            <BiSearch/>
-            <input className='header_input'/>
+            <div className="header_input-box">
+            <BiSearch className='header_input-box_search'/>
+            <input className='header_input-box_input'/>
             </div>
             <Link to='/'>Courses</Link>
             <Link to='/'>Teach on Teenscanblog</Link>
