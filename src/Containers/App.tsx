@@ -1,13 +1,11 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import {
     Switch,
     Route,
-    Redirect,
-    useLocation,
-    withRouter,
+    Redirect
 } from 'react-router-dom'
-import { connect } from 'react-redux'
-import Layout from './Layout'
+// import { connect } from 'react-redux'
+// import Layout from './Layout'
 import Home from '../views/Home'
 
 function App() {
@@ -34,10 +32,8 @@ function App() {
                 path='/'
                 exact
                 component={Home}
-                render={(props) => (
-                    <Home
-                        {...props}
-                    />
+                render={() => (
+                    <Home/>
                 )}
             />
             {/* <Route
