@@ -13,8 +13,8 @@ const Header = () => {
             <Link to='/'>Courses</Link>
 
             <ul className='header_list'>
-                <li className="header_list-item">Login</li>
-                <li className="header_list-item">Signup</li>
+                <li className="header_list-item"><Link to='/'>Login</Link></li>
+                <li className="header_list-item"><Link to='/'>Signup</Link></li>
             </ul>
         </>
     )
