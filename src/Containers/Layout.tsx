@@ -1,9 +1,9 @@
 import React from 'react'
-import { useLastLocation } from 'react-router-last-location'
+// import { useLastLocation } from 'react-router-last-location'
 import {useHistory} from 'react-router-dom'
 
-import SubHeader from '../main/layout/SubHeader'
-import Footer from '../main/layout/Footer'
+//import SubHeader from '../main/layout/SubHeader'
+//import Footer from '../main/layout/Footer'
 
 function Layout(props) {
     const lastLocation = useLastLocation()
@@ -30,22 +30,7 @@ function Layout(props) {
             history.push('/admin/dashboard')
         }
 
-        localStorage.setItem('cssLoaded', false)
-        import('bootstrap/dist/css/bootstrap.min.css').then((Baz) => {
-        })
-        import('../assets/css/animate.min.css').then((Baz) => {
-        })
-        import(
-            '../assets/sass/light-bootstrap-dashboard-react.scss?v=1.3.0'
-        ).then((Baz) => {
-        })
-        import('../assets/css/demo.css').then((Baz) => {
-        })
-        const all = import('../assets/css/pe-icon-7-stroke.css').then((Baz) => {
-        })
-        all.finally((result) => {
-            localStorage.setItem('cssLoaded', true)
-        })
+      
 
         toRender = props.children
     } else {
