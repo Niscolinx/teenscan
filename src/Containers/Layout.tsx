@@ -6,15 +6,15 @@ import {useHistory} from 'react-router-dom'
 //import Footer from '../main/layout/Footer'
 
 function Layout(props) {
-    const lastLocation = useLastLocation()
+   // const lastLocation = useLastLocation()
     const history = useHistory()
 
     let fromlocationPath = ''
-    for (let i in lastLocation) {
-        if (i === 'pathname') {
-            fromlocationPath = lastLocation[i]
-        }
-    }
+    // for (let i in lastLocation) {
+    //     if (i === 'pathname') {
+    //         fromlocationPath = lastLocation[i]
+    //     }
+    // }
     const fromLocationSplit = fromlocationPath.split(' ')
 
 
