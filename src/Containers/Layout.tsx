@@ -1,11 +1,16 @@
 import React from 'react'
 // import { useLastLocation } from 'react-router-last-location'
 import {useHistory} from 'react-router-dom'
+import Footer from '../components/Footer'
 
-import Header from '../main/layout/Header'
-import Footer from '../main/layout/Footer'
+interface LayoutProps {
+    isAdmin: {
+        pathname: string
+    },
+    children: JSX.Element
+}
 
-function Layout(props) {
+function Layout(props: LayoutProps) {
    // const lastLocation = useLastLocation()
     const history = useHistory()
 

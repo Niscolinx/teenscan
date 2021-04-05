@@ -9,7 +9,7 @@ import {
  import Layout from './Layout'
 import Home from '../views/Home'
 
-function App() {
+function App(props) {
     const location = useLocation()
 
     // const ref = useRef()
@@ -33,7 +33,7 @@ function App() {
                 path='/'
                 exact
                 component={Home}
-                render={() => (
+                render={(...props) => (
                     <Home/>
                 )}
             />
