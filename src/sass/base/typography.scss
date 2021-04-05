@@ -56,26 +56,9 @@
 }
 
 .section-hero {
-    z-index: 1000;
     background-color: $color-secondary;
     grid-column: 1 / -1;
     height: 78vh;
-
-    display: grid;
-    grid-template-columns: minmax(min-content, max-content);
-    grid-template-rows: 2fr min-content minmax(4rem, min-content) 2fr;
-    row-gap: 1rem;
-    background-size: cover;
-    padding: 2rem 6rem;
-    justify-content: center;
-
-    @media only screen and (max-width: 62.5em) {
-        grid-column: 1 / -1;
-    }
-
-    @media only screen and (max-width: 62.5em) {
-        padding: 2rem 4rem;
-    }
 }
 
 .section-plans {

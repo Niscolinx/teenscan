@@ -1,8 +1,11 @@
-import Hero from "../components/Hero"
+import Hero from '../components/Hero'
 
 const Home = () => {
     return (
-        <Hero/>
+        <>
+            <div className='section-hero'><Hero/> </div>
+            <div className='section-hero'></div>
+        </>
     )
 }
 
