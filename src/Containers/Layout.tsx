@@ -3,7 +3,7 @@ import React from 'react'
 import {useHistory} from 'react-router-dom'
 
 import Header from '../main/layout/Header'
-//import Footer from '../main/layout/Footer'
+import Footer from '../main/layout/Footer'
 
 function Layout(props) {
    // const lastLocation = useLastLocation()
