@@ -9,7 +9,11 @@ import {
  import Layout from './Layout'
 import Home from '../views/Home'
 
-function App(props) {
+interface AppProps {
+    children: JSX.Element
+}
+
+function App(props: AppProps) {
     const location = useLocation()
 
     // const ref = useRef()

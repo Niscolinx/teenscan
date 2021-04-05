@@ -2,6 +2,7 @@ import React from 'react'
 // import { useLastLocation } from 'react-router-last-location'
 import {useHistory} from 'react-router-dom'
 import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 interface LayoutProps {
     isAdmin: {

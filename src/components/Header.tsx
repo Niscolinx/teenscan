@@ -2,7 +2,7 @@ const Header = () => {
     return (
         <div>
             This is the header
-            <input className='header_input'/>
+            <input className='subHeader_input'/>
         </div>
     )
 }
