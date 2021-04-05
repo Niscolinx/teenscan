@@ -1,6 +1,5 @@
 .main {
     display: grid;
-    //background: $color-background;
     position: relative;
     grid-template-rows: min-content;
     grid-template-columns:
@@ -80,7 +79,6 @@
 }
 
 .section-plans {
-    background: $color-background;
     grid-column: 1 / -1;
     margin: 10rem 0;
     padding: 0 5rem;
@@ -107,7 +105,6 @@
 
     &__content {
         display: grid;
-        background: $color-background;
         grid-column: col-start 4 / full-end;
         align-content: center;
         justify-items: start;
@@ -121,12 +118,8 @@
     }
 }
 
-.section-product {
-    background-color: $color-grey-light-1;
-}
 
 .section-transactions {
-    background: $color-background;
     grid-column: sidebar-end / center-end;
     margin: 5rem 0;
 
