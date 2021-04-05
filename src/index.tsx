@@ -12,7 +12,7 @@ const store = createStore(reducers, applyMiddleware(thunk))
 
 const app = (
     <Provider store={store}>
-        <App/>
+        <App children={'hello world'}/>
     </Provider>
 )
 

@@ -10,11 +10,13 @@ import {
 import Home from '../views/Home'
 
 interface AppProps {
-    children: JSX.Element
+    children: string
 }
 
 function App(props: AppProps) {
     const location = useLocation()
+
+    console.log({props})
 
     // const ref = useRef()
     // useEffect(() => {
