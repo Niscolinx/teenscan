@@ -1,7 +1,9 @@
+import Logo from '../assets/Logo.png'
+
 const Header = () => {
     return (
         <div>
-            This is the header
+            <img src={Logo} alt="logo"/>
             <input className='subHeader_input'/>
         </div>
     )

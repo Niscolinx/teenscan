@@ -8,11 +8,12 @@ import {
 // import { connect } from 'react-redux'
  import Layout from './Layout'
 import Home from '../views/Home'
+import { LastLocationType } from 'react-router-last-location'
 
 
 
 function App() {
-   const location = useLocation()
+   const location: LastLocationType = useLocation()
 
 
 
