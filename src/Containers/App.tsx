@@ -7,26 +7,25 @@ import {
     withRouter,
 } from 'react-router-dom'
 import { connect } from 'react-redux'
-
 import Layout from './Layout'
-import Home from './Home'
+import Home from '../views/Home'
 
-function App(props) {
-    const location = useLocation()
+function App() {
+    // const location = useLocation()
 
-    const ref = useRef()
-    useEffect(() => {
-        const token = localStorage.getItem('token')
-        const userId = localStorage.getItem('userId')
-        if (!ref.current) {
-            if (token) {
-                props.onCheckState(token, userId)
-            } else {
-                props.onInitActivities()
-            }
-        }
-        ref.current = true
-    }, [props])
+    // const ref = useRef()
+    // useEffect(() => {
+    //     const token = localStorage.getItem('token')
+    //     const userId = localStorage.getItem('userId')
+    //     if (!ref.current) {
+    //         if (token) {
+    //             props.onCheckState(token, userId)
+    //         } else {
+    //             props.onInitActivities()
+    //         }
+    //     }
+    //     ref.current = true
+    // }, [props])
 
   
     let AuthGuard = (
@@ -41,7 +40,7 @@ function App(props) {
                     />
                 )}
             />
-            <Route
+            {/* <Route
                 path='/Auth/login'
                 render={(props) => <LoginPage {...props} />}
             />
@@ -54,59 +53,47 @@ function App(props) {
             <Route path='/forgot-password' component={ForgotPassword} />
             <Route path='/contact-us' component={ContactUs} />
             <Route path='/faq' component={Faq} />
-            <Route path='/terms' component={Terms} />
+            <Route path='/terms' component={Terms} /> */}
             <Redirect to='/' />
         </Switch>
     )
-    if (props.auth) {
-        let admintoShow = (
-            <Route
-                path='/admin'
-                render={(props) => <AdminLayout {...props} />}
-            />
-        )
+    // if (props.auth) {
+    //     let admintoShow = (
+    //         <Route
+    //             path='/admin'
+    //             render={(props) => <AdminLayout {...props} />}
+    //         />
+    //     )
 
-        if (props.siteOwner) {
-            admintoShow = (
-                <Route
-                    path='/admin'
-                    render={(props) => <SiteOwnerAdmin {...props} />}
-                />
-            )
-        }
+    //     if (props.siteOwner) {
+    //         admintoShow = (
+    //             <Route
+    //                 path='/admin'
+    //                 render={(props) => <SiteOwnerAdmin {...props} />}
+    //             />
+    //         )
+    //     }
 
-        AuthGuard = (
-            <Switch>
-                <Route path='/' exact component={Home} />
-                <Route
-                    path='/Auth/login'
-                    render={(props) => <AsyncLogin {...props} />}
-                />
-                <Route path='/about-us' component={AsyncAboutUs} />
-                <Route path='/contact-us' component={ContactUs} />
-                <Route path='/faq' component={Faq} />
-                <Route path='/terms' component={Terms} />
+    //     AuthGuard = (
+    //         <Switch>
+    //             <Route path='/' exact component={Home} />
+    //             <Route
+    //                 path='/Auth/login'
+    //                 render={(props) => <AsyncLogin {...props} />}
+    //             />
+    //             <Route path='/about-us' component={AsyncAboutUs} />
+    //             <Route path='/contact-us' component={ContactUs} />
+    //             <Route path='/faq' component={Faq} />
+    //             <Route path='/terms' component={Terms} />
 
-                {admintoShow}
-                <Redirect to='/' />
-            </Switch>
-        )
-    }
+    //             {admintoShow}
+    //             <Redirect to='/' />
+    //         </Switch>
+    //     )
+    // }
 
     return (
         <div className='rootApp'>
-            <a
-                href='https://wa.me/+18589463698'
-                alt=''
-                target='_blank'
-                rel='noopener noreferrer'
-            >
-                <img
-                    src={WhatsappLivechat}
-                    alt=''
-                    className='liveChat__whatsapp'
-                />
-            </a>
             <Layout isAdmin={location} siteOwner={props.siteOwner}>
                 {AuthGuard}
             </Layout>
