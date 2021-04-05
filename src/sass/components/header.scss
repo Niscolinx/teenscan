@@ -1,7 +1,11 @@
-.subHeader_input{
-    border-radius: 3rem;
-    padding: .7rem 1rem;
-    outline: none;
-    border: 1px solid black;
-    
+.header {
+    &_input{
+        border-radius: 3rem;
+        padding: .7rem 1rem;
+        outline: none;
+        border: 1px solid black;
+        
+    }
+
 }
+

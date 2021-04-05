@@ -59,7 +59,7 @@ function Layout(props: LayoutProps) {
 
      toRender = (
             <>
-                <div className='section-subHeader'>
+                <div className='header'>
                     <Header />
                 </div>
                 <main className='main'>{props.children}</main>

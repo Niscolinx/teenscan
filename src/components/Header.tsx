@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const Header = () => {
     return (
-        <div>
+        <>
             <img src={Logo} alt="logo"/>
             <div className="input-box">
             <BiSearch/>
@@ -16,7 +16,7 @@ const Header = () => {
                 <li className="header_list-item">Login</li>
                 <li className="header_list-item">Signup</li>
             </ul>
-        </div>
+        </>
     )
 }
 
