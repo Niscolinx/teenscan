@@ -1,5 +1,4 @@
 .main {
-    height: 100vh;
     display: grid;
     position: relative;
     grid-template-rows: min-content;
@@ -56,7 +55,7 @@
      padding: 0 1rem;
 }
 
-.section-header {
+.section-hero {
     z-index: 1000;
     background-color: $color-secondary;
     grid-column: 1 / -1;

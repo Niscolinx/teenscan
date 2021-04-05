@@ -11,27 +11,29 @@
         position: absolute;
         z-index: 2;
         top: 3rem;
+        width: max-content;
     }
     
     .categoryModal {
-        width: 3vw;
         list-style: none;
         background: $color-grey-light-2;
         padding: 1rem .3rem;
         border-radius: .5rem;
 
         li {
+            padding: .3rem 1rem;
+            
             & > :link,
             & > :visited {
                 text-decoration: none;
                 color: $color-grey-dark;
-                width: 89rem;
+                text-align: center;
             }
         }
     }
 
     &_spacer{
-        width: 5rem;
+        width: 8rem;
         height: 2rem;
         position: absolute;
     }

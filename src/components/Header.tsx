@@ -69,19 +69,19 @@ const Header = () => {
         >
             <ul className='categoryModal' onMouseLeave={handleModalClose}>
                 <li>
-                    <Link to='/'>Signup</Link>
+                    <Link to='/'>Digital Marketing</Link>
                 </li>
                 <li>
-                    <Link to='/'>Login</Link>
+                    <Link to='/'>Blogging</Link>
                 </li>
                 <li>
-                    <Link to='/'>Signup</Link>
+                    <Link to='/'>Web Development</Link>
                 </li>
                 <li>
-                    <Link to='/'>Login</Link>
+                    <Link to='/'>Graphics Design</Link>
                 </li>
                 <li>
-                    <Link to='/yello'>Signup</Link>
+                    <Link to='/yello'>Public Speaking</Link>
                 </li>
             </ul>
         </div>
@@ -106,7 +106,7 @@ const Header = () => {
                 <BiSearch className='header_input-box_searchIcon' />
                 <input
                     className='header_input-box_input'
-                    placeholder='Search courses'
+                    placeholder='What do you want to learn'
                 />
             </div>
 
