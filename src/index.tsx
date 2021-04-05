@@ -7,12 +7,16 @@ import {Provider} from 'react-redux'
 import thunk from 'redux-thunk'
 import { reducers } from './store/reducers/reducer'
 import App from './Containers/App'
+import { LastLocationProvider } from 'react-router-last-location'
 
 const store = createStore(reducers, applyMiddleware(thunk))
 
 const app = (
+    
     <Provider store={store}>
+        <LastLocationProvider>
         <App children={'hello world'}/>
+        </LastLocationProvider>
     </Provider>
 )
 

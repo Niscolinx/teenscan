@@ -14,7 +14,8 @@ interface AppProps {
 }
 
 function App(props: AppProps) {
-    const location = useLocation()
+   const location = useLocation()
+
 
     console.log({props})
 
