@@ -2,14 +2,15 @@ import React from 'react'
 import {
     Switch,
     Route,
-    Redirect
+    Redirect,
+    useLocation
 } from 'react-router-dom'
 // import { connect } from 'react-redux'
-// import Layout from './Layout'
+ import Layout from './Layout'
 import Home from '../views/Home'
 
 function App() {
-    // const location = useLocation()
+    const location = useLocation()
 
     // const ref = useRef()
     // useEffect(() => {
@@ -90,9 +91,9 @@ function App() {
 
     return (
         <div className='rootApp'>
+             <Layout isAdmin={location}>
                 {AuthGuard}
-            {/* <Layout isAdmin={location} siteOwner={props.siteOwner}>
-            </Layout> */}
+            </Layout>
         </div>
     )
 }
