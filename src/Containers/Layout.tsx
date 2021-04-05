@@ -2,7 +2,7 @@ import React from 'react'
 // import { useLastLocation } from 'react-router-last-location'
 import {useHistory} from 'react-router-dom'
 
-//import SubHeader from '../main/layout/SubHeader'
+import Header from '../main/layout/Header'
 //import Footer from '../main/layout/Footer'
 
 function Layout(props) {
@@ -40,7 +40,7 @@ function Layout(props) {
         toRender = (
             <>
                 <div className='section-subHeader'>
-                    <SubHeader />
+                    <Header />
                 </div>
                 <main className='main'>{props.children}</main>
                 <div className='section-footer'>
