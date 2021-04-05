@@ -14,8 +14,9 @@ const store = createStore(reducers, applyMiddleware(thunk))
 const app = (
     
     <Provider store={store}>
+
         <LastLocationProvider>
-        <App children={'hello world'}/>
+     <App/>
         </LastLocationProvider>
     </Provider>
 )

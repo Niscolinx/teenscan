@@ -13,7 +13,7 @@ interface AppProps {
     children: string
 }
 
-function App(props: AppProps) {
+function App(props: any) {
    const location = useLocation()
 
 
@@ -40,7 +40,7 @@ function App(props: AppProps) {
                 path='/'
                 exact
                 component={Home}
-                render={(...props) => (
+                render={() => (
                     <Home/>
                 )}
             />
