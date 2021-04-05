@@ -1,7 +1,6 @@
 .header {
-
-    &>:link,
-    &>:visited{
+    & > :link,
+    & > :visited {
         text-decoration: none;
         color: $color-grey-dark;
     }
@@ -29,9 +28,42 @@
         display: flex;
         list-style: none;
         justify-content: space-around;
+        margin-left: 2rem;
+        margin-right: 0.5rem;
 
-        &>*{
-            padding: 1rem;
+        & > * {
+            padding: 1rem 0.5rem;
+        }
+
+        &-item {
+            &--1:link,
+            &--1:visited,
+            &--2:link,
+            &--2:visited {
+                text-decoration: none;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+            }
+
+            &--1 {
+                border: 1px solid $color-secondary;
+                &:link,
+                &:visited{
+                     color: $color-secondary;
+                     font-weight: 600;
+                     
+                }
+            }
+            &--2 {
+                background-color: $color-secondary;
+
+                &:link,
+                &:visited{
+                    color: white;
+                                         font-weight: 600;
+
+                }
+            }
         }
     }
 }
