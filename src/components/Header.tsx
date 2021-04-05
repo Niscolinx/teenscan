@@ -53,7 +53,7 @@ const Header = () => {
         <>
             <img src={Logo} alt="logo" style={{marginRight: '2rem'}}/>
             
-            <div className="modal" onMouseLeave={handleMouseLeave} style={{background: 'red'}}>
+            <div className="modal" onMouseLeave={handleMouseLeave}>
             <Link to='/' onMouseOver={handleMouseEnter}>Categories</Link>
             {categoryModal}
             </div>

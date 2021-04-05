@@ -8,8 +8,11 @@
     }
 
     .category{
-        background-color: yellow;
         position: absolute;
         z-index: 2;
+    }
+
+    .categoryModal {
+        background-color: purple;
     }
 }
