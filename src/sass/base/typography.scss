@@ -45,13 +45,15 @@
 }
 .header {
     display: grid;
-    background: orangered;
-    justify-content: space-around;
+    //background: orangered;
     grid-column: 1 / -1;
-    grid-template-columns: min-content minmax(min-content, 8rem) 2fr repeat(
+    grid-template-columns: min-content minmax(min-content, 8rem) 3fr repeat(
             2,
-            1fr
-        ) minmax(min-content, 0.5fr);
+            minmax(max-content, 1fr)
+        ) minmax(min-content, 1fr);
+     align-items: center;
+     justify-items: center;   
+     padding: 0 1rem;
 }
 
 .section-header {

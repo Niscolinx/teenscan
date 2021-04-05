@@ -1,17 +1,32 @@
 .header {
-  
-
-    &_input{
-        border-radius: 3rem;
-        padding: .7rem 1rem;
-        outline: none;
-        border: 1px solid black;
-        width: 100%;
-    }
-
-    &_list{
+    &_input-box {
         display: flex;
+        align-items: center;
+        position: relative;
+        justify-self: stretch;
+
+        &_input {
+            border-radius: 3rem;
+            padding: 0.7rem 1rem;
+            outline: none;
+            border: 1px solid black;
+            width: 100%;
+            //  margin-left: -1rem;
+            padding-left: 2.5rem;
+        }
+        &_searchIcon {
+            position: absolute;
+            width: 3rem;
+        }
     }
 
-}
+    &_list {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
 
+        &>*{
+            padding: 1rem;
+        }
+    }
+}
