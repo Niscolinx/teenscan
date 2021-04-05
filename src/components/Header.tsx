@@ -2,8 +2,12 @@ import Logo from '../assets/Logo.png'
 import {BiSearch} from 'react-icons/bi'
 import {Link} from 'react-router-dom'
 
+const categoryModalStyle = {
+    display: 'none'
+}
+
 const categoryModal = (
-    <div className='category' style={{display: 'none'}}>
+    <div className='category' style={categoryModalStyle}>
         <ul className='categoryModal'>
             <li>Hello</li>
             <li>World</li>
@@ -12,13 +16,17 @@ const categoryModal = (
     </div>
 )
 
+const handleModalToggle = () => {
+    console.log('mouse entered')
+}
+
 const Header = () => {
     return (
         <>
             <img src={Logo} alt="logo" style={{marginRight: '2rem'}}/>
             
             <div className="modal">
-            <Link to='/'>Categories</Link>
+            <Link to='/' onMouseEnter={handleModalToggle}>Categories</Link>
             {categoryModal}
             </div>
 
