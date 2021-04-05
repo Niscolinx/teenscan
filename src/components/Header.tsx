@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 
 interface ModalHandler {
     displayModal: boolean
-    handleSpacer: boolean
     toDisplay: string
 }
 
@@ -16,27 +15,16 @@ const Header = () => {
 
     const [modalHandler, setModalHandler] = useState<ModalHandler>({
         displayModal: false,
-        handleSpacer: false,
         toDisplay: 'none',
     })
 
-    let { displayModal, toDisplay, handleSpacer } = modalHandler
+    let { displayModal, toDisplay } = modalHandler
 
     let categoryModalStyle = {
         display: toDisplay,
     }
-    const handleSpacerEnter = () => {
-        setModalHandler({
-            ...modalHandler,
-            handleSpacer: true,
-        })
-    }
 
     const handleSpacerLeave = () => {
-        setModalHandler({
-            ...modalHandler,
-            handleSpacer: false,
-        })
 
         if (displayModal) {
             setModalHandler({
@@ -109,7 +97,6 @@ const Header = () => {
                 </Link>
                 <p
                     className='modal_spacer'
-                    onMouseEnter={handleSpacerEnter}
                     onMouseLeave={handleSpacerLeave}
                 ></p>
                 {categoryModal}
