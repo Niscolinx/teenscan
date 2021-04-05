@@ -8,16 +8,18 @@ import thunk from 'redux-thunk'
 import { reducers } from './store/reducers/reducer'
 import App from './Containers/App'
 import { LastLocationProvider } from 'react-router-last-location'
+import { BrowserRouter } from 'react-router-dom'
 
 const store = createStore(reducers, applyMiddleware(thunk))
 
 const app = (
     
     <Provider store={store}>
-
+        <BrowserRouter>
         <LastLocationProvider>
-     <App/>
+             <App/>
         </LastLocationProvider>
+        </BrowserRouter>
     </Provider>
 )
 

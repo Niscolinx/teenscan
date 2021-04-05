@@ -9,15 +9,12 @@ import {
  import Layout from './Layout'
 import Home from '../views/Home'
 
-interface AppProps {
-    children: string
-}
 
-function App(props: any) {
+
+function App() {
    const location = useLocation()
 
 
-    console.log({props})
 
     // const ref = useRef()
     // useEffect(() => {
@@ -40,9 +37,7 @@ function App(props: any) {
                 path='/'
                 exact
                 component={Home}
-                render={() => (
-                    <Home/>
-                )}
+                render={Home}
             />
             {/* <Route
                 path='/Auth/login'
