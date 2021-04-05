@@ -12,8 +12,9 @@
         z-index: 2;
         top: 3rem;
     }
-
+    
     .categoryModal {
+        width: 3vw;
         list-style: none;
         background: $color-grey-light-2;
         padding: 1rem .3rem;
@@ -24,14 +25,14 @@
             & > :visited {
                 text-decoration: none;
                 color: $color-grey-dark;
+                width: 89rem;
             }
         }
     }
 
     &_spacer{
-        width: 7rem;
+        width: 5rem;
         height: 2rem;
         position: absolute;
-        background-color: red;
     }
 }
