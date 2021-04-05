@@ -7,44 +7,42 @@ import {Link} from 'react-router-dom'
 
 
 const Header = () => {
-    const [state, setState] = useState('none')
-    const [mouseMove, setMouseMove] = useState(false)
+    const [handleMouse, setHandleMouse] = useState('none')
+    const [handleModal, setHandelModal] = useState(false)
 
     let categoryModalStyle = {
-        display: state
+        display: handleMouse
     }
     
     
     const handleMouseLeave = () => {
-       // setState('none')
+        if(!handleModal){
+            
+            setHandleMouse('none')
+       }
     }
     const handleMouseEnter = () => {
-        console.log('mouse entered!')
-        setState('block')
+        setHandleMouse('block')
     }
 
-    const handleModalEnter = () => {
-        console.log('modal entered')
-        setMouseMove(true)
+    const handleModalOpen = () => {
+        setHandelModal(true)
     }
 
-    const handleModalLeave = () => {
-        console.log('modal close')
-        setMouseMove(false)
-       // setState('none')
+    const handleModalClose = () => {
+        setHandelModal(false)
+       setHandleMouse('none')
     }
     const categoryModal = (
-        <div className='category' style={categoryModalStyle} onMouseEnter={handleModalEnter}>
-            <ul className='categoryModal' onMouseLeave={handleModalLeave}>
-                 <li><Link to='/'  className="header_list-item--1">Login</Link></li>
-                <li><Link to='/'  className="header_list-item--2">Signup</Link></li>
-                 <li><Link to='/'  className="header_list-item--1">Login</Link></li>
-                <li><Link to='/'  className="header_list-item--2">Signup</Link></li>
-                 <li><Link to='/'  className="header_list-item--1">Login</Link></li>
-                <li><Link to='/'  className="header_list-item--2">Signup</Link></li>
-                <li>Hello</li>
-                <li>World</li>
-                <li>How</li>
+        <div className='category' style={categoryModalStyle} onMouseEnter={handleModalOpen}>
+            <ul className='categoryModal' onMouseLeave={handleModalClose}>
+                 <li><Link to='/'>Login</Link></li>
+                <li><Link to='/'>Signup</Link></li>
+                 <li><Link to='/'  >Login</Link></li>
+                <li><Link to='/' >Signup</Link></li>
+                 <li><Link to='/'  >Login</Link></li>
+                <li><Link to='/yello' >Signup</Link></li>
+                
             </ul>
         </div>
     )
