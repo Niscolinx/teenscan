@@ -1,18 +1,37 @@
 .modal {
     position: relative;
 
-     & > :link,
+    & > :link,
     & > :visited {
         text-decoration: none;
         color: $color-grey-dark;
     }
 
-    .category{
+    .category {
         position: absolute;
         z-index: 2;
+        top: 3rem;
     }
 
     .categoryModal {
-        background-color: purple;
+        list-style: none;
+        background: $color-grey-light-2;
+        padding: 1rem .3rem;
+        border-radius: .5rem;
+
+        li {
+            & > :link,
+            & > :visited {
+                text-decoration: none;
+                color: $color-grey-dark;
+            }
+        }
+    }
+
+    &_spacer{
+        width: 7rem;
+        height: 2rem;
+        position: absolute;
+        background-color: red;
     }
 }

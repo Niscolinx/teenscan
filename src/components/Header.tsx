@@ -36,7 +36,6 @@ const Header = () => {
     const categoryModal = (
         <div className='category' style={categoryModalStyle} onMouseEnter={handleModalOpen}>
             <ul className='categoryModal' onMouseLeave={handleModalClose}>
-                 <li><Link to='/'>Login</Link></li>
                 <li><Link to='/'>Signup</Link></li>
                  <li><Link to='/'  >Login</Link></li>
                 <li><Link to='/' >Signup</Link></li>
@@ -47,14 +46,14 @@ const Header = () => {
         </div>
     )
 
-
-    console.log(categoryModalStyle)
     return (
         <>
             <img src={Logo} alt="logo" style={{marginRight: '2rem'}}/>
             
             <div className="modal" onMouseLeave={handleMouseLeave}>
             <Link to='/' onMouseOver={handleMouseEnter}>Categories</Link>
+            <span></span>
+            <p className='modal_spacer'></p>
             {categoryModal}
             </div>
 
