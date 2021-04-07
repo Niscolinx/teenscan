@@ -1,12 +1,17 @@
 .course_cards{
     background-color: pink;
+    
     display: grid;
-
-    grid-template-columns: repeat(minmax(max-content, 4rem), 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     .course{
 
         &_img{
-            width: 100%;
+           // width: 100%;
+            //height: 100%;
+
+            // width: 320px;
+             height: 280px;
+            object-fit: contain;
         }
         &_title{
         }

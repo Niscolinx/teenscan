@@ -17,6 +17,8 @@ const Courses = () => {
             <Course title='Title of the course' creator='John Doe' price={14000} image={cardImgs}/>
             <Course title='Title of the course' creator='John Doe' price={19000} image={cardImgss}/>
             <Course title='Title of the course' creator='John Doe' price={22000} image={cardImgsss}/>
+            <Course title='Title of the course' creator='John Doe' price={22000} image={cardImgsss}/>
+            <Course title='Title of the course' creator='John Doe' price={22000} image={cardImgsss}/>
         </div>
         </>
     )
