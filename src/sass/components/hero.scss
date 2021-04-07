@@ -1,12 +1,23 @@
 .hero {
     background-size: cover;
-    height: 100;
+    height: 100vh;
+    width: 100vw;
     background-repeat: no-repeat;
-    background-image: url('../../assets/hero.jpg');
+    background-image: url('../../assets/hero4.jpg');
+    display: grid;
 
     &_img{
         max-width: 100%;
         display: block;
         float: right;
+    }
+
+    &_box{
+        display: grid;
+        background-color: white;
+        width: 45vw;
+        justify-self: end;
+        align-content: center;
+        background-color: transparent;
     }
 }

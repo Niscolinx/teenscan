@@ -1,4 +1,3 @@
-import hero from '../assets/hero4.jpg'
 
 const Hero = () => {
     return (
