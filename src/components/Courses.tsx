@@ -8,7 +8,7 @@ import cardImgsss from '../assets/hero.jpg'
 const Courses = () => {
     return (
         <>
-        <div>
+        <div className='courses_title-box'>
            <h1 className='courses_heading'>Collection of courses</h1> 
            <p className='courses_subHeading'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti vitae</p>
 
