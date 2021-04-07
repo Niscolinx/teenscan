@@ -1,4 +1,4 @@
-import Card from "./card"
+import Course from "./Course"
 
 const Courses = () => {
     return (
@@ -9,7 +9,7 @@ const Courses = () => {
 
         </div>
         <div className="courses_cards">
-            <Card/>
+            <Course/>
         </div>
         </>
     )
