@@ -1,6 +1,6 @@
 .hero {
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-repeat: no-repeat;
     background-image: url('../../assets/hero4.jpg');
@@ -17,7 +17,19 @@
         background-color: white;
         width: 45vw;
         justify-self: end;
+        margin-bottom: 4rem;
+        font-family: $font-display;
         align-content: center;
         background-color: transparent;
+        row-gap: 2rem;
+        padding: 2rem;
+
+        &--title{
+            color: $color-grey-light-1;
+        }
+
+        &--text {
+
+        }
     }
 }
