@@ -43,6 +43,17 @@
     grid-column: 1 / -1;
     margin: 5rem 0;
     padding: 0 5rem;
+
+    .courses {
+        color: $color-grey-dark-2;
+
+        &_heading{
+
+        }
+        &_text{
+color: $color-grey-dark-1;
+        }
+    }
 }
 
 .section-story {
@@ -80,33 +91,7 @@
 }
 
 
-.section-transactions {
-    grid-column: sidebar-end / center-end;
-    margin: 5rem 0;
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 2rem;
-}
-
-.section-tradeviewChart {
-    grid-column: full-start / center-end;
-    padding-top: 3rem;
-    width: 100%;
-    height: 100%;
-
-    // @include respond(phone){
-    //     grid-column: 1 / -1;
-    //     padding: 2rem;
-    // }
-}
-
-.section-activities {
-    background-color: $color-secondary;
-    grid-column: sidebar-start / full-end;
-
-    margin: 3rem 0;
-}
 
 .section-testimonials {
     grid-column: 1 / -1;
@@ -134,8 +119,8 @@
 .heading-1 {
     @extend %heading;
 
-    font-size: 3.5rem;
-    color: $color-grey-light-1;
+    font-size: 3rem;
+   // color: $color-grey-light-1;
     line-height: 1;
     text-transform: uppercase;
 }
