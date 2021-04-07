@@ -41,14 +41,14 @@
 }
 
 .section-courses {
-        grid-column: sidebar-end / center-end;
+    grid-column: sidebar-end / center-end;
     margin: 5rem 0;
 
     .courses {
         color: $color-grey-dark-2;
 
-        &_title-box{
-            background-color: red;
+        &_title-box {
+            background-color: rgb(85, 42, 42);
         }
 
         &_subHeading {
