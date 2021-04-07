@@ -10,7 +10,7 @@ const Courses = () => {
 
         </div>
         <div className="courses_cards">
-            <Course title='Title of th course' creator='John Doe' price={2133} image={cardImg}/>
+            <Course title='Title of th course' creator='John Doe' price={10000} image={cardImg}/>
         </div>
         </>
     )
