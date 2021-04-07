@@ -2,7 +2,6 @@
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
-    //background-image: url('../../assets/hero4.jpg');
     background-image: linear-gradient(to right, rgba($color-secondary, .2), rgba($color-primary, .3)), url('../../assets/hero4.jpg');
     display: grid;
 
@@ -20,7 +19,6 @@
         margin-bottom: 4rem;
         align-content: center;
         border-radius: 0 0 2rem  2rem;
-       // box-shadow: 20px 6px 20px 0px $color-grey-dark-1;
  
         padding: 2rem;
 

@@ -1,8 +1,8 @@
 const Courses = () => {
     return (
-        <div>
-            List of Courses
-        </div>
+        <>
+           <h1 className='courses_heading '>List of courses</h1> 
+        </>
     )
 }
 
