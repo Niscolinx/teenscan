@@ -1,9 +1,12 @@
 .course_cards{
-
+    background-color: pink;
+    display: grid;
     .course{
 
-        &_title{
+        &_img{
             
+        }
+        &_title{
         }
         &_creator{
 

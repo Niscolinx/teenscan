@@ -1,5 +1,8 @@
 import Course from "./Course"
 import cardImg from '../assets/hero1.jpeg'
+import cardImgs from '../assets/hero2.jpeg'
+import cardImgss from '../assets/hero3.jpeg'
+import cardImgsss from '../assets/hero.jpeg'
 
 const Courses = () => {
     return (
@@ -11,6 +14,9 @@ const Courses = () => {
         </div>
         <div className="course_cards">
             <Course title='Title of the course' creator='John Doe' price={10000} image={cardImg}/>
+            <Course title='Title of the course' creator='John Doe' price={14000} image={cardImgs}/>
+            <Course title='Title of the course' creator='John Doe' price={19000} image={cardImgss}/>
+            <Course title='Title of the course' creator='John Doe' price={22000} image={cardImgsss}/>
         </div>
         </>
     )
