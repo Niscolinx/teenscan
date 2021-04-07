@@ -1,8 +1,8 @@
 import Course from "./Course"
 import cardImg from '../assets/hero1.jpeg'
-import cardImgs from '../assets/hero2.jpeg'
-import cardImgss from '../assets/hero3.jpeg'
-import cardImgsss from '../assets/hero.jpeg'
+import cardImgs from '../assets/hero2.jpg'
+import cardImgss from '../assets/hero3.jpg'
+import cardImgsss from '../assets/hero.jpg'
 
 const Courses = () => {
     return (

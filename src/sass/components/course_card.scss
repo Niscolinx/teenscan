@@ -1,10 +1,12 @@
 .course_cards{
     background-color: pink;
     display: grid;
+
+    grid-template-columns: repeat(minmax(max-content, 4rem), 1fr);
     .course{
 
         &_img{
-            
+            width: 100%;
         }
         &_title{
         }
