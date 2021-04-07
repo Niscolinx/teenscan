@@ -44,7 +44,6 @@
 }
 .header {
     display: grid;
-    //background: orangered;
     grid-column: 1 / -1;
     grid-template-columns: min-content minmax(min-content, 8rem) 3fr repeat(
             2,
@@ -56,7 +55,6 @@
 }
 
 .section-hero {
-    background-color: $color-secondary;
     grid-column: 1 / -1;
     height: 80vh;
 }

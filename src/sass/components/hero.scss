@@ -3,7 +3,8 @@
     height: 100%;
     width: 100vw;
     background-repeat: no-repeat;
-    background-image: url('../../assets/hero4.jpg');
+    //background-image: url('../../assets/hero4.jpg');
+    background-image: linear-gradient(to right, rgba($color-secondary, .2), rgba($color-primary, .3)), url('../../assets/hero4.jpg');
     display: grid;
 
     &_img{
@@ -18,18 +19,28 @@
         width: 45vw;
         justify-self: end;
         margin-bottom: 4rem;
-        font-family: $font-display;
+        //font-family: $font-display;
         align-content: center;
-        background-color: transparent;
-        row-gap: 2rem;
+        border-radius: 2rem;
+      //  background-color: transparent;
+        //row-gap: 1rem;
         padding: 2rem;
 
+     border-radius: 38px;
+background: #e0e0e0;
+box-shadow: inset 22px 22px 43px #cecece,
+            inset -22px -22px 43px #f2f2f2;
+        
         &--title{
+            font-weight: 700;
+            font-size: 4rem;
             color: $color-grey-light-1;
+            color: black;
         }
 
         &--text {
-
+            font-size: 1.2rem;
+            font-weight: 400;
         }
     }
 }
