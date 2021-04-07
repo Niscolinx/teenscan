@@ -1,4 +1,5 @@
 import Course from "./Course"
+import cardImg from '../assets/hero1.jpeg'
 
 const Courses = () => {
     return (
@@ -9,7 +10,7 @@ const Courses = () => {
 
         </div>
         <div className="courses_cards">
-            <Course/>
+            <Course title='Title of th course' creator='John Doe' price={2133} image={cardImg}/>
         </div>
         </>
     )
