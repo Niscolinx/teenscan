@@ -1,5 +1,8 @@
 .hero {
     background-size: cover;
+    height: 100;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/hero.jpg');
 
     &_img{
         max-width: 100%;
