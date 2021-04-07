@@ -1,0 +1,20 @@
+.course_cards {
+    margin: 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    row-gap: 1rem;
+
+    .course {
+        &_img {
+            width: 320px;
+            height: 260px;
+            object-fit: cover;
+        }
+        &_title {
+        }
+        &_creator {
+        }
+        &_price {
+        }
+    }
+}
