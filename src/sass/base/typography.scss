@@ -48,7 +48,8 @@
         color: $color-grey-dark-2;
 
         &_title-box {
-            background-color: rgb(85, 42, 42);
+            display: grid;
+            text-align: center;
         }
 
         &_subHeading {
