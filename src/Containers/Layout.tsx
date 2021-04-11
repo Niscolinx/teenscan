@@ -12,7 +12,7 @@ interface LayoutProps {
 
 function Layout(props: LayoutProps) {
 
-    console.log('layout props', props)
+    console.log('layout prop', props)
    // const lastLocation = useLastLocation()
    // const history = useHistory()
 
