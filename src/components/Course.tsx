@@ -8,6 +8,8 @@ interface CourseProps {
 const Course = (props: CourseProps) => {
     const { price } = props
 
+    console.log(price)
+
     const formattedPrice = price.toLocaleString()
     return (
         <div className='course'>
