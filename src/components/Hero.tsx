@@ -14,9 +14,8 @@ const Hero = () => {
 
             </div> */}
             <div className='hero_box'>
-
-            </div>
             <img src={HeroSvg} width='100%' height='100%' alt=''/>
+            </div>
         </div>
     )
 }
