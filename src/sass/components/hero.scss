@@ -99,7 +99,7 @@
     left: 0;
     right: 0;
     height: 200px;
-    svg {
+    .herosvg {
       position: absolute;
       bottom: 50px;
       left: 50%;
@@ -111,7 +111,7 @@
     }
   }
 
-  path {
+  .heropath {
     stroke-width: 20px;
     stroke: black;
     fill: red;

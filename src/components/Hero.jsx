@@ -27,8 +27,8 @@ const Hero = () => {
   <div className='wrap'>
     <div className='wave'>
       
-        <svg viewBox="0 1 450 200" preserveAspectRatio="none meet">
-                <path d="M-50,100 L-1,100 C150,200 300,0 450,102 L600,100 L600,300 L-250,300 L-250,Z" style={{ fill:'white',stroke:'#e1d0bc', strokeWidth:'15'}}></path>
+        <svg viewBox="0 1 450 200" preserveAspectRatio="none meet" className='herosvg'>
+                <path d="M-50,100 L-1,100 C150,200 300,0 450,102 L600,100 L600,300 L-250,300 L-250,Z" style={{ fill:'white',stroke:'#e1d0bc', strokeWidth:'15'}} className='heropath'></path>
         </svg>
 
     </div>
