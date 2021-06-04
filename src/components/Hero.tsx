@@ -1,3 +1,4 @@
+import HeroSvg from '../assets/hero.svg'
 
 const Hero = () => {
     return (
@@ -10,7 +11,9 @@ const Hero = () => {
                     maiores rem ea quod enim soluta quibusdam totam dignissimos
                     quaerat. Cum temporibus doloribus nulla!
                 </p>
+
             </div>
+            <HeroSvg/>
         </div>
     )
 }
