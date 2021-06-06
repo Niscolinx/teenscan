@@ -1,13 +1,6 @@
 .hero {
-    background-size: cover;
     height: 100%;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(
-            to right,
-            rgba($color-secondary, 0.2),
-            rgba($color-primary, 0.3)
-        ),
-        url('../../assets/hero4.jpg');
+   
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -40,8 +33,8 @@
         justify-self: stretch;
         display: grid;
         height: 100%;
-       // background-image: url('../../assets/herowave.png');
-        background-repeat: no-repeat;
+        // background-image: url('../../assets/herowave1.png');
+        // background-repeat: no-repeat;
     }
 }
 
