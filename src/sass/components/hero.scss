@@ -51,7 +51,7 @@
 }
 
 .spotlight-container {
-  background: #143256;
+  background: transparent;
   position: relative;
     &:before {
     content: '';
@@ -60,7 +60,6 @@
     left: 0;
     right: 0;
     height: 44px;
-    background: #fff;
     z-index: 1;
   }
   &:after {
