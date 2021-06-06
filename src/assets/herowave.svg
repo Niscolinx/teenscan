@@ -1,9 +1,15 @@
-<svg width="433" height="315" viewBox="0 0 433 315" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="434" height="317">
-<path d="M75.5395 269.419C-27.0152 322.183 -17.1291 122.727 64.8956 1H433V315C387.526 279.04 178.094 216.655 75.5395 269.419Z" fill="#C4C4C4" stroke="black"/>
+<svg width="444" height="346" viewBox="0 0 444 346" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="20" width="444" height="326">
+<path d="M83.5946 298.419C-37.1825 353.293 -12.2816 106.621 72.8927 21H443V344C395.53 286.956 204.372 243.546 83.5946 298.419Z" fill="#C4C4C4" stroke="black"/>
 </mask>
 <g mask="url(#mask0)">
-<rect x="-15" y="-1" width="447" height="316" fill="url(#pattern0)"/>
+<rect x="-1" y="45" width="447" height="316" fill="#FC0505" fill-opacity="0.19"/>
+</g>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="10" y="0" width="434" height="317">
+<path d="M85.5395 269.419C-17.0152 322.183 -7.12907 122.727 74.8956 1H443V315C397.526 279.04 188.094 216.655 85.5395 269.419Z" fill="#C4C4C4" stroke="black"/>
+</mask>
+<g mask="url(#mask1)">
+<rect x="-5" y="-1" width="447" height="316" fill="url(#pattern0)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">

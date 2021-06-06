@@ -1,4 +1,4 @@
-import HeroSvg from '../assets/hero.svg'
+import HeroSvg from '../assets/herowave.svg'
 
 const Hero = () => {
     return (
@@ -14,7 +14,7 @@ const Hero = () => {
 
             </div>
             <div className='hero_svg'>
-            {/* <img src={HeroSvg} width='100%' height='auto' alt=''/> */}
+            <img src={HeroSvg} width='100%' height='auto' alt=''/>
             </div>
         </div>
 //         <>
