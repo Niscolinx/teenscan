@@ -9,12 +9,12 @@ const Hero = () => {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Adipisci natus et ipsam, odio veritatis accusantium at,
                     maiores rem ea quod enim soluta quibusdam totam dignissimos
-                    quaerat. Cum temporibus doloribus nulla!
+                    quaerat.poribus doloribus nulla!
                 </p> 
 
             </div>
             <div className='hero_svg'>
-            <img src={HeroSvg} width='100%' height='auto' alt=''/>
+            {/* <img src={HeroSvg} width='100%' height='auto' alt=''/> */}
             </div>
         </div>
 //         <>
