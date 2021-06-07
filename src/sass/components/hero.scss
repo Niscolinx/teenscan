@@ -8,7 +8,7 @@
     &__box {
         display: grid;
         width: 100%;
-        justify-self: baseline;
+        align-items: center;
         height: 100%;
 
         &--title {
