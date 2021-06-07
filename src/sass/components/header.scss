@@ -23,6 +23,11 @@
     & > :visited {
         text-decoration: none;
         color: $color-grey-dark;
+        background: white;
+                        padding: 0.5rem 1rem;
+                                        border-radius: .7rem;
+
+
     }
     &_input-box {
         display: flex;
