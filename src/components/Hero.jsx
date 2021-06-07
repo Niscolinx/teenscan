@@ -15,7 +15,7 @@ const Hero = () => {
                                 'Forex',
                                 'Data Analysis',
                                 'Public Speaking',
-                                'Graphic Design',
+                                'Graphics Design',
                                 'Digital Marketing',
                             ]}
                             className='hero__typingEffect'
@@ -28,7 +28,7 @@ const Hero = () => {
                         Explore your creativity with classes in Data Analysis,
                         Web Development, design, and more.
                     </p>
-                    <button className='btn'>Get Started</button>
+                    <button className='btn hero__btn'>Get Started <span>&rarr; </span></button>
                 </div>
             </div>
             <div className='hero__svg'>
