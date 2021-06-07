@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className='hero'>
             <div className='hero__box'>
-                <div>
+                <div className='hero__container'>
                     <h1 className='hero__box--title'>
                         Learn your way with <span>TeensCanBlog</span> to{' '}
                         <ReactTypingEffect
@@ -29,7 +29,12 @@ const Hero = () => {
                         Explore your creativity with classes in Data Analysis,
                         Web Development, design, and more.
                     </p>
-                    <button className='btn hero__btn'>Get Started <span><BsArrowRight/></span></button>
+                    <button className='btn hero__btn'>
+                        Get Started{' '}
+                        <span>
+                            <BsArrowRight />
+                        </span>
+                    </button>
                 </div>
             </div>
             <div className='hero__svg'>
