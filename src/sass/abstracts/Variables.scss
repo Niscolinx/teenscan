@@ -2,8 +2,8 @@
 $color-secondary: #db222a;
 $color-primary: #1f7a8c;
 //$color-primary-dark: #24180b;
-$color-primary-light: #BFDBF7;
-$color-primary-dark: #053C5E;
+$color-primary-light: #bfdbf7;
+$color-primary-dark: #053c5e;
 
 $color-secondary-dark: #a31621;
 $color-primary-dark-2: #101d2c;
@@ -13,20 +13,16 @@ $color-grey-dark: #252424;
 $color-grey-light-1: #f9f7f6;
 $color-grey-light-2: #aaa;
 
-$color-grey-dark-1: #54483A;
+$color-grey-dark-1: #54483a;
 $color-grey-dark-2: #070707;
 
 $color-error: #582424;
 
 $box-shadow: 3px 3px 10px 8px $color-primary-dark;
 
-$linear-gradient:  linear-gradient(to right, $color-secondary, black);
-
-
+$linear-gradient: linear-gradient(to right, $color-secondary, black);
 
 // FONT VARIABLES
-$font-primary: 'Montserrat',
-sans-serif;
-$font-display: 'Josefin Sans',
-sans-serif;
+$font-primary: 'Montserrat', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
 $font-clamp: clamp(1.2rem, 1.5vw, 1.5vw);
