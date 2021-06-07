@@ -1833,6 +1833,13 @@
     "@types/history" "*"
     "@types/react" "*"
 
+"@types/react-typing-effect@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/react-typing-effect/-/react-typing-effect-2.0.1.tgz#7935c23a0c1786d92fddaed0ec31862e1a78817d"
+  integrity sha512-rXrsFIveuusrWg5hkMC5JtW5a9FcMOKWlqZG+HalZ9b27i4OX5r7xpMAyF4jZdHFBZ/2D/CU5GpeyqjFFGTbzQ==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^17.0.3":
   version "17.0.3"
   resolved "https://registry.npmjs.org/@types/react/-/react-17.0.3.tgz"

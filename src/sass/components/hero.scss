@@ -42,8 +42,12 @@
     }
 
     &__btn {
+       
+        
         span {
-            animation: MoveInLeft 3s infinite;
+            color: $color-secondary;
+            font-size: 2rem;
+            animation: moveInLeft 3s infinite;
     
         }
     }

@@ -1,5 +1,6 @@
 import HeroSvg from '../assets/herowave.svg'
 import ReactTypingEffect from 'react-typing-effect'
+import {BsArrowRight} from 'react-icons/bs'
 
 const Hero = () => {
     return (
@@ -28,7 +29,7 @@ const Hero = () => {
                         Explore your creativity with classes in Data Analysis,
                         Web Development, design, and more.
                     </p>
-                    <button className='btn hero__btn'>Get Started <span>&rarr; </span></button>
+                    <button className='btn hero__btn'>Get Started <span><BsArrowRight/></span></button>
                 </div>
             </div>
             <div className='hero__svg'>
