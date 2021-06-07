@@ -37,7 +37,7 @@
         }
 
         @include respond(bigger-phone) {
-            color: white;
+            //color: white;
         }
     }
 
@@ -71,9 +71,13 @@
 
         &__svg {
             position: absolute;
-            left: 0;
+            left: none;
             right: 0;
             z-index: -1;
+
+            img{
+                width:auto;
+            }
         }
     }
 }
