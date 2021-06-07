@@ -42,13 +42,14 @@
     }
 
     &__btn {
-       
+        display: flex;
+        align-items: center;
         
         span {
+            display: flex;
             color: $color-secondary;
-            font-size: 2rem;
             animation: moveInLeft 3s infinite;
-    
+            margin-top: -.12rem;
         }
     }
 }

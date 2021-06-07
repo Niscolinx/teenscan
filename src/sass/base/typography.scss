@@ -104,7 +104,7 @@
 .heading-1 {
     @extend %heading;
 
-    font-size: 3rem;
+    font-size: 4rem;
     // color: $color-grey-light-1;
     line-height: 1;
     text-transform: uppercase;
@@ -127,14 +127,14 @@
 
 .heading-3 {
     @extend %heading;
-    font-size: 2rem;
+    font-size: 3rem;
     color: $color-primary;
     text-transform: uppercase;
 }
 
 .heading-4 {
     @extend %heading;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
 
     &__light {
@@ -166,6 +166,11 @@
         border: none;
         outline: none;
         background-color: $color-secondary;
+        white
+
+        span {
+            color: white;
+        }
     }
 }
 
