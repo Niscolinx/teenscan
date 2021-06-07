@@ -1,21 +1,18 @@
 .header {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 3rem;
     right: 0;
     z-index: 10;
     display: grid;
-    grid-column: 1 / -1;
     grid-template-columns:
         min-content minmax(min-content, 11rem) minmax(min-content, 1fr)
-       minmax(min-content, 1fr) ;
+        minmax(min-content, 1fr);
     align-items: center;
     justify-items: center;
-    padding: 0 1rem;
     font-size: 1.3rem;
-      max-width: 75rem;
-      margin: 0 auto;
-
+    max-width: 120rem;
+    margin: 0 auto;
 
     &__homenav {
         text-decoration: none;
@@ -27,7 +24,7 @@
     }
 
     &__list {
-        padding: 0 1rem;
+        padding-left: 1rem;
         width: 90%;
         display: flex;
         list-style: none;
@@ -53,6 +50,12 @@
             padding: 0.5rem 1rem;
             border-radius: 0.7rem;
         }
+
+        @include respond(tab-port) {
+
+        display: none;
+        
+    }
     }
     &__input-box {
         display: flex;
@@ -74,11 +77,13 @@
         }
     }
 
+    @include respond(tab-land) {
+        top:  1rem;
 
-     @include respond(tab-land){
+        &__logo {
+            height: 5rem;
+        }
 
-    &__logo {
-        height: 5rem;
+        
     }
-  }
 }
