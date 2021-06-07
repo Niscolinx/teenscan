@@ -7,11 +7,12 @@
     display: grid;
     grid-column: 1 / -1;
     grid-template-columns:
-        min-content minmax(min-content, 8rem) minmax(min-content, 1fr)
+        min-content minmax(min-content, 11rem) minmax(min-content, 1fr)
         1fr;
     align-items: center;
     justify-items: center;
     padding: 0 1rem;
+    font-size: 1.3rem;
 
     &__homenav {
         text-decoration: none;
