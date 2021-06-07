@@ -18,7 +18,7 @@ const Hero = () => {
                                 'Graphic Design',
                                 'Digital Marketing',
                             ]}
-                            className='text-blue-900'
+                            className='hero__typingEffect'
                             speed={30}
                             eraseSpeed={30}
                             eraseDelay={3000}
