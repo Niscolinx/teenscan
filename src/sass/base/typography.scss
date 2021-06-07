@@ -97,7 +97,7 @@
 }
 
 %heading {
-    font-family: $font-display;
+    font-family: $font-primary;
     font-weight: 400;
 }
 
@@ -157,7 +157,7 @@
     color: #fff;
     border: none;
     transition: all 0.2s;
-    font-family: $font-display;
+    font-family: $font-primary;
     margin: 0.2rem;
 
     &:hover,
@@ -177,7 +177,7 @@
     color: #fff;
     border: none;
     transition: all 0.2s;
-    font-family: $font-display;
+    font-family: $font-primary;
 
     &:hover,
     &:active {
@@ -205,7 +205,7 @@
 
 .adminNav {
     &__fundAccount {
-        font-family: $font-display;
+        font-family: $font-primary;
         font-weight: 400;
         padding: 1rem 2rem;
         border-radius: 10px;
@@ -286,7 +286,7 @@
     text-align: center;
     margin: 5rem;
     gap: 2rem;
-    font-family: $font-display;
+    font-family: $font-primary;
 
     @include respond(phone) {
         grid-column: 1 / -1;
@@ -316,7 +316,7 @@
 .contactUs__heading {
     font-size: 3rem;
     text-transform: uppercase;
-    font-family: $font-display;
+    font-family: $font-primary;
     text-align: center;
     color: $color-primary-dark;
 }
@@ -326,7 +326,7 @@
 .faq {
     margin: 7rem 0;
     grid-column: full-start/center-end;
-    font-family: $font-display;
+    font-family: $font-primary;
     color: $color-primary-dark;
 
     &__heading {
@@ -387,7 +387,7 @@
     padding: 2rem;
     font-size: 1.8rem;
     background-color: #0d5c0d;
-    font-family: $font-display;
+    font-family: $font-primary;
     color: white;
 }
 
