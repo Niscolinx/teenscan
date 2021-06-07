@@ -61,4 +61,14 @@
             margin-top: -0.12rem;
         }
     }
+
+    @include respond(bigger-phone) {
+         grid-template-columns: 1fr;
+
+        &__svg{
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+    }
 }
