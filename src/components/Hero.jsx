@@ -28,6 +28,7 @@ const Hero = () => {
                         Explore your creativity with classes in Data Analysis,
                         Web Development, design, and more.
                     </p>
+                    <button className='btn'>Get Started</button>
                 </div>
             </div>
             <div className='hero__svg'>
