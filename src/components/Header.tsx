@@ -87,7 +87,7 @@ const Header = () => {
 
     return (
         <>
-            <img src={Logo} alt='logo' />
+            <img src={Logo} alt='logo' className='header__logo' />
 
             {/* <div className='modal' onMouseLeave={handleMouseLeave}>
                 <Link to='/' onMouseOver={handleMouseEnter}>
