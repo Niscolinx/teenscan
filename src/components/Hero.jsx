@@ -25,7 +25,7 @@ const Hero = () => {
                         />
                     </h1>{' '}
                     <p className='hero__box--text'>
-                        Explore your creativity with classes in Web Data Analysis,
+                        Explore your creativity with classes in Data Analysis,
                         Web Development, design, and more.
                     </p>
                 </div>
