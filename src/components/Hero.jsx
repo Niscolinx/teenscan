@@ -6,7 +6,7 @@ const Hero = () => {
         <div className='hero'>
             <div className='hero__box'>
                 <div>
-                    <h1 className=''>
+                    <h1 className='hero__box--title'>
                         Learn your way with <span>TeensCanBlog</span> to{' '}
                         <ReactTypingEffect
                             text={[
