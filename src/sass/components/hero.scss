@@ -4,17 +4,11 @@
     display: grid;
     grid-template-columns: 1fr 1.7fr;
 
-    &_img {
-        max-width: 100%;
-        display: block;
-        float: right;
-    }
 
-    &_box {
+    &__box {
         display: grid;
-        //background-color: white;
         width: 100%;
-        justify-self: start;
+        justify-self: baseline;
         height: 100%;
 
         &--title {
@@ -29,12 +23,11 @@
             font-weight: 400;
         }
     }
-    &_svg {
+    &__svg {
         justify-self: stretch;
         display: grid;
         height: 100%;
-        // background-image: url('../../assets/herowave1.png');
-        // background-repeat: no-repeat;
+   
     }
 }
 
