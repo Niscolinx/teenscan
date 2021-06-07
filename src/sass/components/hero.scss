@@ -30,10 +30,7 @@
         }
     }
 
-    &__container{
-        display: grid;
-    }
-    
+   
     &__svg {
         justify-self: stretch;
         display: grid;
@@ -49,6 +46,7 @@
     &__btn {
         display: flex;
         align-items: center;
+        margin-top: 3rem;
         
         span {
             display: flex;
