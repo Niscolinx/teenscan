@@ -87,7 +87,7 @@ const Header = () => {
 
     return (
         <>
-            <img src={Logo} alt='logo' style={{ marginRight: '2rem' }} />
+            <img src={Logo} alt='logo' />
 
             {/* <div className='modal' onMouseLeave={handleMouseLeave}>
                 <Link to='/' onMouseOver={handleMouseEnter}>

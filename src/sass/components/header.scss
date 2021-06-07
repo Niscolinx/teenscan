@@ -8,7 +8,7 @@
     grid-column: 1 / -1;
     grid-template-columns:
         min-content minmax(min-content, 11rem) minmax(min-content, 1fr)
-        1fr;
+       minmax(min-content, 1fr) ;
     align-items: center;
     justify-items: center;
     padding: 0 1rem;
@@ -24,8 +24,7 @@
     }
 
     &__list {
-        padding: 0 2rem;
-        width: 100%;
+        width: 90%;
         display: flex;
         list-style: none;
         color: $color-grey-dark;
