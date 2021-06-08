@@ -1,7 +1,7 @@
 .footer {
     &__mobileNav {
         background-color: $color-secondary;
-
+        padding: 1rem 0;
         position: relative;
         bottom: 0;
         left: 0;
@@ -19,7 +19,7 @@
             justify-items: center;
 
             p {
-                font-size: 1rem;
+                font-size: 1.4rem;
             }
         }
     }
