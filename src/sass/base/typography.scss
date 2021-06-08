@@ -23,7 +23,14 @@
 
 .section-hero {
     grid-column: full-start / -1;
-    height: 80vh;
+   // height: 80vh;
+
+    @include respond(tab-port) {
+        height: 50vh;
+    }
+    @include respond(bigger-phone) {
+        height: 70vh;
+    }
 }
 
 .section-courses {
