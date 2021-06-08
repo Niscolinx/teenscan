@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import { HiOutlineCollection, HiOutlineUserGroup, HiMail } from 'react-icons/hi'
-import { BiHome } from 'react-icons/bi'
-import { GrContact } from 'react-icons/gr'
+import { HiOutlineCollection, HiOutlineUserGroup } from 'react-icons/hi'
+import { BiHome, BiMailSend } from 'react-icons/bi'
+
 
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
                     <BiHome />
                 </Link>
                 <Link to='/'>
-                    <GrContact />
+                    <BiMailSend />
                 </Link>
                 <Link to='/'>
                     <HiOutlineUserGroup />
