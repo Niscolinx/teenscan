@@ -1,9 +1,21 @@
 .footer {
     &__mobileNav {
+        background-color: $color-secondary;
+
         position: relative;
         bottom: 0;
         left: 0;
         right: 0;
         z-index: 10;
+        display: flex;
+        justify-content: space-evenly;
+
+        & > :link,
+        & > :visited {
+            display: grid;
+            text-decoration: none;
+            color: black;
+            font-size: 2rem;
+        }
     }
 }
