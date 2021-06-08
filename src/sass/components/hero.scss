@@ -66,7 +66,7 @@
         span {
             display: flex;
             color: $color-secondary;
-            animation: moveInLeft 3s infinite;
+            animation: moveInLeft 2s infinite;
             margin-top: -0.12rem;
         }
     }
@@ -80,17 +80,7 @@
             left: 0;
             z-index: -1;
 
-            // img{
-            //     width:auto;
-            // }
         }
-
-        // &__container {
-        //     transform: translateY(-10rem);
-        // }
-        // &__btn {
-        //     font-size: 1.8rem;
-        // }
     }
 
     @include respond(tab-port-height) {
