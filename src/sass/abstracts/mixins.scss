@@ -56,7 +56,7 @@
     }
 
     @if $breakpoint==tab-port-height {
-        @media only screen and (min-width: 62.5em) {
+        @media only screen and (min-height: 80em) {
             // 1000px/16px - 55
             @content;
         }
@@ -70,12 +70,6 @@
     }
   
 
-    @if $breakpoint==desktop {
-        @media only screen and (max-width: 112.5em) {
-            //1800/16px
-            @content;
-        }
-    }
 
 
 }
