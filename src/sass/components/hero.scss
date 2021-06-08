@@ -98,4 +98,10 @@
             transform: translateY(-4rem);
         }
     }
+
+    @include respond(ipad) {
+        &__container {
+            transform: none;
+        }
+    }
 }
