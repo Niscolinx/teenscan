@@ -67,7 +67,7 @@
             color: $color-secondary;
             animation: moveInLeft 3s infinite;
             margin-top: -0.12rem;
-            font-size: 2rem;
+            font-size: $font-clamp;
         }
     }
 
