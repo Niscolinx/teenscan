@@ -59,7 +59,7 @@
 
     @if $breakpoint==tab-port-height {
         @media only screen and (max-width: 50em) and (min-height: 87.5em) {
-            // 1000px/16px - 55
+            //width =800px/16px - 50 and height = 1400px/16px - 87.5 
             @content;
         }
     }
