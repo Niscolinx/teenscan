@@ -61,13 +61,13 @@
         display: flex;
         align-items: center;
         margin-top: 3rem;
+        font-size: $font-clamp;
 
         span {
             display: flex;
             color: $color-secondary;
             animation: moveInLeft 3s infinite;
             margin-top: -0.12rem;
-            font-size: $font-clamp;
         }
     }
 
@@ -88,9 +88,9 @@
         // &__container {
         //     transform: translateY(-10rem);
         // }
-        &__btn {
-            font-size: 1.8rem;
-        }
+        // &__btn {
+        //     font-size: 1.8rem;
+        // }
     }
 
     @include respond(tab-port-height) {
