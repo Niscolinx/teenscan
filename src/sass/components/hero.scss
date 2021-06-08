@@ -38,6 +38,10 @@
 
         @include respond(bigger-phone) {
             align-items: end;
+
+            &--text {
+                font-size: 1.6rem;
+            }
         }
     }
 
@@ -72,15 +76,19 @@
         &__svg {
             position: absolute;
             right: 0;
+            left: 0;
             z-index: -1;
 
-            img{
-                width:auto;
-            }
+            // img{
+            //     width:auto;
+            // }
         }
 
         &__container {
             transform: translateY(-10rem);
+        }
+        &__btn{
+            font-size: 1.5rem;
         }
     }
 }
