@@ -88,8 +88,20 @@
         &__container {
             transform: translateY(-10rem);
         }
-        &__btn{
+        &__btn {
             font-size: 1.8rem;
+        }
+    }
+
+    @include respond(tab-port-height) {
+        &__container {
+            transform: translateY(-4rem);
+        }
+    }
+
+    @include respond(ipad) {
+        &__container {
+            transform: none;
         }
     }
 }

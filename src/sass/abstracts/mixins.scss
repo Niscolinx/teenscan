@@ -54,28 +54,30 @@
             @content;
         }
     }
-
-    @if $breakpoint==tab-port-min {
-        @media only screen and (min-width: 62.5em) {
+    @if $breakpoint==ipad {
+        @media only screen and (max-width: 50em) and (min-height: 67.5em) {
             // 1000px/16px - 55
+            @content;
+        }
+    }
+
+  
+
+    @if $breakpoint==tab-port-height {
+        @media only screen and (max-width: 50em) and (min-height: 87.5em) {
+            //width =800px/16px - 50 and height = 1400px/16px - 87.5 
             @content;
         }
     }
 
     @if $breakpoint==tab-land {
         @media only screen and (max-width: 75em) {
-            //1200px/16px - 75px
+            //1200px/16px - 75
             @content;
         }
     }
   
 
-    @if $breakpoint==desktop {
-        @media only screen and (max-width: 112.5em) {
-            //1800/16px
-            @content;
-        }
-    }
 
 
 }
