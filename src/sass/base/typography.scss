@@ -25,9 +25,13 @@
 .section-hero {
     grid-column: full-start / -1;
     
+    
     @include respond(bigger-phone) {
-       height: 70vh;
-
+        height: 70vh;
+        
+    }
+    @include respond(tab-port-height) {
+       height: 40vh
    }
 }
 

@@ -71,12 +71,6 @@
         }
     }
 
-
-    
-    @include respond(tab-port-height) {
-        background: red;
-    }
-
     @include respond(bigger-phone) {
         grid-template-columns: 1fr;
 
@@ -94,8 +88,14 @@
         &__container {
             transform: translateY(-10rem);
         }
-        &__btn{
+        &__btn {
             font-size: 1.8rem;
+        }
+    }
+
+    @include respond(tab-port-height) {
+        &__container {
+            transform: translateY(-4rem);
         }
     }
 }
