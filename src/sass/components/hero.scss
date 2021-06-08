@@ -67,6 +67,7 @@
             color: $color-secondary;
             animation: moveInLeft 3s infinite;
             margin-top: -0.12rem;
+            font-size: 2rem;
         }
     }
 
@@ -88,7 +89,7 @@
             transform: translateY(-10rem);
         }
         &__btn{
-            font-size: 1.5rem;
+            font-size: 1.8rem;
         }
     }
 }
