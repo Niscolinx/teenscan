@@ -1,6 +1,6 @@
 import HeroSvg from '../assets/herowave.svg'
 import ReactTypingEffect from 'react-typing-effect'
-import {BsArrowRight} from 'react-icons/bs'
+import { FaLongArrowAltRight } from 'react-icons/fa'
 
 const Hero = () => {
     return (
@@ -32,7 +32,7 @@ const Hero = () => {
                     <button className='btn hero__btn'>
                         Get Started{' '}
                         <span>
-                            <BsArrowRight />
+                            <FaLongArrowAltRight />
                         </span>
                     </button>
                 </div>
