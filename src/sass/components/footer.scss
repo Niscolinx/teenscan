@@ -14,10 +14,13 @@
         & > :visited {
             display: grid;
             text-decoration: none;
-            color: black;
             font-size: 2rem;
             justify-items: center;
+            color: black;
 
+            // background: $linear-gradient;
+            // background-clip: text;
+            // -webkit-text-fill-color: transparent;
             p {
                 font-size: 1.4rem;
             }
