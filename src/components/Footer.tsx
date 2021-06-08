@@ -26,7 +26,7 @@ const Footer = () => {
                    <p> About Us</p>
                 </Link>
                 <Link to='/'>
-                    <HiOutlineUserGroup />
+                    <BiUser />
                     <p>Profile</p>
                 </Link>
             </ul>
