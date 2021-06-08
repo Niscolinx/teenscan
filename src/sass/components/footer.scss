@@ -1,6 +1,6 @@
 .footer {
     &__mobileNav {
-        background-color: $color-secondary;
+        background-color: #160606;
         padding: 1rem 0;
         position: fixed;
         bottom: 0;
@@ -9,6 +9,7 @@
         z-index: 10;
         display: flex;
         justify-content: space-evenly;
+        font-weight: 500;
 
         & > :link,
         & > :visited {
@@ -16,7 +17,7 @@
             text-decoration: none;
             font-size: 2rem;
             justify-items: center;
-            color: black;
+            color: #aba7a7;
 
             // background: $linear-gradient;
             // background-clip: text;
