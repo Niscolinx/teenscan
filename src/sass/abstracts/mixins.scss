@@ -55,7 +55,7 @@
         }
     }
     @if $breakpoint==ipad {
-        @media only screen and (max-width: 50em) and (min-height: 67.5em) {
+        @media only screen and (max-width: 50em) and (min-height: 68.7em) {
             // 1000px/16px - 55
             @content;
         }
