@@ -25,7 +25,7 @@
 .section-hero {
     grid-column: full-start / -1;
     
-    @include responde(bigger-phone) {
+    @include respond(bigger-phone) {
        height: 70vh;
 
    }
