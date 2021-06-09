@@ -69,10 +69,18 @@ const Footer = () => {
                 <div className='footer__social--items'>
                     <p>
                         <span>Follow Us |</span>
-                        <AiFillFacebook />
-                        <AiFillInstagram />
-                        <AiFillTwitterSquare />
-                        <AiFillLinkedin />
+                        <Link to='/'>
+                            <AiFillFacebook />
+                        </Link>
+                        <Link to='/'>
+                            <AiFillInstagram />
+                        </Link>
+                        <Link to='/'>
+                            <AiFillTwitterSquare />
+                        </Link>
+                        <Link to='/'>
+                            <AiFillLinkedin />
+                        </Link>
                     </p>
                 </div>
             </div>
