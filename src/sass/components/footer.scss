@@ -1,8 +1,9 @@
 .footer {
-    &__main{
+    &__main {
         background: $color-secondary-dark;
-                    color: $color-grey-light-2;
-
+        color: $color-grey-light-2;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     }
 
     &__mobileNav {
@@ -30,8 +31,8 @@
             }
         }
 
-        @include respond(bigger-phone){
-            display: flex
-        }
+        // @include respond(bigger-phone) {
+        //     display: flex;
+        // }
     }
 }

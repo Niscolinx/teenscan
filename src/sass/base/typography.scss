@@ -58,7 +58,8 @@
 
 
 .section-footer {
-    grid-column: sidebar-start / full-end;
+    background: green;
+    grid-column: center-start / full-end;
 }
 
 %heading {

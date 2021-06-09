@@ -35,6 +35,10 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
+                
+                <div className='footer__item'>
+                  
+                </div>
                 <div className='footer__item'>
                     <h3>Services</h3>
                     <ul>
