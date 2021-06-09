@@ -8,6 +8,8 @@
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     }
     &__item {
+        font-weight: 500;
+        font-size: $font-clamp;
         ul {
             list-style: none;
 
@@ -17,6 +19,7 @@
                 display: grid;
                 color:  $color-grey-light-2;
                 text-decoration: none;
+                align-items: center;
             }
         }
     }
@@ -28,6 +31,11 @@
             display: flex;
             color: $color-grey-light-2;
             justify-content: space-between;
+
+            &--items{
+                display: flex;
+                align-items: center;
+            }
     }
 
     &__mobileNav {
