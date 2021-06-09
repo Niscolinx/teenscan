@@ -7,7 +7,13 @@ import { BiHome, BiMailSend, BiUser } from 'react-icons/bi'
 const Footer = () => {
     return (
         <div className='footer'>
-            This is the footer
+             
+            <div className=''>
+
+            </div>
+
+
+            
             <ul className='footer__mobileNav'>
                 <Link to='/'>
                     <BiHome />
