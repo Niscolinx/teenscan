@@ -24,9 +24,8 @@ const Footer = () => {
                     <h3>TeensCanBlog</h3>
                     <ul>
                         <li>
-                            <span>
+                            
                                 <FaMapMarkedAlt />
-                            </span>
                             Caroline Odu ,Ejigbo Lagos Nigeria.
                         </li>
                         <li>
@@ -34,9 +33,7 @@ const Footer = () => {
                             09066287396
                         </li>
                         <li>
-                            <span>
                                 <SiMailDotRu />
-                            </span>
                             support@teenscanblog.com
                         </li>
                     </ul>
