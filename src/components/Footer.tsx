@@ -4,6 +4,7 @@ import { BiHome, BiMailSend, BiUser } from 'react-icons/bi'
 import { SiMailDotRu } from 'react-icons/si'
 import { AiFillPhone } from 'react-icons/ai'
 import {FaMapMarkedAlt} from 'react-icons/fa'
+import {AiFillFacebook, AiFillInstagram, AiFillTwitterSquare,AiFillLinkedin} from 'react-icons/ai'
 
 const Footer = () => {
     return (
@@ -61,6 +62,15 @@ const Footer = () => {
                         <Link to='/'>About</Link>
                         <Link to='/'>Contact Us</Link>
                     </ul>
+                </div>
+            </div>
+
+            <div>
+                <hr />
+                <div>
+                    <div>
+                        <p>Follow Us |</p>
+                    </div>
                 </div>
             </div>
 

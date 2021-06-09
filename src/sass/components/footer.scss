@@ -1,9 +1,24 @@
 .footer {
+    display: grid;
+    grid-column: sidebar-end / center-end;
+
     &__main {
-        background: $color-secondary-dark;
         color: $color-grey-light-2;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+    &__item {
+        ul {
+            list-style: none;
+
+            & > :link,
+            & > :visited {
+                padding: 0.2rem 0;
+                display: grid;
+                color:  $color-grey-light-2;
+                text-decoration: none;
+            }
+        }
     }
 
     &__mobileNav {

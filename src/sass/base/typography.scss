@@ -24,15 +24,13 @@
 
 .section-hero {
     grid-column: full-start / -1;
-    
-    
+
     @include respond(bigger-phone) {
         height: 70vh;
-        
     }
     @include respond(tab-port-height) {
-       height: 40vh
-   }
+        height: 40vh;
+    }
 }
 
 .section-courses {
@@ -53,14 +51,12 @@
     }
 }
 
-
-
-
-
 .section-footer {
-    background: green;
+    background: $color-secondary-dark;
+
     display: grid;
-      grid-template-columns:
+
+    grid-template-columns:
         [sidebar-start] 3rem [sidebar-end full-start] minmax(6rem, 1fr)
         [center-start] repeat(
             8,
@@ -121,10 +117,10 @@
     }
 }
 
-.btn{
-    border:1px solid $color-secondary;
+.btn {
+    border: 1px solid $color-secondary;
     text-transform: uppercase;
-        border-radius: 0.7rem;
+    border-radius: 0.7rem;
     padding: 0.7rem 1.7rem;
     cursor: pointer;
     color: black;
