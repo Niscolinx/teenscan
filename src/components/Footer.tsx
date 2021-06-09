@@ -30,10 +30,8 @@ const Footer = () => {
                             Caroline Odu ,Ejigbo Lagos Nigeria.
                         </li>
                         <li>
-                            <span>
                                 <AiFillPhone />
-                            </span>
-                            <p>09066287396</p>
+                            09066287396
                         </li>
                         <li>
                             <span>
