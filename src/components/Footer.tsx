@@ -2,18 +2,20 @@ import { Link } from 'react-router-dom'
 import { HiOutlineCollection, HiOutlineUserGroup } from 'react-icons/hi'
 import { BiHome, BiMailSend, BiUser } from 'react-icons/bi'
 
-
-
 const Footer = () => {
     return (
         <div className='footer'>
-             
-            <div className=''>
-
+            <div className='footer__main'>
+                <div className='footer__item'>
+                    <h3>TeensCanBlog</h3>
+                    <ul>
+                        <li>Caroline Odu ,Ejigbo Lagos Nigeria.</li>
+                        <li>09066287396</li>
+                        <li>suppor@teenscanblog.com</li>
+                    </ul>
+                </div>
             </div>
 
-
-            
             <ul className='footer__mobileNav'>
                 <Link to='/'>
                     <BiHome />
@@ -29,7 +31,7 @@ const Footer = () => {
                 </Link>
                 <Link to='/'>
                     <HiOutlineUserGroup />
-                   <p> About Us</p>
+                    <p> About Us</p>
                 </Link>
                 <Link to='/'>
                     <BiUser />
