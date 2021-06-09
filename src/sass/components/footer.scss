@@ -50,7 +50,6 @@
         display: flex;
         color: $color-grey-light-2;
         justify-content: space-between;
-        font-size: $font-clamp1;
         padding: 1rem 0;
 
         &--items>* {
@@ -63,9 +62,9 @@
             align-items: center;
 
             p{
-                font-size: 2rem;
+                font-size: 4rem;
                 span{
-                    font-size: 1.2rem;
+                    font-size: 1.3rem;
                     margin-right: 1rem;
                 }
             }
