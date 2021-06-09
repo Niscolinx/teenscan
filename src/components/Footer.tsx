@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
 import { HiOutlineCollection, HiOutlineUserGroup } from 'react-icons/hi'
 import { BiHome, BiMailSend, BiUser } from 'react-icons/bi'
-import {SiMailDotRu} from 'react-icons/si'
+import { SiMailDotRu } from 'react-icons/si'
+import {AiFillPhone} from 'react-icons/ai'
 
 const Footer = () => {
     return (
@@ -11,8 +12,8 @@ const Footer = () => {
                     <h3>TeensCanBlog</h3>
                     <ul>
                         <li>Caroline Odu ,Ejigbo Lagos Nigeria.</li>
-                        <li>09066287396</li>
-                        <li>suppor@teenscanblog.com</li>
+                        <li> <span><AiFillPhone/></span> 09066287396</li>
+                        <li> <span><SiMailDotRu/></span> suppor@teenscanblog.com</li>
                     </ul>
                 </div>
             </div>
