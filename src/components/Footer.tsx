@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { HiOutlineCollection, HiOutlineUserGroup } from 'react-icons/hi'
 import { BiHome, BiMailSend, BiUser } from 'react-icons/bi'
+import {SiMailDotRu} from 'react-icons/si'
 
 const Footer = () => {
     return (

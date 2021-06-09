@@ -1,5 +1,6 @@
 .footer {
     &__mobileNav {
+        display: none;
         background-color: #160606;
         padding: 1rem 0;
         position: fixed;
@@ -7,7 +8,6 @@
         left: 0;
         right: 0;
         z-index: 10;
-        display: flex;
         justify-content: space-evenly;
         font-weight: 500;
 
@@ -25,6 +25,10 @@
             p {
                 font-size: 1.4rem;
             }
+        }
+
+        @include respond(bigger-phone){
+            display: flex
         }
     }
 }
