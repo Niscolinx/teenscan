@@ -2,9 +2,13 @@ import { Link } from 'react-router-dom'
 import { HiOutlineCollection, HiOutlineUserGroup } from 'react-icons/hi'
 import { BiHome, BiMailSend, BiUser } from 'react-icons/bi'
 import { SiMailDotRu } from 'react-icons/si'
-import { AiFillLinkedin, AiFillPhone } from 'react-icons/ai'
 import {FaMapMarkedAlt} from 'react-icons/fa'
-import {AiFillFacebook, AiFillInstagram, AiFillTwitterSquare,AiFillLinkedin} from 'react-icons/ai'
+import {
+    AiFillPhone, AiFillFacebook,
+    AiFillInstagram,
+    AiFillTwitterSquare,
+    AiFillLinkedin,
+} from 'react-icons/ai'
 import React from 'react'
 
 const Footer = () => {
