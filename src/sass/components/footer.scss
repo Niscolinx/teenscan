@@ -1,7 +1,13 @@
 .footer {
+    &__main{
+        background: $color-secondary-dark;
+                    color: $color-grey-light-2;
+
+    }
+
     &__mobileNav {
         display: none;
-        background-color: #160606;
+        background-color: $color-secondary-dark;
         padding: 1rem 0;
         position: fixed;
         bottom: 0;
@@ -17,11 +23,8 @@
             text-decoration: none;
             font-size: 2rem;
             justify-items: center;
-            color: #aba7a7;
+            color: $color-grey-light-2;
 
-            // background: $linear-gradient;
-            // background-clip: text;
-            // -webkit-text-fill-color: transparent;
             p {
                 font-size: 1.4rem;
             }
