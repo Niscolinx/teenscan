@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom'
 import { HiOutlineCollection, HiOutlineUserGroup } from 'react-icons/hi'
 import { BiHome, BiMailSend, BiUser } from 'react-icons/bi'
 import { SiMailDotRu } from 'react-icons/si'
-import {AiFillPhone} from 'react-icons/ai'
+import { AiFillPhone } from 'react-icons/ai'
+import {FaMapMarkedAlt} from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -11,7 +12,7 @@ const Footer = () => {
                 <div className='footer__item'>
                     <h3>TeensCanBlog</h3>
                     <ul>
-                        <li>Caroline Odu ,Ejigbo Lagos Nigeria.</li>
+                        <li> <span><FaMapMarkedAlt/></pan> Caroline Odu ,Ejigbo Lagos Nigeria.</li>
                         <li> <span><AiFillPhone/></span> 09066287396</li>
                         <li> <span><SiMailDotRu/></span> suppor@teenscanblog.com</li>
                     </ul>
