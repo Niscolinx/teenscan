@@ -46,10 +46,11 @@
 
     &__social {
         width: 100%;
-        border-top: 2px solid $color-grey-light-2;
+        border-top: 2px solid $color-grey-dark-1;
         display: flex;
         color: $color-grey-light-2;
         justify-content: space-between;
+        font-size: $font-clamp1;
         padding: 1rem 0;
 
         &--items>* {
@@ -64,7 +65,7 @@
             p{
                 font-size: 4rem;
                 span{
-                    font-size: 1.3rem;
+                    font-size: 1.2rem;
                     margin-right: 1rem;
                 }
             }
