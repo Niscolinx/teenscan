@@ -12,8 +12,8 @@
 
     &__item {
         font-weight: 500;
-        font-size: 1rem;
         line-height: 1.7rem;
+        font-size: $font-clamp1;
 
         h3 {
             @extend .heading-3;
