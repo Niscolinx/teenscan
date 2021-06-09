@@ -20,7 +20,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer__main'>
-                <div className='footer__item'>
+                <div className='footer__item footer__item--first'>
                     <h3>TeensCanBlog</h3>
                     <ul>
                         <li>

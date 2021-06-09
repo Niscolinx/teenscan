@@ -1,16 +1,21 @@
 .footer {
     display: grid;
     grid-column: sidebar-end / center-end;
+    row-gap: 7rem;
 
     &__main {
         color: $color-grey-light-2;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     }
+
     &__item {
         font-weight: 500;
         font-size: $font-clamp1;
-            line-height: 2.1;
+
+        h3{
+            @extend .heading-3
+        }
 
         ul {
             list-style: none;
@@ -19,25 +24,28 @@
             & > :visited {
                 padding: 0.2rem 0;
                 display: grid;
-                color:  $color-grey-light-2;
+                color: $color-grey-light-2;
                 text-decoration: none;
                 align-items: center;
             }
         }
     }
 
-    &__social {
-        
-            width: 100%;
-            border-top: 2px solid $color-grey-light-2;
-            display: flex;
-            color: $color-grey-light-2;
-            justify-content: space-between;
+    &__item--first {
+        font-weight: 400;
+    }
 
-            &--items{
-                display: flex;
-                align-items: center;
-            }
+    &__social {
+        width: 100%;
+        border-top: 2px solid $color-grey-light-2;
+        display: flex;
+        color: $color-grey-light-2;
+        justify-content: space-between;
+
+        &--items {
+            display: flex;
+            align-items: center;
+        }
     }
 
     &__mobileNav {
