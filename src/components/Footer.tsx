@@ -24,25 +24,22 @@ const Footer = () => {
                     <h3>TeensCanBlog</h3>
                     <ul>
                         <li>
-                            {' '}
                             <span>
                                 <FaMapMarkedAlt />
-                            </span>{' '}
+                            </span>
                             Caroline Odu ,Ejigbo Lagos Nigeria.
                         </li>
                         <li>
-                            {' '}
                             <span>
                                 <AiFillPhone />
-                            </span>{' '}
-                            09066287396
+                            </span>
+                            <p>09066287396</p>
                         </li>
                         <li>
-                            {' '}
                             <span>
                                 <SiMailDotRu />
-                            </span>{' '}
-                            suppor@teenscanblog.com
+                            </span>
+                            support@teenscanblog.com
                         </li>
                     </ul>
                 </div>
