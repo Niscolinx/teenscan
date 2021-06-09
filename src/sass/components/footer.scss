@@ -54,6 +54,10 @@
         &--items {
             display: flex;
             align-items: center;
+
+            @include respond(bigger-phone) {
+                display: grid;
+            }
         }
     }
 
