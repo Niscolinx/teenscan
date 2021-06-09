@@ -102,10 +102,10 @@ const Footer = () => {
                     <HiOutlineUserGroup />
                     <p> About Us</p>
                 </Link>
-                <Link to='/'>
+                {/* <Link to='/'>
                     <BiUser />
                     <p>Profile</p>
-                </Link>
+                </Link> */}
             </ul>
         </div>
     )
