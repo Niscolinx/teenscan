@@ -9,7 +9,9 @@
     }
     &__item {
         font-weight: 500;
-        font-size: $font-clamp;
+        font-size: $font-clamp1;
+            line-height: 2.1;
+
         ul {
             list-style: none;
 
