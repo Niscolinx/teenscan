@@ -11,10 +11,10 @@
 
     &__item {
         font-weight: 500;
-        font-size: $font-clamp1;
+        font-size: 1.2rem;
 
-        h3{
-            @extend .heading-3
+        h3 {
+            @extend .heading-3;
         }
 
         ul {
