@@ -23,6 +23,14 @@
 
     &__social {
         
+            border-top: 2px solid $color-grey-light-2;
+            display: flex;
+            color: $color-grey-light-2;
+
+            &--items{
+                
+            }
+        
     }
 
     &__mobileNav {

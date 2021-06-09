@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom'
 import { HiOutlineCollection, HiOutlineUserGroup } from 'react-icons/hi'
 import { BiHome, BiMailSend, BiUser } from 'react-icons/bi'
 import { SiMailDotRu } from 'react-icons/si'
-import {FaMapMarkedAlt} from 'react-icons/fa'
+import { FaMapMarkedAlt } from 'react-icons/fa'
 import {
-    AiFillPhone, AiFillFacebook,
+    AiFillPhone,
+    AiFillFacebook,
     AiFillInstagram,
     AiFillTwitterSquare,
     AiFillLinkedin,
@@ -12,6 +13,10 @@ import {
 import React from 'react'
 
 const Footer = () => {
+    const date = new Date()
+
+    const yearDisplay: number = date.getFullYear()
+
     return (
         <div className='footer'>
             <div className='footer__main'>
@@ -41,10 +46,8 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                
-                <div className='footer__item'>
-                  
-                </div>
+
+                <div className='footer__item'></div>
                 <div className='footer__item'>
                     <h3>Services</h3>
                     <ul>
@@ -71,15 +74,14 @@ const Footer = () => {
             </div>
 
             <div className='footer__social'>
-                <hr />
-                <div>
-                    <div>
-                        <p>Follow Us |</p>
-                        <AiFillFacebook/>
-                        <AiFillInstagram/>
-                        <AiFillTwitterSquare/>
-                        <AiFillLinkedin/>
-                    </div>
+                <p>&copy;Copyright {yearDisplay} &mdash; TeensCanBlog</p>
+
+                <div className='footer__social--items'>
+                    <p>Follow Us |</p>
+                    <AiFillFacebook />
+                    <AiFillInstagram />
+                    <AiFillTwitterSquare />
+                    <AiFillLinkedin />
                 </div>
             </div>
 
