@@ -23,14 +23,11 @@
 
     &__social {
         
+            width: 100%;
             border-top: 2px solid $color-grey-light-2;
             display: flex;
             color: $color-grey-light-2;
-
-            &--items{
-                
-            }
-        
+            justify-content: space-between;
     }
 
     &__mobileNav {

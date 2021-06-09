@@ -77,11 +77,13 @@ const Footer = () => {
                 <p>&copy;Copyright {yearDisplay} &mdash; TeensCanBlog</p>
 
                 <div className='footer__social--items'>
-                    <p>Follow Us |</p>
-                    <AiFillFacebook />
-                    <AiFillInstagram />
-                    <AiFillTwitterSquare />
-                    <AiFillLinkedin />
+                    <p>
+                        Follow Us |
+                        <AiFillFacebook />
+                        <AiFillInstagram />
+                        <AiFillTwitterSquare />
+                        <AiFillLinkedin />
+                    </p>
                 </div>
             </div>
 
