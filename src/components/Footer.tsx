@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom'
 import { HiOutlineCollection, HiOutlineUserGroup } from 'react-icons/hi'
 import { BiHome, BiMailSend, BiUser } from 'react-icons/bi'
 import { SiMailDotRu } from 'react-icons/si'
-import { AiFillPhone } from 'react-icons/ai'
+import { AiFillLinkedin, AiFillPhone } from 'react-icons/ai'
 import {FaMapMarkedAlt} from 'react-icons/fa'
 import {AiFillFacebook, AiFillInstagram, AiFillTwitterSquare,AiFillLinkedin} from 'react-icons/ai'
+import React from 'react'
 
 const Footer = () => {
     return (
@@ -70,6 +71,10 @@ const Footer = () => {
                 <div>
                     <div>
                         <p>Follow Us |</p>
+                        <AiFillFacebook/>
+                        <AiFillInstagram/>
+                        <AiFillTwitterSquare/>
+                        <AiFillLinkedin/>
                     </div>
                 </div>
             </div>
