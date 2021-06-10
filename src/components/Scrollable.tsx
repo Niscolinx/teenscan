@@ -4,7 +4,7 @@ const Scrollable = (props: any) => {
         <div className='scrollable'>
             <div className='scrollable__item'>
                 {props.children}{' '}
-                <div className='scrollable__item--margin'></div>
+                <p className='scrollable__item--margin'>&nbsp;</p>
             </div>
             <div className='scrollable__overflowShadow'></div>
         </div>
