@@ -12,7 +12,10 @@
             font-size: clamp(1.4rem, 3vw, 1vw);
 
             h1 {
-                @extend .heading-2;
+                @extend .heading-1;
+                font-size: 2rem;
+                line-height: 2;
+                font-weight: 600;
                 background: $linear-gradient;
                 background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -22,6 +25,7 @@
         @include respond(bigger-phone) {
             padding: 2rem 0;
             gap: 3rem;
+            grid-row-start: 2;
         }
     }
     &__btn {
@@ -30,11 +34,13 @@
         align-items: center;
         margin-top: 3rem;
         font-size: $font-clamp;
-
+        background: $color-secondary;
+        color: white;
+        text-transform: capitalize;
 
         span {
             display: flex;
-            color: $color-secondary;
+            //  color: $color-secondary;
             animation: moveInLeft 2s infinite;
             margin-top: -0.12rem;
         }

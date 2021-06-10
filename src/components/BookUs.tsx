@@ -13,7 +13,7 @@ const BookUs = () => {
                     </h1>
 
                     <button className='btn bookUs__btn'>
-                        Book Us{' '}
+                        Book Us Today{' '}
                         <span>
                             <FaLongArrowAltRight />
                         </span>
