@@ -3,6 +3,8 @@ import Hero from '../components/Hero'
 import Vision from '../components/Vision'
 import BookUs from '../components/BookUs'
 
+import svg from '../assets/herowave.svg'
+
 const Home = () => {
     return (
         <>
@@ -10,6 +12,7 @@ const Home = () => {
                 <Hero />{' '}
             </div>
             <div className='section-wrap'>
+                <img src={svg} alt=''/>
                 <div className='section-courses'>
                     <Courses />
                 </div>
