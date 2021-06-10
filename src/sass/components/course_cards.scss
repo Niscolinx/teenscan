@@ -7,11 +7,21 @@
     // justify-items: center;
     // padding: 0 6rem;
 
+    position: relative;
     display: flex;
     overflow: auto;
     white-space: nowrap;
     transition: all 2s;
-    margin: 0 5rem;;
+    margin: 0 5rem;
+
+    &--overflowShadow{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background: blue;
+        width: 5rem;
+    }
 
 
     .course {
