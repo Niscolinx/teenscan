@@ -17,8 +17,8 @@ const Courses = () => {
                 </p>
             </div>
 
-            <Scrollable>
                 <div className='course__cards'>
+            <Scrollable>
                     <Course
                         title='Title of the course'
                         creator='John Doe'
@@ -67,8 +67,8 @@ const Courses = () => {
                         price={22000}
                         image={cardImgsss}
                     />
-                </div>
             </Scrollable>
+                </div>
         </>
     )
 }
