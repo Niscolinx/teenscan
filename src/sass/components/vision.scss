@@ -10,12 +10,15 @@
         &--item {
             display: grid;
             font-size: clamp(1.4rem, 3vw, 1vw);
-
+            
             h2 {
                 @extend .heading-2;
                 background: $linear-gradient;
                 background-clip: text;
                 -webkit-text-fill-color: transparent;
+            }
+            p {
+                font-weight: 300;
             }
         }
 
