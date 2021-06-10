@@ -201,6 +201,9 @@
     &__item::-webkit-scrollbar {
         display: none;
     }
+    &__item:last-child{
+        background: green;
+    }
 
     &__overflowShadow {
         position: absolute;
