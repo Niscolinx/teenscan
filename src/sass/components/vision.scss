@@ -1,4 +1,18 @@
 .vision {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+
+    &__2 {
+        display: grid;
+        align-items: center;
+        
+        &--item{
+            display: grid;
+            justify-items: center;
+
+            h2 {
+                @extend .heading-2;
+            }
+        }
+    }
 }

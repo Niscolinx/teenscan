@@ -2,11 +2,11 @@ import Teens2 from '../assets/teens2.png'
 const Vision = () => {
     return (
         <div className='vision'>
-            <div>
+            <div className='vision__1'>
                 <img src={Teens2} width='100%' height='100%' alt='' />
             </div>
-            <div>
-                <div>
+            <div className='vision__2'>
+                <div className='vision__2--item'>
                     <h2>The Future Belongs to Tech Minds</h2>
                     <p>
                         Teens Can Blog is a tech initiative targeted at
@@ -14,7 +14,7 @@ const Vision = () => {
                         To become socially relevant and build the nation.
                     </p>
                 </div>
-                <div>
+                <div className='vision__2--item'>
                     {' '}
                     <h2>Innovative Ideas</h2>
                     <p>
@@ -24,7 +24,7 @@ const Vision = () => {
                         skills to man their generation.
                     </p>
                 </div>
-                <div>
+                <div className='vision__2--item'>
                     {' '}
                     <h2>Vision</h2>
                     <p>
