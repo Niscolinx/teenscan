@@ -1,16 +1,22 @@
 .course__cards {
     margin: 5rem 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    row-gap: 2rem;
-    column-gap: 10rem;
-    justify-items: center;
-    padding: 0 6rem;
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    // row-gap: 2rem;
+    // column-gap: 10rem;
+    // justify-items: center;
+    // padding: 0 6rem;
+
+    display: flex;
+     overflow: auto;
+  white-space: nowrap;
 
     .course {
         box-shadow: 3px 8px 9px rgb(136, 134, 134);
         border-radius: 1rem 1rem;
-        width: 100%;
+        width: 20rem;
+        margin-right: 2rem;
+
 
 
         &__imgbox {
