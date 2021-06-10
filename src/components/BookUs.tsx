@@ -3,12 +3,9 @@ import Teens3 from '../assets/teens3.png'
 
 const BookUs = () => {
     return (
-        <div className='BookUs'>
-            <div className='BookUs__1'>
-                <img src={Teens3} width='100%' height='100%' alt='' />
-            </div>
-            <div className='BookUs__2'>
-                <div className='BookUs__2--item'>
+        <div className='bookUs'>
+            <div className='bookUs__2'>
+                <div className='bookUs__2--item'>
                     <h2>The Future Belongs to Tech Minds</h2>
                     <p>
                         Teens Can Blog is a tech initiative targeted at
@@ -16,7 +13,7 @@ const BookUs = () => {
                         To become socially relevant and build the nation.
                     </p>
                 </div>
-                <div className='BookUs__2--item'>
+                <div className='bookUs__2--item'>
                     {' '}
                     <h2>Innovative Ideas</h2>
                     <p>
@@ -26,14 +23,17 @@ const BookUs = () => {
                         skills to man their generation.
                     </p>
                 </div>
-                <div className='BookUs__2--item'>
+                <div className='bookUs__2--item'>
                     {' '}
-                    <h2>BookUs</h2>
+                    <h2>bookUs</h2>
                     <p>
                         To build a Nigerian community filled with independent
                         young Techprenuers.
                     </p>
                 </div>
+            </div>
+            <div className='bookUs__1'>
+                <img src={Teens3} width='100%' height='100%' alt='' />
             </div>
         </div>
     )
