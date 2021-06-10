@@ -1,4 +1,6 @@
 import Course from './Course'
+import Scrollable from '../components/Scrollable'
+
 import cardImg from '../assets/course1.jpg'
 import cardImgs from '../assets/course1.jpg'
 import cardImgss from '../assets/course1.jpg'
@@ -14,7 +16,8 @@ const Courses = () => {
                     Learn the latest skills to reach your professional goals.
                 </p>
             </div>
-            <div className='course__cards--scroll'>
+
+            <Scrollable>
                 <div className='course__cards'>
                     <Course
                         title='Title of the course'
@@ -65,8 +68,7 @@ const Courses = () => {
                         image={cardImgsss}
                     />
                 </div>
-                <div className='course__cards--overflowShadow'></div>
-            </div>
+            </Scrollable>
         </>
     )
 }
