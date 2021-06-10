@@ -24,13 +24,11 @@
     @include respond(tab-port-min) {
         background: url(../../assets/hero.svg);
         background-repeat: no-repeat;
-
     }
-
 }
-.section-wrap{
+.section-wrap {
     display: grid;
-        grid-column: full-start / -1;
+    grid-column: full-start / -1;
 
     grid-template-rows: min-content;
     grid-template-columns:
@@ -41,7 +39,20 @@
         )
         [center-end] minmax(3rem, 1fr) [full-end];
 
+    position: relative;
+    z-index: -1;
 
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    &>* {
+        position: relative;
+        z-index: 332;
+    }
 }
 
 .section-hero {
@@ -60,7 +71,7 @@
     margin: 10rem 0 4rem 0;
     padding: 0 12rem;
 
-    @include respond(bigger-phone){
+    @include respond(bigger-phone) {
         padding: 0;
     }
 
@@ -77,9 +88,9 @@
             color: $color-grey-dark-1;
         }
 
-         &__btn{
-             margin: 2rem auto;
-             display: flex;
+        &__btn {
+            margin: 2rem auto;
+            display: flex;
         }
     }
 }
@@ -230,14 +241,13 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
 
-        &--margin{
+        &--margin {
             margin-left: 4rem;
         }
     }
     &__item::-webkit-scrollbar {
         display: none;
     }
-   
 
     &__overflowShadow {
         position: absolute;
