@@ -34,9 +34,10 @@
         align-items: center;
         margin-top: 3rem;
         font-size: $font-clamp;
-        background: $color-secondary;
+        background: $linear-gradient;
         color: white;
         text-transform: capitalize;
+        border: none;
 
         span {
             display: flex;
@@ -44,5 +45,11 @@
             animation: moveInLeft 2s infinite;
             margin-top: -0.12rem;
         }
+    }
+
+    &__2 {
+        border-radius: 2rem;
+        overflow: hidden;
+        box-shadow: 2px 3px 9px 0px #898787;
     }
 }
