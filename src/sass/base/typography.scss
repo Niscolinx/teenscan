@@ -36,6 +36,12 @@
 .section-courses {
     grid-column: sidebar-start / full-end;
     margin: 10rem 0 4rem 0;
+    padding: 0 12rem;
+    background: url(../../assets/hero.svg);
+
+    @include respond(bigger-phone){
+        padding: 0;
+    }
 
     .courses {
         color: $color-grey-dark-2;
@@ -51,8 +57,8 @@
         }
 
          &__btn{
-             margin: 1rem auto;
-            background: blue;
+             margin: 2rem auto;
+             display: flex;
         }
     }
 }
