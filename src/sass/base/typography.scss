@@ -40,12 +40,12 @@
     .courses {
         color: $color-grey-dark-2;
 
-        &_title-box {
+        &__title--box {
             display: grid;
             text-align: center;
         }
 
-        &_subHeading {
+        &__subHeading {
             color: $color-grey-dark-1;
         }
     }
