@@ -11,14 +11,14 @@ const Course = (props: CourseProps) => {
     const formattedPrice = price.toLocaleString()
     return (
         <div className='course'>
-            <div className="course_imgbox">
-            <img src={props.image} alt='courseImg' className='course_img' />
+            <div className="course__imgbox">
+            <img src={props.image} alt='courseImg' className='course__img' />
 
             </div>
-            <div className='course_details'>
-                <h3 className='course_title'>{props.title}</h3>
-                <p className='course_creator'>{props.creator}</p>
-                <h3 className='course_price'>₦{formattedPrice}</h3>
+            <div className='course__details'>
+                <h3 className='course__title'>{props.title}</h3>
+                <p className='course__creator'>{props.creator}</p>
+                <h3 className='course__price'>₦{formattedPrice}</h3>
             </div>
         </div>
     )

@@ -8,14 +8,14 @@ import cardImgsss from '../assets/hero.jpg'
 const Courses = () => {
     return (
         <>
-            <div className='courses_title-box'>
-                <h1 className='courses_heading'>Collection of courses</h1>
-                <p className='courses_subHeading'>
+            <div className='courses__title--box'>
+                <h1 className='courses__heading'>Collection of courses</h1>
+                <p className='courses__subHeading'>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Corrupti vitae
                 </p>
             </div>
-            <div className='course_cards'>
+            <div className='course__cards'>
                 <Course
                     title='Title of the course'
                     creator='John Doe'

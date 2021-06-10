@@ -2,12 +2,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 
-     &__1 {
+    &__1 {
         border-radius: 2rem;
         overflow: hidden;
         box-shadow: 2px 3px 9px 0px #898787;
-                        background: $linear-gradient;
-
+        background: $linear-gradient;
     }
     &__2 {
         display: grid;
@@ -17,7 +16,7 @@
         &--item {
             display: grid;
             font-size: clamp(1.4rem, 3vw, 1vw);
-            
+
             h2 {
                 @extend .heading-2;
                 background: $linear-gradient;
