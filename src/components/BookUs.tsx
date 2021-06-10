@@ -1,4 +1,4 @@
-import Teens3 from '../assets/teens3.png'
+import Teens4 from '../assets/teens4.jpeg'
 
 
 const BookUs = () => {
@@ -33,7 +33,7 @@ const BookUs = () => {
                 </div>
             </div>
             <div className='bookUs__1'>
-                <img src={Teens3} width='100%' height='100%' alt='' />
+                <img src={Teens4} width='100%' height='100%' alt='' />
             </div>
         </div>
     )
