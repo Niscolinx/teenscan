@@ -1,18 +1,23 @@
 .vision {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 
     &__2 {
         display: grid;
         align-items: center;
-        
-        &--item{
+        padding: 0 3rem;
+
+        &--item {
             display: grid;
-            justify-items: center;
+            font-size: clamp(1.2rem, 4vw, 1vw);
 
             h2 {
                 @extend .heading-2;
             }
+        }
+
+        @include respond(bigger-phone){
+            padding: 2rem 0;
         }
     }
 }

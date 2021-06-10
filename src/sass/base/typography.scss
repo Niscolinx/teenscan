@@ -90,7 +90,8 @@
     @extend %heading;
     font-size: clamp(1.4rem, 4vw, 2vw);
     font-style: italic;
-    line-height: 1;
+    line-height: 2;
+    font-weight: 600;
 
     // &__light {
     //     color: $color-grey-light-1;
