@@ -10,11 +10,12 @@
     display: flex;
     overflow: auto;
     white-space: nowrap;
+    transition: all 2s;
 
     .course {
         box-shadow: 3px 8px 9px rgb(136, 134, 134);
         border-radius: 1rem 1rem;
-        margin-right: 2rem;
+        margin: 2rem;
 
         &__imgbox {
             border-radius: 1rem 1rem;
