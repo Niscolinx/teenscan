@@ -201,7 +201,7 @@
     &__item::-webkit-scrollbar {
         display: none;
     }
-    &__item:last-child{
+    &__item:not(:last-child){
         background: green;
     }
 
