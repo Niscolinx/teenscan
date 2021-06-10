@@ -51,6 +51,12 @@
     }
 }
 
+
+.section-vision {
+        grid-column: sidebar-end / center-end;
+
+}
+
 .section-footer {
     background: $color-secondary-dark;
 
