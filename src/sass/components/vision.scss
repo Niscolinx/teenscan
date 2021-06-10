@@ -13,13 +13,13 @@
 
             h2 {
                 @extend .heading-2;
-                 background: $linear-gradient;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+                background: $linear-gradient;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
         }
 
-        @include respond(bigger-phone){
+        @include respond(bigger-phone) {
             padding: 2rem 0;
             gap: 3rem;
         }
