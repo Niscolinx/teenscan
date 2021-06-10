@@ -20,6 +20,8 @@
     //         )
     //         [center-end] minmax(1rem, 1fr) [full-end];
     // }
+        background: url(../../assets/hero.svg);
+
 }
 
 .section-hero {
@@ -37,7 +39,6 @@
     grid-column: sidebar-start / full-end;
     margin: 10rem 0 4rem 0;
     padding: 0 12rem;
-    background: url(../../assets/hero.svg);
 
     @include respond(bigger-phone){
         padding: 0;
