@@ -28,6 +28,22 @@
     }
 
 }
+.section-wrap{
+    display: grid;
+        grid-column: full-start / -1;
+
+    grid-template-rows: min-content;
+    grid-template-columns:
+        [sidebar-start] 3rem [sidebar-end full-start] minmax(6rem, 1fr)
+        [center-start] repeat(
+            8,
+            [col-start] minmax(min-content, 14rem) [col-end]
+        )
+        [center-end] minmax(3rem, 1fr) [full-end];
+
+ background: url(../../assets/hero.svg);
+        background-repeat: no-repeat;
+}
 
 .section-hero {
     grid-column: full-start / -1;
