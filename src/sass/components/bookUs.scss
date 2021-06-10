@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 
-    &__2 {
+    &__1 {
         display: grid;
         align-items: center;
         padding: 0 6rem;
@@ -10,21 +10,31 @@
         &--item {
             display: grid;
             font-size: clamp(1.4rem, 3vw, 1vw);
-            
-            h2 {
+
+            h1 {
                 @extend .heading-2;
                 background: $linear-gradient;
                 background-clip: text;
                 -webkit-text-fill-color: transparent;
-            }
-            p {
-                font-weight: 300;
             }
         }
 
         @include respond(bigger-phone) {
             padding: 2rem 0;
             gap: 3rem;
+        }
+    }
+    &__btn {
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+        font-size: $font-clamp;
+
+        span {
+            display: flex;
+            color: $color-secondary;
+            animation: moveInLeft 2s infinite;
+            margin-top: -0.12rem;
         }
     }
 }
