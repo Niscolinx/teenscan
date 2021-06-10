@@ -14,55 +14,57 @@ const Courses = () => {
                     Learn the latest skills to reach your professional goals.
                 </p>
             </div>
-            <div className='course__cards'>
-                <Course
-                    title='Title of the course'
-                    creator='John Doe'
-                    price={10000}
-                    image={cardImg}
-                />
-                <Course
-                    title='Title of the course'
-                    creator='John Doe'
-                    price={10000}
-                    image={cardImg}
-                />
-                <Course
-                    title='Title of the course'
-                    creator='John Doe'
-                    price={10000}
-                    image={cardImg}
-                />
-                <Course
-                    title='Title of the course'
-                    creator='John Doe'
-                    price={14000}
-                    image={cardImgs}
-                />
-                <Course
-                    title='Title of the course'
-                    creator='John Doe'
-                    price={19000}
-                    image={cardImgss}
-                />
-                <Course
-                    title='Title of the course'
-                    creator='John Doe'
-                    price={22000}
-                    image={cardImgsss}
-                />
-                <Course
-                    title='Title of the course'
-                    creator='John Doe'
-                    price={22000}
-                    image={cardImgssss}
-                />
-                <Course
-                    title='Title of the course'
-                    creator='John Doe'
-                    price={22000}
-                    image={cardImgsss}
-                />
+            <div className='course__cards--scroll'>
+                <div className='course__cards'>
+                    <Course
+                        title='Title of the course'
+                        creator='John Doe'
+                        price={10000}
+                        image={cardImg}
+                    />
+                    <Course
+                        title='Title of the course'
+                        creator='John Doe'
+                        price={10000}
+                        image={cardImg}
+                    />
+                    <Course
+                        title='Title of the course'
+                        creator='John Doe'
+                        price={10000}
+                        image={cardImg}
+                    />
+                    <Course
+                        title='Title of the course'
+                        creator='John Doe'
+                        price={14000}
+                        image={cardImgs}
+                    />
+                    <Course
+                        title='Title of the course'
+                        creator='John Doe'
+                        price={19000}
+                        image={cardImgss}
+                    />
+                    <Course
+                        title='Title of the course'
+                        creator='John Doe'
+                        price={22000}
+                        image={cardImgsss}
+                    />
+                    <Course
+                        title='Title of the course'
+                        creator='John Doe'
+                        price={22000}
+                        image={cardImgssss}
+                    />
+                    <Course
+                        title='Title of the course'
+                        creator='John Doe'
+                        price={22000}
+                        image={cardImgsss}
+                    />
+                </div>
                 <div className='course__cards--overflowShadow'></div>
             </div>
         </>

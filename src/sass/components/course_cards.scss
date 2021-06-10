@@ -1,3 +1,20 @@
+&--scroll {
+position: relative;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    transition: all 2s;
+}
+
+&--overflowShadow{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.7;
+    background: linear-gradient(to right, transparent, rgba(10, 1, 1, 0.212), rgba(0, 0, 0, 0.904));
+    width: 5rem;
+}
 .course__cards {
     margin: 5rem 0;
     // display: grid;
@@ -7,22 +24,9 @@
     // justify-items: center;
     // padding: 0 6rem;
 
-    position: relative;
-    display: flex;
-    overflow: auto;
-    white-space: nowrap;
-    transition: all 2s;
+    
     margin: 0 5rem;
 
-    &--overflowShadow{
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        top: 0;
-        opacity: 0.7;
-        background: linear-gradient(to right, transparent, rgba(10, 1, 1, 0.493), rgba(0, 0, 0, 0.904));
-        width: 5rem;
-    }
 
 
     .course {
