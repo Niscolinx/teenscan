@@ -20,8 +20,12 @@
     //         )
     //         [center-end] minmax(1rem, 1fr) [full-end];
     // }
+
+    @include respond(tab-port-min) {
         background: url(../../assets/hero.svg);
         background-repeat: no-repeat;
+
+    }
 
 }
 
