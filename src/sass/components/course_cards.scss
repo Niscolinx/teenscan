@@ -8,16 +8,13 @@
     // padding: 0 6rem;
 
     display: flex;
-     overflow: auto;
-  white-space: nowrap;
+    overflow: auto;
+    white-space: nowrap;
 
     .course {
         box-shadow: 3px 8px 9px rgb(136, 134, 134);
         border-radius: 1rem 1rem;
-        width: 20rem;
         margin-right: 2rem;
-
-
 
         &__imgbox {
             border-radius: 1rem 1rem;
@@ -25,7 +22,7 @@
         }
 
         &__img {
-          //  clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
+            //  clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
             // width: 320px;
             // height: 260px;
             width: 100%;
