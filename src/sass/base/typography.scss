@@ -41,8 +41,10 @@
         )
         [center-end] minmax(3rem, 1fr) [full-end];
 
- background: url(../../assets/hero.svg);
+ background: url(../../assets/herowave.svg);
         background-repeat: no-repeat;
+        height: 100%;
+        object-fit: cover;herowave.svg
 }
 
 .section-hero {
