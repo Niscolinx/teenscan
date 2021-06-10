@@ -25,10 +25,12 @@
         }
     }
     &__btn {
+        justify-self: start;
         display: flex;
         align-items: center;
         margin-top: 3rem;
         font-size: $font-clamp;
+
 
         span {
             display: flex;
