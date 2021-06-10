@@ -70,7 +70,7 @@ const Courses = () => {
                 </Scrollable>
             </div>
 
-            <button className='btn'>
+            <button className='btn courses__btn'>
                 View More
             </button>
         </>

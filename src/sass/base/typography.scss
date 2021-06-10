@@ -34,7 +34,7 @@
 }
 
 .section-courses {
-    grid-column: sidebar-end / center-end;
+    grid-column: sidebar-start / full-end;
     margin: 10rem 0 4rem 0;
 
     .courses {
@@ -48,6 +48,11 @@
 
         &__subHeading {
             color: $color-grey-dark-1;
+        }
+
+         &__btn{
+             margin: 1rem auto;
+            background: blue;
         }
     }
 }
