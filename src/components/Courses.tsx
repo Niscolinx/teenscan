@@ -69,6 +69,10 @@ const Courses = () => {
                     />
                 </Scrollable>
             </div>
+
+            <button className='btn'>
+                View More
+            </button>
         </>
     )
 }
