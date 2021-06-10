@@ -88,9 +88,8 @@
 
 .heading-2 {
     @extend %heading;
-    font-size: clamp(1.6rem, 4vw, 2.1vw);
+    font-size: clamp(2rem, 4vw, 2.1vw);
     font-style: italic;
-    line-height: 2;
     font-weight: 700;
 
     // &__light {

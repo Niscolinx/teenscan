@@ -9,7 +9,7 @@
 
         &--item {
             display: grid;
-            font-size: clamp(1.2rem, 4vw, 1vw);
+            font-size: clamp(1.4rem, 3vw, 1vw);
 
             h2 {
                 @extend .heading-2;
