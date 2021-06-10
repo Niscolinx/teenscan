@@ -63,6 +63,7 @@ const Courses = () => {
                     price={22000}
                     image={cardImgsss}
                 />
+                <div className='courses__cards--overflowShadow'></div>
             </div>
         </>
     )
