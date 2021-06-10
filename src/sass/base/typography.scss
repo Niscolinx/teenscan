@@ -36,7 +36,7 @@
 .section-courses {
     grid-column: sidebar-end / center-end;
     margin: 10rem 0 4rem 0;
-    
+
     .courses {
         color: $color-grey-dark-2;
 
@@ -44,7 +44,6 @@
             @extend .heading-3;
             display: grid;
             text-align: center;
-            
         }
 
         &__subHeading {
@@ -53,15 +52,13 @@
     }
 }
 
-
 .section-vision {
-        grid-column: sidebar-end / center-end;
-        margin: 10rem 0;
-
+    grid-column: sidebar-end / center-end;
+    margin: 10rem 0;
 }
-.section-bookUs{
-        grid-column: sidebar-end / center-end;
-        margin: 10rem 0;
+.section-bookUs {
+    grid-column: sidebar-end / center-end;
+    margin: 10rem 0;
 }
 
 .section-footer {
@@ -192,21 +189,26 @@
 }
 
 .scrollable {
+    &__item {
+        position: relative;
+        display: flex;
+        overflow: auto;
+        white-space: nowrap;
+        transition: all 2s;
+    }
 
-position: relative;
-    display: flex;
-    overflow: auto;
-    white-space: nowrap;
-    transition: all 2s;
-
-
-&__overflowShadow{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    opacity: 0.7;
-    background: linear-gradient(to right, transparent, rgba(10, 1, 1, 0.212), rgba(0, 0, 0, 0.904));
-    width: 5rem;
-}
+    &__overflowShadow {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        opacity: 0.7;
+        background: linear-gradient(
+            to right,
+            transparent,
+            rgba(10, 1, 1, 0.212),
+            rgba(0, 0, 0, 0.904)
+        );
+        width: 5rem;
+    }
 }
