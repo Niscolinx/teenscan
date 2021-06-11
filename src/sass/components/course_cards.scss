@@ -50,6 +50,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: normal;
+            text-transform: capitalize;
         }
         &__creator {
             font-size: 1.2rem;

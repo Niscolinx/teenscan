@@ -20,7 +20,8 @@ const Courses = () => {
             <div className='course__cards'>
                 <Scrollable>
                     <Course
-                        title='Title of the course full stack development'
+                        title=
+                        'Everything to know about Blogging and Starting your own Blog'
                         creator='John Doe'
                         price={10000}
                         image={cardImg}
