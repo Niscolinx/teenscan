@@ -26,7 +26,7 @@ const Courses = () => {
                         image={cardImg}
                     />
                     <Course
-                        title='Title of the course'
+                        title='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatem blanditiis culpa dolorem iusto eaque, enim tenetur corrupti dolores exercitationem ad debitis excepturi eveniet nam facilis quae, recusandae tempora. Officiis!'
                         creator='John Doe'
                         price={10000}
                         image={cardImg}
@@ -70,9 +70,7 @@ const Courses = () => {
                 </Scrollable>
             </div>
 
-            <button className='btn courses__btn'>
-                View More
-            </button>
+            <button className='btn courses__btn'>View More</button>
         </>
     )
 }

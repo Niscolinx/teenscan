@@ -12,12 +12,12 @@
     margin: 0 5rem;
 
 
-
     .course {
         box-shadow: 3px 8px 9px rgb(136, 134, 134);
         border-radius: 1rem 1rem;
         margin: 2rem;
-      
+        display: grid;
+        
        
         &__imgbox {
             border-radius: 1rem 1rem;
@@ -33,12 +33,14 @@
             object-fit: cover;
         }
         &__details {
+            white-space: break-spaces;
             padding: 2rem;
         }
 
         &__title {
             font-family: $font-primary;
             font-size: 1.3rem;
+            
         }
         &__creator {
             font-size: 1.2rem;
