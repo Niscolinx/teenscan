@@ -30,16 +30,16 @@
             object-fit: cover;
         }
         &__details {
-            width: 10em;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
             padding: 2rem;
         }
 
         &__title {
             font-family: $font-primary;
             font-size: 1.3rem;
+            width: 12em;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
         }
         &__creator {
             font-size: 1.2rem;
