@@ -12,9 +12,12 @@
 
     .course {
         box-shadow: 3px 8px 9px rgb(136, 134, 134);
-        border-radius: 1rem 1rem;
+        border-radius: 1rem 1rem 0 0;
         margin: 2rem;
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        max-width: 37.5rem;
+        min-width: 20.3rem;
 
         &__imgbox {
             border-radius: 1rem 1rem;
@@ -34,12 +37,19 @@
         }
 
         &__title {
-            font-family: $font-primary;
-            font-size: 1.3rem;
+            // font-family: $font-primary;
+            // font-size: 1.3rem;
+            // overflow: hidden;
+            // white-space: nowrap;
+            // text-overflow: ellipsis;
+
             width: 12em;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
             overflow: hidden;
-            white-space: nowrap;
             text-overflow: ellipsis;
+            white-space: normal;
         }
         &__creator {
             font-size: 1.2rem;
