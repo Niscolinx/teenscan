@@ -8,6 +8,7 @@ import {
 // import { connect } from 'react-redux'
  import Layout from './Layout'
 import Home from '../views/Home'
+import About from '../views/About'
 import { LastLocationType } from 'react-router-last-location'
 
 
@@ -40,6 +41,7 @@ function App() {
                 component={Home}
                 render={Home}
             />
+                <Route path='/about' component={About} />
             {/* <Route
                 path='/Auth/login'
                 render={(props) => <LoginPage {...props} />}
@@ -49,7 +51,6 @@ function App() {
                 render={(props) => <SignupPage {...props} />}
             />
 
-            <Route path='/about-us' component={AboutUs} />
             <Route path='/forgot-password' component={ForgotPassword} />
             <Route path='/contact-us' component={ContactUs} />
             <Route path='/faq' component={Faq} />
