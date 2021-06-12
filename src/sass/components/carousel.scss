@@ -1,8 +1,11 @@
 .carousel {
     display: flex;
     justify-content: center;
+    //justify-items: center;
+    padding: 4rem 0;
     &__item {
         //   position: relative;
+        text-align: center;
     }
 
     &__img {
@@ -12,5 +15,17 @@
         border-radius: 50%;
         background-position: 50%;
         background-repeat: no-repeat;
+    }
+
+    &__title {
+        @extend .heading-3;
+        background: $linear-gradient;
+        background-clip: text;
+        font-weight: 600;
+        -webkit-text-fill-color: transparent;
+    }
+
+    &__name {
+        font-size: 1.2rem;
     }
 }
