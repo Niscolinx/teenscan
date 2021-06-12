@@ -6,12 +6,15 @@
     align-items: center;
 
     header {
-
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
         background: $linear-gradient;
-        height: 100%;
 
         img {
-
+            display: none;
         }
     }
 }
