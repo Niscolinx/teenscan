@@ -90,15 +90,15 @@ const Footer = () => {
                     <BiHome />
                     <p>Home</p>
                 </Link>
-                <Link to='/'>
+                <Link to='/courses'>
                     <HiOutlineCollection />
                     <p>Courses</p>
                 </Link>
-                <Link to='/'>
+                <Link to='/contact'>
                     <BiMailSend />
                     <p>Contact Us</p>
                 </Link>
-                <Link to='/'>
+                <Link to='/about'>
                     <HiOutlineUserGroup />
                     <p> About Us</p>
                 </Link>

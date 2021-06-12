@@ -117,13 +117,13 @@ const Header = () => {
                     <Link to='/'>Home</Link>
                 </li>
                 <li>
-                    <Link to='/'>About Us</Link>
+                    <Link to='/about'>About Us</Link>
                 </li>
                 <li>
-                    <Link to='/'>Contact Us</Link>
+                    <Link to='/contact'>Contact Us</Link>
                 </li>
                 <li>
-                    <Link to='/' className='header__list--auth'>
+                    <Link to='/courses' className='header__list--auth'>
                         Start Learning
                     </Link>
                 </li>
