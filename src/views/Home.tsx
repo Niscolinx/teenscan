@@ -22,7 +22,7 @@ const Home = () => {
                 <div className='section-bookUs'>
                     <BookUs />
                 </div>
-                <div className='section-testimonial'>
+                <div className='section-team'>
                     <CarouselItem />
                 </div>
             </div>
