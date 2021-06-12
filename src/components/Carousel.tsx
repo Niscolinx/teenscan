@@ -29,6 +29,11 @@ const CarouselItem = () => {
         },
     }
     return (
+        <>
+            <div>
+                <h3>Our Proficient Team</h3>
+                <p>Meet Our Team Members with great profile</p>
+            </div>
         <Carousel
             swipeable={false}
             draggable={false}
@@ -46,6 +51,7 @@ const CarouselItem = () => {
             dotListClass='custom-dot-list-style'
             itemClass='carousel-item-padding-40-px carousel'
         >
+            
             <div className='carousel__item'>
                 <img src={team1} alt='' className='carousel__img' />
                 <div>
@@ -82,7 +88,8 @@ const CarouselItem = () => {
                     </p>
                 </div>
             </div>
-        </Carousel>
+            </Carousel>
+            </>
     )
 }
 
