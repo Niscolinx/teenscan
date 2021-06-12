@@ -6,11 +6,16 @@
 @import './base/base';
 
 @import './components/header';
+
+//Home
 @import './components/hero';
 @import './components/course_cards';
 @import './components/carousel';
 @import './components/vision';
 @import './components/bookUs';
-@import './components/footer';
 
+//About
+@import './components/about';
+
+@import './components/footer';
 
