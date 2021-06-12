@@ -16,5 +16,14 @@
         display: grid;
         justify-items: center;
         align-items: center;
+
+        h1{
+            @extend .heading-1;
+            color: white;
+        }
+        @include respond(bigger-phone) {
+            height: 20vh;
+        }
     }
+
 }
