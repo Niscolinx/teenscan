@@ -29,7 +29,7 @@ const CarouselItem = () => {
         },
     }
     return (
-        <>
+        <div className='carousel-box'>
             <div>
                 <h3>Our Proficient Team</h3>
                 <p>Meet Our Team Members with great profile</p>
@@ -89,7 +89,7 @@ const CarouselItem = () => {
                 </div>
             </div>
             </Carousel>
-            </>
+            </div>
     )
 }
 

@@ -1,4 +1,10 @@
 .carousel {
+
+    &-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     display: flex;
     justify-content: center;
     //justify-items: center;
