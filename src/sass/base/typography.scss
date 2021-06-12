@@ -21,10 +21,7 @@
     //         [center-end] minmax(1rem, 1fr) [full-end];
     // }
 
-    @include respond(tab-port-min) {
-        background: url(../../assets/hero.svg);
-        background-repeat: no-repeat;
-    }
+   
 }
 .section-wrap {
     display: grid;
@@ -43,13 +40,18 @@
 }
 
 .section-hero {
-    grid-column: full-start / -1;
+    grid-column: sidebar-start / -1;
 
     @include respond(bigger-phone) {
         height: 70vh;
     }
     @include respond(tab-port-height) {
         height: 40vh;
+    }
+
+     @include respond(tab-port-min) {
+        background: url(../../assets/hero.svg);
+        background-repeat: no-repeat;
     }
 }
 
