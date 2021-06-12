@@ -1,4 +1,7 @@
 .about {
     grid-column: sidebar-start / center-end;
     height: 100vh;
+
+    display: grid;
+    align-items: center;
 }
