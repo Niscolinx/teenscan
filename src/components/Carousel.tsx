@@ -1,6 +1,15 @@
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 
+import team1 from '../assets/team1.jpg'
+import team2 from '../assets/team2.jpg'
+import team3 from '../assets/team3.jpg'
+import team4 from '../assets/team4.jpg'
+import team5 from '../assets/team5.jpg'
+import team6 from '../assets/team6.jpg'
+import team7 from '../assets/team7.jpg'
+import team8 from '../assets/team8.jpg'
+
 const CarouselItem = () => {
     const responsive = {
         desktop: {
@@ -28,7 +37,7 @@ const CarouselItem = () => {
             ssr={true} // means to render carousel on server-side.
             infinite={true}
             autoPlay={true}
-            autoPlaySpeed={1000}
+            autoPlaySpeed={3000}
             keyBoardControl={true}
             customTransition='all .5'
             transitionDuration={500}
@@ -37,10 +46,27 @@ const CarouselItem = () => {
             dotListClass='custom-dot-list-style'
             itemClass='carousel-item-padding-40-px'
         >
-            <div>Item 1</div>
-            <div>Item 2</div>
-            <div>Item 3</div>
-            <div>Item 4</div>
+            <div className='carousel__item'>
+                <img src={team1} alt='' />
+                <div>
+                <p className='carousel__title'>Founder/CEO</p>
+                <p className='carousel__name'>Odoemena Augustine Chinonso</p>
+                </div>
+            </div>
+            <div className='carousel__item'>
+                <img src={team2} alt='' />
+                <div>
+                <p className='carousel__title'>Founder/CEO</p>
+                <p className='carousel__name'>Odoemena Augustine Chinonso</p>
+                </div>
+            </div>
+            <div className='carousel__item'>
+                <img src={team3} alt='' />
+                <div>
+                <p className='carousel__title'>Founder/CEO</p>
+                <p className='carousel__name'>Odoemena Augustine Chinonso</p>
+                </div>
+            </div>
         </Carousel>
     )
 }
