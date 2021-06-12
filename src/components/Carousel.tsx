@@ -8,7 +8,7 @@ import team4 from '../assets/team4.jpg'
 import team5 from '../assets/team5.jpg'
 import team6 from '../assets/team6.jpg'
 import team7 from '../assets/team7.jpg'
-import team8 from '../assets/team8.jpg'
+import team8 from '../assets/team8.jpeg'
 
 const CarouselItem = () => {
     const responsive = {
@@ -74,7 +74,7 @@ const CarouselItem = () => {
                 </div>
             </div>
             <div className='carousel__item'>
-                <img src={team4} alt='' className='carousel__img' />
+                <img src={team8} alt='' className='carousel__img' />
                 <div>
                     <p className='carousel__title'>Founder/CEO</p>
                     <p className='carousel__name'>
