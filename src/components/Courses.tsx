@@ -1,5 +1,6 @@
 import Course from './Course'
 import Scrollable from '../components/Scrollable'
+import { FaLongArrowAltRight } from 'react-icons/fa'
 
 import cardImg from '../assets/course1.jpg'
 import cardImgs from '../assets/course1.jpg'
@@ -20,8 +21,7 @@ const Courses = () => {
             <div className='course__cards'>
                 <Scrollable>
                     <Course
-                        title=
-                        'Everything to know about Blogging and Starting your own Blog'
+                        title='Everything to know about Blogging and Starting your own Blog'
                         creator='John Doe'
                         price={10000}
                         image={cardImg}
@@ -71,7 +71,12 @@ const Courses = () => {
                 </Scrollable>
             </div>
 
-            <button className='btn courses__btn'>View More</button>
+            <button className='btn courses__btn'>
+                View More
+                <span>
+                    <FaLongArrowAltRight />
+                </span>
+            </button>
         </>
     )
 }

@@ -80,6 +80,13 @@
         &__btn {
             margin: 2rem auto;
             display: flex;
+
+            span {
+            display: flex;
+            color: $color-secondary;
+            animation: moveInLeft 2s infinite;
+            margin-top: -0.12rem;
+        }
         }
     }
 }
