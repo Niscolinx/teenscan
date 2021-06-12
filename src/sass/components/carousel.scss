@@ -1,6 +1,10 @@
 .carousel {
 
-    width: 20rem;
+    &__item{
+        position: relative;
+        width: 20rem;
+        height: 10rem;
+    }
 
     &__img {
         width: 100%;

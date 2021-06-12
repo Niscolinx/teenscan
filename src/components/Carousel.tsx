@@ -44,7 +44,7 @@ const CarouselItem = () => {
             containerClass='carousel-container'
             removeArrowOnDeviceType={['tablet', 'mobile']}
             dotListClass='custom-dot-list-style'
-            itemClass='carousel-item-padding-40-px'
+            itemClass='carousel-item-padding-40-px carousel'
         >
             <div className='carousel__item'>
                 <img src={team1} alt='' className='carousel__img' />
