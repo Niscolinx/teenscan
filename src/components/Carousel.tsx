@@ -67,6 +67,13 @@ const CarouselItem = () => {
                 <p className='carousel__name'>Odoemena Augustine Chinonso</p>
                 </div>
             </div>
+            <div className='carousel__item'>
+                <img src={team4} alt='' />
+                <div>
+                <p className='carousel__title'>Founder/CEO</p>
+                <p className='carousel__name'>Odoemena Augustine Chinonso</p>
+                </div>
+            </div>
         </Carousel>
     )
 }
