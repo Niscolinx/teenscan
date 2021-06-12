@@ -2,6 +2,7 @@ import Courses from '../components/Courses'
 import Hero from '../components/Hero'
 import Vision from '../components/Vision'
 import BookUs from '../components/BookUs'
+import CarouselItem from '../components/Carousel'
 
 //import svg from '../assets/herowave.svg'
 
@@ -20,6 +21,9 @@ const Home = () => {
                 </div>
                 <div className='section-bookUs'>
                     <BookUs />
+                </div>
+                <div className='section-testimonial'>
+                    <CarouselItem />
                 </div>
             </div>
         </>
