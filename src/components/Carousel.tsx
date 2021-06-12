@@ -39,7 +39,7 @@ const CarouselItem = () => {
             autoPlay={true}
             autoPlaySpeed={3000}
             keyBoardControl={true}
-            customTransition='all .5'
+            customTransition='all 1'
             transitionDuration={500}
             containerClass='carousel-container'
             removeArrowOnDeviceType={['tablet', 'mobile']}
@@ -47,31 +47,39 @@ const CarouselItem = () => {
             itemClass='carousel-item-padding-40-px'
         >
             <div className='carousel__item'>
-                <img src={team1} alt='' />
+                <img src={team1} alt='' className='carousel__img' />
                 <div>
-                <p className='carousel__title'>Founder/CEO</p>
-                <p className='carousel__name'>Odoemena Augustine Chinonso</p>
+                    <p className='carousel__title'>Founder/CEO</p>
+                    <p className='carousel__name'>
+                        Odoemena Augustine Chinonso
+                    </p>
                 </div>
             </div>
             <div className='carousel__item'>
-                <img src={team2} alt='' />
+                <img src={team2} alt='' className='carousel__img' />
                 <div>
-                <p className='carousel__title'>Founder/CEO</p>
-                <p className='carousel__name'>Odoemena Augustine Chinonso</p>
+                    <p className='carousel__title'>Founder/CEO</p>
+                    <p className='carousel__name'>
+                        Odoemena Augustine Chinonso
+                    </p>
                 </div>
             </div>
             <div className='carousel__item'>
-                <img src={team3} alt='' />
+                <img src={team3} alt='' className='carousel__img' />
                 <div>
-                <p className='carousel__title'>Founder/CEO</p>
-                <p className='carousel__name'>Odoemena Augustine Chinonso</p>
+                    <p className='carousel__title'>Founder/CEO</p>
+                    <p className='carousel__name'>
+                        Odoemena Augustine Chinonso
+                    </p>
                 </div>
             </div>
             <div className='carousel__item'>
-                <img src={team4} alt='' />
+                <img src={team4} alt='' className='carousel__img' />
                 <div>
-                <p className='carousel__title'>Founder/CEO</p>
-                <p className='carousel__name'>Odoemena Augustine Chinonso</p>
+                    <p className='carousel__title'>Founder/CEO</p>
+                    <p className='carousel__name'>
+                        Odoemena Augustine Chinonso
+                    </p>
                 </div>
             </div>
         </Carousel>
