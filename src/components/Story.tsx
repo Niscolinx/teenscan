@@ -1,4 +1,5 @@
 import Teens4 from '../assets/teens3.png'
+import TcbVideo from '../assets/tcbvideo.mp4'
 const Story = () => {
     return (
         <div className='story'>
@@ -19,8 +20,15 @@ const Story = () => {
                     them, so they become enthusiastic about critical
                 </p>
             </div>
-            <div className='story__2'>
+            {/* <div className='story__2'>
                 <img src={Teens4} width='100%' height='100%' alt='' />
+            </div> */}
+                         <div className="bg-video">
+                <video className="bg-video__content" autoplay muted loop>
+                    <source src={TcbVideo} type="video/mp4"/>
+                    {/* <source src="img/La-Costa/La-Costa.webm" type="video/webm"> */}
+                        Your browser is not supported
+                </video>
             </div>
         </div>
     )
