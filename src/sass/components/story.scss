@@ -37,5 +37,10 @@
         overflow: hidden;
         box-shadow: 2px 3px 9px 0px #898787;
         width: 100%;
+
+        &--video{
+            position: absolute;
+            inset: 1em;
+        }
     }
 }
