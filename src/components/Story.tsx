@@ -24,7 +24,7 @@ const Story = () => {
                 <img src={Teens4} width='100%' height='100%' alt='' />
             </div> */}
                          <div className="bg-video">
-                <video className="bg-video__content" autoplay muted loop>
+                <video className="bg-video__content" autoPlay muted loop>
                     <source src={TcbVideo} type="video/mp4"/>
                     {/* <source src="img/La-Costa/La-Costa.webm" type="video/webm"> */}
                         Your browser is not supported
