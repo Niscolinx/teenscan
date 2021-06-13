@@ -1,14 +1,9 @@
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 
-import team1 from '../assets/team1.jpg'
-import team2 from '../assets/team2.jpg'
-import team3 from '../assets/team3.jpg'
-import team4 from '../assets/team4.jpg'
-import team5 from '../assets/team5.jpg'
-import team6 from '../assets/team6.jpg'
-import team7 from '../assets/team7.jpg'
-import team8 from '../assets/team8.jpeg'
+import testimonial from '../assets/testimonial.jpeg'
+import testimonial1 from '../assets/testimonial1.jpeg'
+import testimonial2 from '../assets/testimonial2.jpg'
 
 const CarouselItem = () => {
     const responsive = {
@@ -55,45 +50,41 @@ const CarouselItem = () => {
                 itemClass='carousel-item-padding-40-px carousel'
             >
                 <div className='carousel__item'>
-                    <img src={team1} alt='' className='carousel__img' />
+                    <img src={testimonial} alt='' className='carousel__img' />
                     <div>
-                        <p className='carousel__title'>Founder/CEO</p>
-                        <p className='carousel__name'>
-                            Odoemena Augustine Chinonso
+                        <p className='carousel__title'>
+                            Lecturer, Abia State University
                         </p>
+                        <p className='carousel__name'>Dr Emmanuel Shebbs </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Eum facere iure ut delectus ab quam odio
-                            doloremque necessitatibus quos consequuntur eius,
-                            corporis ex suscipit at minima sint placeat nulla
-                            labore.
+                            Trust is built on those who know the road to the
+                            future. Those people are Teens Can Blog
                         </p>
                     </div>
                 </div>
                 <div className='carousel__item'>
-                    <img src={team2} alt='' className='carousel__img' />
+                    <img src={testimonial1} alt='' className='carousel__img' />
                     <div>
-                        <p className='carousel__title'>Founder/CEO</p>
-                        <p className='carousel__name'>
-                            Odoemena Augustine Chinonso
+                        <p className='carousel__title'>
+                            Founder, Darien Restaurant
+                        </p>
+                        <p className='carousel__name'>Chijioke Queeneth</p>
+                        <p>
+                            If there are people I trust who will create a better
+                            future for young people it should be Teens Can Blog
                         </p>
                     </div>
                 </div>
                 <div className='carousel__item'>
-                    <img src={team3} alt='' className='carousel__img' />
+                    <img src={testimonial2} alt='' className='carousel__img' />
                     <div>
-                        <p className='carousel__title'>Founder/CEO</p>
-                        <p className='carousel__name'>
-                            Odoemena Augustine Chinonso
-                        </p>
-                    </div>
-                </div>
-                <div className='carousel__item'>
-                    <img src={team8} alt='' className='carousel__img' />
-                    <div>
-                        <p className='carousel__title'>Founder/CEO</p>
-                        <p className='carousel__name'>
-                            Odoemena Augustine Chinonso
+                        <p className='carousel__title'>Software Engineer</p>
+                        <p className='carousel__name'>Mr Roland Blessing</p>
+                        <p>
+                            If future generations are to remember us more with
+                            gratitude than sorrow, we must achieve more than
+                            just the miracles of technology and Teens Can Blog
+                            is on that path.
                         </p>
                     </div>
                 </div>
