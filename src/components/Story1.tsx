@@ -5,7 +5,7 @@ const Story = () => {
     return (
         <div className='story'>
             <div className='story__2'>
-                <video autoPlay muted loop>
+                <video autoPlay muted loop className='story__2--video'>
                     <source src={TcbVideo} type='video/mp4' />
                     <source src={TcbVideoWebm} type='video/webm' />
                     Your browser is not supported
