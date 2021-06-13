@@ -1,5 +1,5 @@
 import Story from '../components/Story'
-import Story1 from '../components/Story1'
+import StoryPrimary from '../components/StoryPrimary'
 
 const About = () => {
     return (
@@ -8,7 +8,7 @@ const About = () => {
                 <h2>About Us</h2>
             </header>
             <Story />
-            <Story1/>
+            <StoryPrimary/>
         </div>
     )
 }
