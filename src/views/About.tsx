@@ -1,11 +1,11 @@
-import Teens3 from '../assets/teens3.png'
+import Teens3 from '../assets/team3.png'
 import Story from '../components/Story'
 
 const About = () => {
     return (
         <div className='about'>
             <header>
-                <h1>About Us</h1>
+                <h2>About Us</h2>
             </header>
             <Story/>
         </div>

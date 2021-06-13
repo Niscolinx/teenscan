@@ -16,9 +16,11 @@
         justify-items: center;
         align-items: center;
 
-        h1{
+        h2{
             @extend .heading-1;
+            font-size: 3rem;
             color: white;
+            font-weight: 800;
         }
         @include respond(tab-port) {
             height: 20vh;
