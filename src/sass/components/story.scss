@@ -32,9 +32,10 @@
 
     &__2 {
         background: $linear-gradient;
-
+        position: relative;
         border-radius: 2rem;
         overflow: hidden;
         box-shadow: 2px 3px 9px 0px #898787;
+        width: 100%;
     }
 }

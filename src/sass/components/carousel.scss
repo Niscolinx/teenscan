@@ -1,16 +1,26 @@
 .carousel {
-
-    &-box{
+    &-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        &__item {
+            text-align: center;
+
+            h3{
+                @extend .heading-4;
+                text-transform: capitalize;
+            }
+
+            p{
+                font-size: 1.2rem;
+            }
+        }
     }
     display: flex;
     justify-content: center;
-    //justify-items: center;
     padding: 4rem 0;
     &__item {
-        //   position: relative;
         text-align: center;
     }
 

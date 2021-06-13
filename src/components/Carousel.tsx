@@ -30,66 +30,75 @@ const CarouselItem = () => {
     }
     return (
         <div className='carousel-box'>
-            <div>
-                <h3>Our Proficient Team</h3>
-                <p>Meet Our Team Members with great profile</p>
+            <div className='carousel-box__item'>
+                <h3>our esteemed clients</h3>
+                <p>
+                    Take a good look at some expressions from our esteemed
+                    clients and supporters
+                </p>
             </div>
-        <Carousel
-            swipeable={false}
-            draggable={false}
-            showDots={true}
-            responsive={responsive}
-            ssr={true} // means to render carousel on server-side.
-            infinite={true}
-            autoPlay={true}
-            autoPlaySpeed={4000}
-            keyBoardControl={true}
-            customTransition='all 1'
-            transitionDuration={500}
-            containerClass='carousel-container'
-            removeArrowOnDeviceType={['tablet', 'mobile']}
-            dotListClass='custom-dot-list-style'
-            itemClass='carousel-item-padding-40-px carousel'
-        >
-            
-            <div className='carousel__item'>
-                <img src={team1} alt='' className='carousel__img' />
-                <div>
-                    <p className='carousel__title'>Founder/CEO</p>
-                    <p className='carousel__name'>
-                        Odoemena Augustine Chinonso
-                    </p>
+            <Carousel
+                swipeable={false}
+                draggable={false}
+                showDots={true}
+                responsive={responsive}
+                ssr={true} // means to render carousel on server-side.
+                infinite={true}
+                autoPlay={true}
+                autoPlaySpeed={4000}
+                keyBoardControl={true}
+                customTransition='all 1'
+                transitionDuration={500}
+                containerClass='carousel-container'
+                removeArrowOnDeviceType={['tablet', 'mobile']}
+                dotListClass='custom-dot-list-style'
+                itemClass='carousel-item-padding-40-px carousel'
+            >
+                <div className='carousel__item'>
+                    <img src={team1} alt='' className='carousel__img' />
+                    <div>
+                        <p className='carousel__title'>Founder/CEO</p>
+                        <p className='carousel__name'>
+                            Odoemena Augustine Chinonso
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Eum facere iure ut delectus ab quam odio
+                            doloremque necessitatibus quos consequuntur eius,
+                            corporis ex suscipit at minima sint placeat nulla
+                            labore.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div className='carousel__item'>
-                <img src={team2} alt='' className='carousel__img' />
-                <div>
-                    <p className='carousel__title'>Founder/CEO</p>
-                    <p className='carousel__name'>
-                        Odoemena Augustine Chinonso
-                    </p>
+                <div className='carousel__item'>
+                    <img src={team2} alt='' className='carousel__img' />
+                    <div>
+                        <p className='carousel__title'>Founder/CEO</p>
+                        <p className='carousel__name'>
+                            Odoemena Augustine Chinonso
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div className='carousel__item'>
-                <img src={team3} alt='' className='carousel__img' />
-                <div>
-                    <p className='carousel__title'>Founder/CEO</p>
-                    <p className='carousel__name'>
-                        Odoemena Augustine Chinonso
-                    </p>
+                <div className='carousel__item'>
+                    <img src={team3} alt='' className='carousel__img' />
+                    <div>
+                        <p className='carousel__title'>Founder/CEO</p>
+                        <p className='carousel__name'>
+                            Odoemena Augustine Chinonso
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div className='carousel__item'>
-                <img src={team8} alt='' className='carousel__img' />
-                <div>
-                    <p className='carousel__title'>Founder/CEO</p>
-                    <p className='carousel__name'>
-                        Odoemena Augustine Chinonso
-                    </p>
+                <div className='carousel__item'>
+                    <img src={team8} alt='' className='carousel__img' />
+                    <div>
+                        <p className='carousel__title'>Founder/CEO</p>
+                        <p className='carousel__name'>
+                            Odoemena Augustine Chinonso
+                        </p>
+                    </div>
                 </div>
-            </div>
             </Carousel>
-            </div>
+        </div>
     )
 }
 
