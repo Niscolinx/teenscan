@@ -1,55 +1,38 @@
 .story {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-   margin: 10rem 3rem;
+    margin: 10rem 3rem;
+    gap: 2rem;
 
     &__1 {
         display: grid;
         align-items: center;
-        padding: 0 6rem;
+        padding: 0 1rem;
 
-        &--item {
-            display: grid;
-            font-size: clamp(1.4rem, 3vw, 1vw);
+        h1 {
+            @extend .heading-1;
+            font-size: 2rem;
+            line-height: 2;
+            font-weight: 600;
+            text-align: center;
+            background: $linear-gradient;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
 
-            h1 {
-                @extend .heading-1;
-                font-size: 2rem;
-                line-height: 2;
-                font-weight: 600;
-                background: $linear-gradient;
-                background-clip: text;
-                -webkit-text-fill-color: transparent;
+            @include respond(tab-port-min) {
+                margin-bottom: -3rem;
             }
         }
 
-        @include respond(bigger-phone) {
-            padding: 2rem 0;
-            gap: 3rem;
-            grid-row-start: 2;
-        }
-    }
-    &__btn {
-        justify-self: start;
-        display: flex;
-        align-items: center;
-        margin-top: 3rem;
-        font-size: $font-clamp;
-        background: $linear-gradient;
-        color: white;
-        text-transform: capitalize;
-        border: none;
-
-        span {
-            display: flex;
-            //  color: $color-secondary;
-            animation: moveInLeft 2s infinite;
-            margin-top: -0.12rem;
+        p {
+            text-align: center;
+            font-weight: 400;
+            font-size: 1.5rem;
         }
     }
 
     &__2 {
-                background: $linear-gradient;
+        background: $linear-gradient;
 
         border-radius: 2rem;
         overflow: hidden;
