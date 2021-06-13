@@ -43,9 +43,27 @@
 
     &__description {
         display: grid;
+        align-items: center;
+        padding: 0 6rem;
 
-        &--item{
-            
+        &--item {
+            display: grid;
+            font-size: clamp(1.4rem, 3vw, 1vw);
+
+            h2 {
+                @extend .heading-2;
+                background: $linear-gradient;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p {
+                font-weight: 300;
+            }
+        }
+
+        @include respond(bigger-phone) {
+            padding: 2rem 0;
+            gap: 3rem;
         }
     }
 
@@ -56,6 +74,8 @@
         padding: 0 1rem;
 
         &--text {
+            position: relative;
+            z-index: 2;
             h1 {
                 @extend .heading-1;
                 font-size: 1.2rem;
@@ -65,12 +85,6 @@
                 color: white;
             }
 
-            p {
-                text-align: center;
-                font-weight: 400;
-                font-size: 1.5rem;
-                line-height: 2;
-            }
         }
 
         &--content {
