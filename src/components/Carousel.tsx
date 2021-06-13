@@ -56,7 +56,7 @@ const CarouselItem = () => {
                             Lecturer, Abia State University
                         </p>
                         <p className='carousel__name'>Dr Emmanuel Shebbs </p>
-                        <p>
+                        <p className='carousel__testimony'>
                             Trust is built on those who know the road to the
                             future. Those people are Teens Can Blog
                         </p>
@@ -69,7 +69,7 @@ const CarouselItem = () => {
                             Founder, Darien Restaurant
                         </p>
                         <p className='carousel__name'>Chijioke Queeneth</p>
-                        <p>
+                        <p className='carousel__testimony'>
                             If there are people I trust who will create a better
                             future for young people it should be Teens Can Blog
                         </p>
@@ -80,7 +80,7 @@ const CarouselItem = () => {
                     <div>
                         <p className='carousel__title'>Software Engineer</p>
                         <p className='carousel__name'>Mr Roland Blessing</p>
-                        <p>
+                        <p className='carousel__testimony'>
                             If future generations are to remember us more with
                             gratitude than sorrow, we must achieve more than
                             just the miracles of technology and Teens Can Blog
