@@ -1,4 +1,4 @@
-import Teens4 from '../assets/teens4.jpeg'
+import Teens4 from '../assets/teens3.png'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 const Story = () => {
 
