@@ -1,5 +1,6 @@
 import Story from '../components/Story'
 import StoryPrimary from '../components/StoryPrimary'
+import Team from '../components/Team'
 
 const About = () => {
     return (
@@ -9,6 +10,7 @@ const About = () => {
             </header>
             <Story />
             <StoryPrimary/>
+            <Team/>
         </div>
     )
 }
