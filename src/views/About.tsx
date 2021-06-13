@@ -1,5 +1,5 @@
-import Teens3 from '../assets/team3.png'
 import Story from '../components/Story'
+import Story1 from '../components/Story1'
 
 const About = () => {
     return (
@@ -7,7 +7,8 @@ const About = () => {
             <header>
                 <h2>About Us</h2>
             </header>
-            <Story/>
+            <Story />
+            <Story1/>
         </div>
     )
 }
