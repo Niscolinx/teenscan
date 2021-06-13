@@ -1,5 +1,6 @@
-import Teens4 from '../assets/teens3.png'
 import TcbVideo from '../assets/tcbvideo.mp4'
+import TcbVideoWebm from '../assets/tcbvideo.webm'
+
 const Story = () => {
     return (
         <div className='story'>
@@ -26,7 +27,7 @@ const Story = () => {
             <div className='bg-video'>
                 <video className='bg-video__content' autoPlay muted loop>
                     <source src={TcbVideo} type='video/mp4' />
-                    {/* <source src="img/La-Costa/La-Costa.webm" type="video/webm"> */}
+                 <source src="img/La-Costa/La-Costa.webm" type="video/webm"> 
                     Your browser is not supported
                 </video>
             </div>
