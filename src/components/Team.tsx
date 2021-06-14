@@ -88,16 +88,7 @@ const Team = () => {
                             <p>Software Engineer</p>
                         </div>
                     </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team4} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
+                    
                     <div className='team__profile'>
                         <div className='team__img'>
                             <img src={team} alt='' />
