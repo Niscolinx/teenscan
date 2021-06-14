@@ -63,8 +63,8 @@ const Team = () => {
                         <img src={team8} alt='' />
                     </div>
                     <div className='team__profile--details'>
-                        <h3>Software Engineer</h3>
-                        <p>Software Engineer</p>
+                        <h3>Graphics Designer</h3>
+                        <p>Ebuka Ikenna John</p>
                     </div>
                 </div>
                 <div className='team__profile'>
@@ -83,8 +83,8 @@ const Team = () => {
                     </div>
 
                     <div className='team__profile--details'>
-                        <h3>Software Engineer</h3>
-                        <p>Software Engineer</p>
+                        <h3>Content Creator</h3>
+                        <p>Maylor</p>
                     </div>
                 </div>
 
@@ -95,7 +95,7 @@ const Team = () => {
 
                     <div className='team__profile--details'>
                         <h3>Software Engineer</h3>
-                        <p>Software Engineer</p>
+                        <p>Igboanugwo Collins</p>
                     </div>
                 </div>
                 {/* </Scrollable> */}
