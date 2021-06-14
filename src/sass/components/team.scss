@@ -13,6 +13,10 @@
             @extend .heading-2;
             text-transform: uppercase;
         }
+
+        p{
+            font-size: 1.4rem;
+        }
     }
 
     &__profiles {
