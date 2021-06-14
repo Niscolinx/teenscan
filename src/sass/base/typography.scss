@@ -9,18 +9,6 @@
             [col-start] minmax(min-content, 14rem) [col-end]
         )
         [center-end] minmax(3rem, 1fr) [full-end];
-
-    // @include respond (bigger-phone) {
-    //     grid-template-rows: 1fr 2fr min-content;
-    //     grid-template-columns:
-    //         [sidebar-start] [sidebar-end full-start] minmax(1rem, 1fr)
-    //         [center-start] repeat(
-    //             8,
-    //             [col-start] minmax(min-content, 14rem) [col-end]
-    //         )
-    //         [center-end] minmax(1rem, 1fr) [full-end];
-    // }
-
    
 }
 .section-wrap {
@@ -98,7 +86,7 @@
     grid-column: sidebar-start / center-end;
     margin: 10rem 0;
 }
-.section-team {
+.section-testimonial {
     grid-column: sidebar-start / center-end;
     
 }
