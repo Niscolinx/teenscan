@@ -1,4 +1,4 @@
-.courses{
+.Courses{
      grid-column: sidebar-start / full-end;
 
     display: grid;
@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-.course__cards {
+.recentCourses__cards {
     margin: 5rem 0;
     // display: grid;
     // grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -18,7 +18,7 @@
     position: relative;
   //  margin: 0 5rem;
 
-    .course {
+    .recentCourses {
         box-shadow: 3px 8px 9px rgb(136, 134, 134);
         border-radius: 1rem 1rem 0 0;
         margin: 2rem;
