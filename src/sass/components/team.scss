@@ -11,14 +11,12 @@
 
     &__profiles {
         position: relative;
-   
     }
 
     &__profile {
         border-radius: 1rem 1rem 0 0;
         //margin: 2rem;
-        
-        
+
         &--details {
             text-align: center;
             padding: 1rem;
@@ -26,12 +24,14 @@
     }
     &__img {
         width: 320px;
-            height: 260px;
+        height: 260px;
+        padding-top: 56.25%;
 
         img {
             width: 100%;
             height: 100%;
-            //object-fit: contain;
+            //aspect-ratio: initial;
+            // object-fit: cover;
         }
     }
 }
