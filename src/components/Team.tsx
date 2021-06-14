@@ -14,7 +14,7 @@ const Team = () => {
     return (
         <div className='team'>
             <div className='team__heading'>
-                <h1>Our Proficient Tea</h1>
+                <h1>Our Proficient Team</h1>
                 <p>Meet the brains behind TeensCanBlog</p>
             </div>
 
