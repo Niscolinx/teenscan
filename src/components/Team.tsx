@@ -21,7 +21,9 @@ const Team = () => {
             <div className='team__profiles'>
                 <Scrollable>
                     <div className='team__profile'>
-                        <img src={team5} alt='' />
+                        <div className='team__img'>
+                            <img src={team5} alt='' />
+                        </div>
 
                         <div className='team__profile--details'>
                             <h3>Software Engineer</h3>
@@ -29,7 +31,9 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='team__profile'>
-                        <img src={team6} alt='' />
+                        <div className='team__img'>
+                            <img src={team6} alt='' />
+                        </div>
 
                         <div className='team__profile--details'>
                             <h3>Software Engineer</h3>
@@ -37,7 +41,9 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='team__profile'>
-                        <img src={team1} alt='' />
+                        <div className='team__img'>
+                            <img src={team1} alt='' />
+                        </div>
 
                         <div className='team__profile--details'>
                             <h3>Software Engineer</h3>
@@ -45,7 +51,27 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='team__profile'>
-                        <img src={team7} alt='' />
+                        <div className='team__img'>
+                            <img src={team7} alt='' />
+                        </div>
+                        <div className='team__profile--details'>
+                            <h3>Software Engineer</h3>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                    <div className='team__profile'>
+                        <div className='team__img'>
+                            <img src={team8} alt='' />
+                        </div>
+                        <div className='team__profile--details'>
+                            <h3>Software Engineer</h3>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                    <div className='team__profile'>
+                        <div className='team__img'>
+                            <img src={team2} alt='' />
+                        </div>
 
                         <div className='team__profile--details'>
                             <h3>Software Engineer</h3>
@@ -53,14 +79,9 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='team__profile'>
-                        <img src={team8} alt='' />
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
+                        <div className='team__img'>
+                            <img src={team3} alt='' />
                         </div>
-                    </div>
-                    <div className='team__profile'>
-                        <img src={team2} alt='' />
 
                         <div className='team__profile--details'>
                             <h3>Software Engineer</h3>
@@ -68,7 +89,9 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='team__profile'>
-                        <img src={team3} alt='' />
+                        <div className='team__img'>
+                            <img src={team4} alt='' />
+                        </div>
 
                         <div className='team__profile--details'>
                             <h3>Software Engineer</h3>
@@ -76,15 +99,9 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='team__profile'>
-                        <img src={team4} alt='' />
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
+                        <div className='team__img'>
+                            <img src={team} alt='' />
                         </div>
-                    </div>
-                    <div className='team__profile'>
-                        <img src={team} alt='' />
 
                         <div className='team__profile--details'>
                             <h3>Software Engineer</h3>
