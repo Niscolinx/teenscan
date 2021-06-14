@@ -1,4 +1,10 @@
+.courses{
+     grid-column: sidebar-start / full-end;
 
+    display: grid;
+    align-items: center;
+    height: 100vh;
+}
 
 .course__cards {
     margin: 5rem 0;

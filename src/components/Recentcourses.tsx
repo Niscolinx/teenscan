@@ -1,5 +1,5 @@
 import Course from './Course'
-import Scrollable from '../components/Scrollable'
+import Scrollable from './Scrollable'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 
 import cardImg from '../assets/course1.jpg'
@@ -8,12 +8,12 @@ import cardImgss from '../assets/course1.jpg'
 import cardImgssss from '../assets/course2.jpg'
 import cardImgsss from '../assets/course3.jpg'
 
-const Courses = () => {
+const RecentCourses = () => {
     return (
         <>
-            <div className='courses__title--box'>
-                <h1 className='courses__heading'>Recent courses</h1>
-                <p className='courses__subHeading'>
+            <div className='recentCourses__title--box'>
+                <h1 className='recentCourses__heading'>Recent Courses</h1>
+                <p className='recentCourses__subHeading'>
                     Learn the latest skills to reach your professional goals.
                 </p>
             </div>
@@ -71,7 +71,7 @@ const Courses = () => {
                 </Scrollable>
             </div>
 
-            <button className='btn courses__btn'>
+            <button className='btn recentCourses__btn'>
                 View More
                 <span>
                     <FaLongArrowAltRight />
@@ -81,4 +81,4 @@ const Courses = () => {
     )
 }
 
-export default Courses
+export default RecentCourses

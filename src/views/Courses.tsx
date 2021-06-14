@@ -10,7 +10,7 @@ import cardImgsss from '../assets/course3.jpg'
 
 const Courses = () => {
     return (
-        <>
+        <div className='courses'>
             <div className='courses__title--box'>
                 <h1 className='courses__heading'>Recent courses</h1>
                 <p className='courses__subHeading'>
@@ -77,7 +77,7 @@ const Courses = () => {
                     <FaLongArrowAltRight />
                 </span>
             </button>
-        </>
+        </div>
     )
 }
 

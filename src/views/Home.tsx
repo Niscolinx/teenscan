@@ -1,4 +1,4 @@
-import Courses from '../components/Courses'
+import RecentCourses from '../components/Recentcourses'
 import Hero from '../components/Hero'
 import Vision from '../components/Vision'
 import BookUs from '../components/BookUs'
@@ -14,7 +14,7 @@ const Home = () => {
             </div>
             <div className='section-wrap'>
                 <div className='section-courses'>
-                    <Courses />
+                    <RecentCourses />
                 </div>
                 <div className='section-vision'>
                     <Vision />
