@@ -1,6 +1,4 @@
 import Course from '../components/Course'
-import Scrollable from '../components/Scrollable'
-import { FaLongArrowAltRight } from 'react-icons/fa'
 
 import cardImg from '../assets/course1.jpg'
 import cardImgs from '../assets/course1.jpg'
@@ -11,14 +9,14 @@ import cardImgsss from '../assets/course3.jpg'
 const Courses = () => {
     return (
         <div className='section-courses'>
-            <div className='course__title--box'>
-                <h1 className='course__heading'>Recent course</h1>
-                <p className='course__subHeading'>
+            <div className='courses__title--box'>
+                <h1 className='courses__heading'>Collection of Course</h1>
+                <p className='courses__subHeading'>
                     Learn the latest skills to reach your professional goals.
                 </p>
             </div>
 
-            <div className='course__cards'>
+            <div className='course__cards1'>
                     <Course
                         title='Everything to know about Blogging and Starting your own Blog'
                         creator='John Doe'
@@ -69,12 +67,7 @@ const Courses = () => {
                     />
             </div>
 
-            <button className='btn course__btn'>
-                View More
-                <span>
-                    <FaLongArrowAltRight />
-                </span>
-            </button>
+     
         </div>
     )
 }
