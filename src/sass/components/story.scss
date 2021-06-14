@@ -36,7 +36,7 @@
     }
 }
 .storyPrimary {
-    background-color: green;
+  //  background-color: green;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
      gap: 2rem;
@@ -78,7 +78,7 @@
         &--text {
             position: relative;
             z-index: 2;
-            padding: 3rem 0;
+            padding: 8rem 0;
             h1 {
                 @extend .heading-1;
                 font-size: 1.2rem;
@@ -98,11 +98,8 @@
             left: 0;
             bottom: 0;
             z-index: -1;
+            overflow: hidden;
 
-            video{
-                height: 100%;
-                width: auto;
-            }
         }
     }
     &__video::before {
