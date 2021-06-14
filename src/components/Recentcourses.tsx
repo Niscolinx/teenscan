@@ -1,5 +1,5 @@
 import Course from './Course'
-import Scrollable from './Scrollable'
+import Scrollable from '../components/Scrollable'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 
 import cardImg from '../assets/course1.jpg'

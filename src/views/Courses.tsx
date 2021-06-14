@@ -19,7 +19,6 @@ const Courses = () => {
             </div>
 
             <div className='course__cards'>
-                <Scrollable>
                     <Course
                         title='Everything to know about Blogging and Starting your own Blog'
                         creator='John Doe'
@@ -68,7 +67,6 @@ const Courses = () => {
                         price={22000}
                         image={cardImgsss}
                     />
-                </Scrollable>
             </div>
 
             <button className='btn course__btn'>
