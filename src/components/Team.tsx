@@ -18,7 +18,7 @@ const Team = () => {
             </div>
 
             <div className='team__profiles'>
-                <Scrollable>
+                {/* <Scrollable> */}
                     <div className='team__profile'>
                         <div className='team__img'>
                             <img src={team5} alt='' />
@@ -87,7 +87,7 @@ const Team = () => {
                             <p>Software Engineer</p>
                         </div>
                     </div>
-
+                    
                     <div className='team__profile'>
                         <div className='team__img'>
                             <img src={team} alt='' />
@@ -98,167 +98,8 @@ const Team = () => {
                             <p>Software Engineer</p>
                         </div>
                     </div>
-                    {/* Start here */}
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team5} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Founder/CEO</h3>
-                            <p>Odoemena Chinonso</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team6} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team1} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team7} alt='' />
-                        </div>
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team8} alt='' />
-                        </div>
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team2} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team3} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    {/* Start here */}
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team5} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Founder/CEO</h3>
-                            <p>Odoemena Chinonso</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team6} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team1} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team7} alt='' />
-                        </div>
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team8} alt='' />
-                        </div>
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team2} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team3} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-
-                    <div className='team__profile'>
-                        <div className='team__img'>
-                            <img src={team} alt='' />
-                        </div>
-
-                        <div className='team__profile--details'>
-                            <h3>Software Engineer</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                </Scrollable>
+                    
+                {/* </Scrollable> */}
             </div>
         </div>
     )
