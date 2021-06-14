@@ -219,8 +219,10 @@
 }
 
 .scrollable {
+    //animation: slideShow 3s linear infinite;
     
     &__item {
+
         position: relative;
         display: flex;
         overflow: auto;
