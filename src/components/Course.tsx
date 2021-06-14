@@ -21,6 +21,7 @@ const Course = (props: CourseProps) => {
                 <p className='course__creator'>{props.creator}</p>
                 <h3 className='course__price'>₦{formattedPrice}</h3>
             </div>
+            <button className='button course__btn'>View</button>
         </div>
     )
 }
