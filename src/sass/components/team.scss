@@ -27,7 +27,7 @@
     }
 
     &__profile {
-        animation: slideShow 25s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+        animation: slideShow 25s linear infinite;
         border-radius: 1rem 1rem 0 0;
         width: 100%;
         transition: all 3s;
