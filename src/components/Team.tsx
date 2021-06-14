@@ -98,7 +98,6 @@ const Team = () => {
                             <p>Software Engineer</p>
                         </div>
                     </div>
-                    
                 {/* </Scrollable> */}
             </div>
         </div>
