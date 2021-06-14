@@ -10,10 +10,10 @@ import cardImgsss from '../assets/course3.jpg'
 
 const Courses = () => {
     return (
-        <div className='courses'>
-            <div className='courses__title--box'>
-                <h1 className='courses__heading'>Recent courses</h1>
-                <p className='courses__subHeading'>
+        <div className='section-courses'>
+            <div className='course__title--box'>
+                <h1 className='course__heading'>Recent course</h1>
+                <p className='course__subHeading'>
                     Learn the latest skills to reach your professional goals.
                 </p>
             </div>
@@ -71,7 +71,7 @@ const Courses = () => {
                 </Scrollable>
             </div>
 
-            <button className='btn courses__btn'>
+            <button className='btn course__btn'>
                 View More
                 <span>
                     <FaLongArrowAltRight />
