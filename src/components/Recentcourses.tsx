@@ -2,11 +2,12 @@ import Course from './Course'
 import Scrollable from '../components/Scrollable'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 
-import cardImg from '../assets/course1.jpg'
-import cardImgs from '../assets/course1.jpg'
-import cardImgss from '../assets/course1.jpg'
-import cardImgssss from '../assets/course2.jpg'
-import cardImgsss from '../assets/course3.jpg'
+import course1 from '../assets/course1.jpg'
+import course2 from '../assets/course2.jpg'
+import course3 from '../assets/course3.jpg'
+import course4 from '../assets/course4.jpg'
+import course5 from '../assets/course5.jpg'
+import course6 from '../assets/course6.jpg'
 
 const RecentCourses = () => {
     return (
