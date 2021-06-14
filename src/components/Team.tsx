@@ -16,10 +16,65 @@ const Team = () => {
             </div>
 
             <div className='team__profiles'>
-
                 <div className='team__profile'>
-                    <img src={team} alt=''/>
-                    
+                    <img src={team5} alt='' />
+
+                    <div className='team__profile--details'>
+                        <h3>Software Engineer</h3>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+                <div className='team__profile'>
+                    <img src={team6} alt='' />
+
+                    <div className='team__profile--details'>
+                        <h3>Software Engineer</h3>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+                <div className='team__profile'>
+                    <img src={team1} alt='' />
+
+                    <div className='team__profile--details'>
+                        <h3>Software Engineer</h3>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+                <div className='team__profile'>
+                    <img src={team7} alt='' />
+
+                    <div className='team__profile--details'>
+                        <h3>Software Engineer</h3>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+                <div className='team__profile'>
+                    <img src={team9} alt='' />
+
+                    <div className='team__profile--details'>
+                        <h3>Software Engineer</h3>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+                <div className='team__profile'>
+                    <img src={team2} alt='' />
+
+                    <div className='team__profile--details'>
+                        <h3>Software Engineer</h3>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+                <div className='team__profile'>
+                    <img src={team8} alt='' />
+
+                    <div className='team__profile--details'>
+                        <h3>Software Engineer</h3>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+                <div className='team__profile'>
+                    <img src={team4} alt='' />
+
                     <div className='team__profile--details'>
                         <h3>Software Engineer</h3>
                         <p>Software Engineer</p>
@@ -28,7 +83,6 @@ const Team = () => {
             </div>
         </div>
     )
-    
 }
 
 export default Team
