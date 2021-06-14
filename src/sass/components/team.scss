@@ -37,6 +37,15 @@
         &--details {
             text-align: center;
             padding: 1rem;
+
+            h3 {
+                @extend .heading-3
+            }
+
+            p{
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
         }
     }
     &__img {
