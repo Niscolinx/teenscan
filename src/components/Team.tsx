@@ -19,7 +19,7 @@ const Team = () => {
             </div>
 
             <div className='team__profiles'>
-                <Scrollable>
+                {/* <Scrollable> */}
                     <div className='team__profile'>
                         <div className='team__img'>
                             <img src={team5} alt='' />
@@ -99,7 +99,7 @@ const Team = () => {
                             <p>Software Engineer</p>
                         </div>
                     </div>
-                </Scrollable>
+                {/* </Scrollable> */}
             </div>
         </div>
     )

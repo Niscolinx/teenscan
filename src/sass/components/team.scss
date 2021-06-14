@@ -9,18 +9,26 @@
         text-align: center;
         margin-bottom: 2rem;
 
-        h1{
+        h1 {
             @extend .heading-2;
             text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.4rem;
         }
     }
 
     &__profiles {
         position: relative;
+        display: flex;
+        animation: slideShow 10s linear infinite;
     }
 
     &__profile {
         border-radius: 1rem 1rem 0 0;
+        width: 100%;
+
         //margin: 2rem;
 
         &--details {
@@ -31,6 +39,11 @@
     &__img {
         width: 320px;
         height: 260px;
+
+        @include respond(phone) {
+            width: 280px;
+            height: 260px;
+        }
 
         img {
             width: 100%;
