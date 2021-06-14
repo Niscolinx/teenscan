@@ -3,6 +3,7 @@ interface CourseProps {
     title: string
     creator: string
     price: number
+    id: number
 }
 
 const Course = (props: CourseProps) => {

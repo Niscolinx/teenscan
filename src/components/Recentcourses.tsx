@@ -24,49 +24,43 @@ const RecentCourses = () => {
                         title='Everything to know about Blogging and Starting your own Blog'
                         creator='John Doe'
                         price={10000}
-                        image={cardImg}
+                        image={course1}
+                        id={1}
                     />
                     <Course
                         title='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatem blanditiis culpa dolorem iusto eaque, enim tenetur corrupti dolores exercitationem ad debitis excepturi eveniet nam facilis quae, recusandae tempora. Officiis!'
                         creator='John Doe'
                         price={10000}
-                        image={cardImg}
+                        image={course2}
+                        id={2}
                     />
                     <Course
                         title='Title of the course'
                         creator='John Doe'
                         price={10000}
-                        image={cardImg}
+                        image={course3}
+                        id={3}
                     />
                     <Course
                         title='Title of the course'
                         creator='John Doe'
                         price={14000}
-                        image={cardImgs}
+                        image={course4}
+                        id={4}
                     />
                     <Course
                         title='Title of the course'
                         creator='John Doe'
                         price={19000}
-                        image={cardImgss}
+                        image={course5}
+                        id={5}
                     />
                     <Course
                         title='Title of the course'
                         creator='John Doe'
                         price={22000}
-                        image={cardImgsss}
-                    />
-                    <Course
-                        title='Title of the course'
-                        creator='John Doe'
-                        price={22000}
-                        image={cardImgssss}
-                    />
-                    <Course
-                        title='Title of the course'
-                        creator='John Doe'
-                        price={22000}
-                        image={cardImgsss}
+                        image={course6}
+                        id={6}
                     />
                 </Scrollable>
             </div>
