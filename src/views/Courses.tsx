@@ -1,10 +1,10 @@
 import Course from '../components/Course'
 
 import cardImg from '../assets/course1.jpg'
-import cardImgs from '../assets/course1.jpg'
-import cardImgss from '../assets/course1.jpg'
-import cardImgssss from '../assets/course2.jpg'
-import cardImgsss from '../assets/course3.jpg'
+import course2 from '../assets/course2.jpg'
+import course3 from '../assets/course3.jpg'
+import course4 from '../assets/course4.jpg'
+import course5 from '../assets/course3.jpg'
 
 const Courses = () => {
     return (
