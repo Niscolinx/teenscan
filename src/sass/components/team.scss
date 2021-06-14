@@ -4,6 +4,7 @@
     flex-direction: column;
     // max-width: 37.5rem;
     min-width: 20.3rem;
+    transition: all 3s;
 
     &__heading {
         text-align: center;
@@ -22,12 +23,14 @@
     &__profiles {
         position: relative;
         display: flex;
-        animation: slideShow 10s linear infinite;
+        transition: all 3s;
     }
 
     &__profile {
+        animation: slideShow 25s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
         border-radius: 1rem 1rem 0 0;
         width: 100%;
+        transition: all 3s;
 
         //margin: 2rem;
 
