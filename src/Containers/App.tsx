@@ -10,6 +10,7 @@ import {
 import Home from '../views/Home'
 import About from '../views/About'
 import { LastLocationType } from 'react-router-last-location'
+import Courses from '../views/Courses'
 
 
 
@@ -42,6 +43,7 @@ function App() {
                 render={Home}
             />
                 <Route path='/about' component={About} />
+                <Route path='/courses' component={Courses} />
             {/* <Route
                 path='/Auth/login'
                 render={(props) => <LoginPage {...props} />}

@@ -100,7 +100,7 @@ const Header = () => {
                 {categoryModal}
             </div> */}
 
-            <Link to='/' className='header__homenav'>
+            <Link to='/courses' className='header__homenav'>
                 Courses
             </Link>
 
