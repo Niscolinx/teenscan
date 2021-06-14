@@ -99,7 +99,7 @@
             z-index: -1;
         }
     }
-    &__video::after {
+    &__video::before {
         content: '';
         box-shadow: 2px 3px 9px 0px #898787;
         width: 100%;

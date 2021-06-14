@@ -32,16 +32,13 @@ const StoryPrimary = () => {
                 </div>
             </div>
             <div className='storyPrimary__video'>
-                <video
-                    autoPlay
-                    muted
-                    loop
-                    className='storyPrimary__video--content'
-                >
-                    <source src={TcbVideo} type='video/mp4' />
-                    <source src={TcbVideoWebm} type='video/webm' />
-                    Your browser is not supported
-                </video>
+                <div className='storyPrimary__video--content'>
+                    <video autoPlay muted loop>
+                        <source src={TcbVideo} type='video/mp4' />
+                        <source src={TcbVideoWebm} type='video/webm' />
+                        Your browser is not supported
+                    </video>
+                </div>
                 <div className='storyPrimary__video--text'>
                     <h1>
                         Teens Can Blog is a tech initiative targeted at
