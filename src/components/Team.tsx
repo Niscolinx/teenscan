@@ -6,6 +6,7 @@ import team4 from '../assets/team4.jpg'
 import team5 from '../assets/team5.jpg'
 import team6 from '../assets/team6.jpg'
 import team7 from '../assets/team7.jpg'
+import team8 from '../assets/team8.jpg'
 
 const Team = () => {
     return (
@@ -49,8 +50,7 @@ const Team = () => {
                     </div>
                 </div>
                 <div className='team__profile'>
-                    <img src={team9} alt='' />
-
+                    <img src={team8} alt='' />
                     <div className='team__profile--details'>
                         <h3>Software Engineer</h3>
                         <p>Software Engineer</p>
@@ -65,7 +65,7 @@ const Team = () => {
                     </div>
                 </div>
                 <div className='team__profile'>
-                    <img src={team8} alt='' />
+                    <img src={team3} alt='' />
 
                     <div className='team__profile--details'>
                         <h3>Software Engineer</h3>
@@ -74,6 +74,14 @@ const Team = () => {
                 </div>
                 <div className='team__profile'>
                     <img src={team4} alt='' />
+
+                    <div className='team__profile--details'>
+                        <h3>Software Engineer</h3>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+                <div className='team__profile'>
+                    <img src={team} alt='' />
 
                     <div className='team__profile--details'>
                         <h3>Software Engineer</h3>
