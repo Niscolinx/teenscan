@@ -1,10 +1,11 @@
 import Course from '../components/Course'
 
-import cardImg from '../assets/course1.jpg'
+import course1 from '../assets/course1.jpg'
 import course2 from '../assets/course2.jpg'
 import course3 from '../assets/course3.jpg'
 import course4 from '../assets/course4.jpg'
-import course5 from '../assets/course3.jpg'
+import course5 from '../assets/course5.jpg'
+import course6 from '../assets/course6.jpg'
 
 const Courses = () => {
     return (
@@ -21,50 +22,39 @@ const Courses = () => {
                         title='Everything to know about Blogging and Starting your own Blog'
                         creator='John Doe'
                         price={10000}
-                        image={cardImg}
+                        image={course1}
                     />
                     <Course
                         title='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatem blanditiis culpa dolorem iusto eaque, enim tenetur corrupti dolores exercitationem ad debitis excepturi eveniet nam facilis quae, recusandae tempora. Officiis!'
                         creator='John Doe'
                         price={10000}
-                        image={cardImg}
+                        image={course2}
                     />
                     <Course
                         title='Title of the course'
                         creator='John Doe'
                         price={10000}
-                        image={cardImg}
+                        image={course3}
                     />
                     <Course
                         title='Title of the course'
                         creator='John Doe'
                         price={14000}
-                        image={cardImgs}
+                        image={course4}
                     />
                     <Course
                         title='Title of the course'
                         creator='John Doe'
                         price={19000}
-                        image={cardImgss}
+                        image={course5}
                     />
                     <Course
                         title='Title of the course'
                         creator='John Doe'
                         price={22000}
-                        image={cardImgsss}
+                        image={course6}
                     />
-                    <Course
-                        title='Title of the course'
-                        creator='John Doe'
-                        price={22000}
-                        image={cardImgssss}
-                    />
-                    <Course
-                        title='Title of the course'
-                        creator='John Doe'
-                        price={22000}
-                        image={cardImgsss}
-                    />
+                    
             </div>
 
      
