@@ -1,5 +1,9 @@
 .carousel {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
     &-box {
+        padding: 4rem 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -7,19 +11,18 @@
         &__item {
             text-align: center;
 
-            h3{
+            h3 {
                 @extend .heading-4;
                 text-transform: capitalize;
             }
 
-            p{
+            p {
                 font-size: 1.2rem;
             }
         }
     }
-    display: flex;
-    justify-content: center;
-    padding: 4rem 0;
+
+
     &__item {
         text-align: center;
     }
