@@ -7,7 +7,6 @@ import team5 from '../assets/team5.jpg'
 import team6 from '../assets/team6.jpg'
 import team7 from '../assets/team7.jpg'
 import team8 from '../assets/team8.png'
-import Scrollable from './Scrollable'
 
 const Team = () => {
     return (
