@@ -1,7 +1,9 @@
 const Course = () => {
     return (
-        <div>
-            This is the course page
+        <div className='courseItem'>
+            
+            <div className=''></div>
+            <div></div>
         </div>
     )
 }
