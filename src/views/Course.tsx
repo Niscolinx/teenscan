@@ -1,4 +1,12 @@
+import courseJson from '../../courses.json'
+
 const Course = () => {
+
+    const viewCourses = JSON.stringify(courseJson)
+
+    console.log({viewCourses})
+
+
     return (
         <div className='courseItem'>
             
