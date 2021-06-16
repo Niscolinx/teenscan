@@ -11,12 +11,9 @@ interface CourseProps {
 const Course = (props: CourseProps) => {
 
     const history = useHistory()
-    const location = useLocation()
-    console.log('location', location)
-    console.log(history)
 
     const handleClick = () => {
-        history.push(`/courses:${}`)
+        history.push(`/courses/:${props.id}`)
     }
     
     const { price } = props
