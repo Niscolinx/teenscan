@@ -1,4 +1,4 @@
-const courseDetails = (props: any) => {
+const courseDetail = (props: any) => {
     const selectedCourse = props.match.params.id.split(':')[1]
 
     console.log({ props })
@@ -6,4 +6,4 @@ const courseDetails = (props: any) => {
     return <div className='courseDetails'>course details</div>
 }
 
-export default courseDetails
+export default courseDetail
