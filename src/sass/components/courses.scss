@@ -179,3 +179,9 @@
             // }
         }
     }
+
+
+    .courseDetails {
+          display: grid;
+    grid-column: sidebar-start / full-end;
+    }
