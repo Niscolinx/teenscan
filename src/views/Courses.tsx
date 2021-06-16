@@ -1,3 +1,6 @@
+import React, {useEffect} from 'react'
+
+
 import Course from '../components/Course'
 
 import course1 from '../assets/course1.jpg'
@@ -8,6 +11,12 @@ import course5 from '../assets/course5.jpg'
 import course6 from '../assets/course6.jpg'
 
 const Courses = () => {
+
+    useEffect(() => {
+       fetch('/courses.json')
+           .then((response) => response.json())
+           .then((data) => console.log(data))
+    }, [])
     return (
         <div className='section-courses1'>
             <header>

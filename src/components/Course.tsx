@@ -10,18 +10,22 @@ interface CourseProps {
 }
 
 const Course = (props: CourseProps) => {
-    useEffect(() => {
-        fetch('../course.json', {})
-            .then((res) => {
-                return res.json()
-            })
-            .then((resData) => {
-                console.log({ resData })
-            })
-            .catch((err) => {
-                console.log({ err })
-            })
-    }, [])
+    // useEffect(() => {
+    //     fetch('/courses.json')
+    //         .then((response) => response.json())
+    //         .then((data) => console.log(data))
+
+    //     // fetch('/courses.json')
+    //     //     .then((res) => {
+    //     //         res.json()
+    //     //     })
+    //     //     .then((resData) => {
+    //     //         console.log({ resData })
+    //     //     })
+    //     //     .catch((err) => {
+    //     //         console.log({ err })
+    //     //     })
+    // }, [])
 
     const history = useHistory()
 
