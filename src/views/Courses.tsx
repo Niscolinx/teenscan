@@ -10,6 +10,10 @@ import course6 from '../assets/course6.jpg'
 const Courses = () => {
     return (
         <div className='section-courses'>
+            <header>
+                <h2>About Us</h2>
+            </header>
+            
             <div className='courses__title--box'>
                 <h1 className='courses__heading'>Collection of Course</h1>
                 <p className='courses__subHeading'>
