@@ -1,5 +1,5 @@
 import { useHistory } from 'react-router-dom'
-import coursesJson from '../../courses.json'
+import coursesJson from '../courses.json'
 
 interface CourseProps {
     image: string
