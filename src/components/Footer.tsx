@@ -29,7 +29,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <AiFillPhone />
-                            09066287396
+                            +2348123669728
                         </li>
                         <li>
                             <SiMailDotRu />
@@ -49,16 +49,14 @@ const Footer = () => {
                 <div className='footer__item'>
                     <h3>Navigate</h3>
                     <ul>
-                        <Link to='/'>Courses</Link>
-                        <Link to='/'>Instructors</Link>
-                        <Link to='/'>Events</Link>
+                        <Link to='/courses'>Courses</Link>
                     </ul>
                 </div>
                 <div className='footer__item'>
                     <h3>Useful Links</h3>
                     <ul>
-                        <Link to='/'>About</Link>
-                        <Link to='/'>Contact Us</Link>
+                        <Link to='/about'>About</Link>
+                        <Link to='/contact'>Contact Us</Link>
                     </ul>
                 </div>
             </div>

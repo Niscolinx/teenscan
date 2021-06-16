@@ -35,22 +35,22 @@
     .recentCourses,
     .courses {
         color: $color-grey-dark-2;
-        
+
         &__title--box {
             @extend .heading-3;
             display: grid;
             text-align: center;
             margin: 3rem 0;
         }
-        
+
         &__subHeading {
             color: $color-grey-dark-1;
         }
-        
+
         &__btn {
             margin: 2rem auto;
             display: flex;
-            
+
             span {
                 display: flex;
                 color: $color-secondary;
@@ -58,130 +58,130 @@
             }
         }
     }
-    
 }
-    .course__cards1 {
-        margin: 5rem 0;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-        row-gap: 2rem;
-        column-gap: 10rem;
-        justify-items: center;
-        padding: 0 6rem;
+.course__cards1 {
+    margin: 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    row-gap: 2rem;
+    column-gap: 10rem;
+    justify-items: center;
+    padding: 0 6rem;
 
-        position: relative;
-        //  margin: 0 5rem;
+    position: relative;
+    //  margin: 0 5rem;
 
-        .course {
-            box-shadow: 3px 8px 9px rgb(136, 134, 134);
-            border-radius: 1rem 1rem 0 0;
-            margin: 2rem;
-            display: flex;
-            flex-direction: column;
-            max-width: 37.5rem;
-            min-width: 20.3rem;
+    .course {
+        box-shadow: 3px 8px 9px rgb(136, 134, 134);
+        border-radius: 1rem 1rem 0 0;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        max-width: 37.5rem;
+        min-width: 20.3rem;
 
-            &__imgbox {
-                border-radius: 1rem 1rem;
-                overflow: hidden;
-            }
-
-            &__img {
-                //  clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
-                // width: 320px;
-                // height: 260px;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-            &__details {
-                padding: 2rem;
-            }
-
-            &__title {
-                // font-family: $font-primary;
-                // font-size: 1.3rem;
-                // overflow: hidden;
-                // white-space: nowrap;
-                // text-overflow: ellipsis;
-
-                width: 12em;
-                display: -webkit-box !important;
-                -webkit-line-clamp: 2;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: normal;
-                text-transform: capitalize;
-            }
-            &__creator {
-                font-size: 1.2rem;
-                font-weight: 300;
-            }
-            // &__price {
-            // }
+        &__imgbox {
+            border-radius: 1rem 1rem;
+            overflow: hidden;
         }
-    }
 
-    .course__btn {
-        background: #f6c600;
-        color: black;
-        font-weight: 700;
-
-        &:hover {
-            color: white;
+        &__img {
+            //  clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
+            // width: 320px;
+            // height: 260px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
-    }
-
-    .course__cards {
-        margin: 5rem 0;
-
-        position: relative;
-
-        .course {
-            box-shadow: 3px 8px 9px rgb(136, 134, 134);
-            border-radius: 1rem 1rem 0 0;
-            margin: 2rem;
-            display: flex;
-            flex-direction: column;
-            max-width: 37.5rem;
-            min-width: 20.3rem;
-
-            &__imgbox {
-                border-radius: 1rem 1rem;
-                overflow: hidden;
-            }
-
-            &__img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-            &__details {
-                padding: 2rem;
-            }
-
-            &__title {
-                width: 12em;
-                display: -webkit-box !important;
-                -webkit-line-clamp: 2;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: normal;
-                text-transform: capitalize;
-            }
-            &__creator {
-                font-size: 1.2rem;
-                font-weight: 300;
-            }
-            // &__price {
-            // }
+        &__details {
+            padding: 2rem;
         }
+
+        &__title {
+            // font-family: $font-primary;
+            // font-size: 1.3rem;
+            // overflow: hidden;
+            // white-space: nowrap;
+            // text-overflow: ellipsis;
+
+            width: 12em;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            text-transform: capitalize;
+        }
+        &__creator {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        // &__price {
+        // }
     }
+}
 
+.course__btn {
+    background: #f6c600;
+    color: black;
+    font-weight: 700;
 
-    .courseDetails {
-          display: grid;
+    &:hover {
+        color: white;
+    }
+}
+
+.course__cards {
+    margin: 5rem 0;
+
+    position: relative;
+
+    .course {
+        box-shadow: 3px 8px 9px rgb(136, 134, 134);
+        border-radius: 1rem 1rem 0 0;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        max-width: 37.5rem;
+        min-width: 20.3rem;
+
+        &__imgbox {
+            border-radius: 1rem 1rem;
+            overflow: hidden;
+        }
+
+        &__img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        &__details {
+            padding: 2rem;
+        }
+
+        &__title {
+            width: 12em;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            text-transform: capitalize;
+        }
+        &__creator {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        // &__price {
+        // }
+    }
+}
+
+.courseDetail {
+    height: 100vh;
+    margin: 10rem 0;
+    display: grid;
     grid-column: sidebar-start / full-end;
-    }
+}

@@ -1,4 +1,5 @@
-import {useHistory} from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
+import coursesJson from '../../courses.json'
 
 interface CourseProps {
     image: string
@@ -9,6 +10,8 @@ interface CourseProps {
 }
 
 const Course = (props: CourseProps) => {
+
+    console.log({coursesJson})
 
     const history = useHistory()
 

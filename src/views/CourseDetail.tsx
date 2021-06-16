@@ -3,7 +3,7 @@ const courseDetail = (props: any) => {
 
     console.log({ props })
 
-    return <div className='courseDetails'>course details</div>
+    return (<div className='courseDetail'>course details</div>)
 }
 
 export default courseDetail
