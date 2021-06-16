@@ -10,7 +10,6 @@ import {
     AiFillTwitterSquare,
     AiFillLinkedin,
 } from 'react-icons/ai'
-import React from 'react'
 
 const Footer = () => {
     const date = new Date()
