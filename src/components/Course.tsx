@@ -16,7 +16,7 @@ const Course = (props: CourseProps) => {
     console.log(history)
 
     const handleClick = () => {
-        history.push('/')
+        history.push(`/courses:${}`)
     }
     
     const { price } = props

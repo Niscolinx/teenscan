@@ -45,7 +45,7 @@ function App() {
             />
                 <Route path='/about' component={About} />
                 <Route path='/courses' component={Courses} />
-                <Route path='/courses' component={CourseDetails} />
+                <Route path='/courses/:id' component={CourseDetails} />
             {/* <Route
                 path='/Auth/login'
                 render={(props) => <LoginPage {...props} />}
