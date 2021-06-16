@@ -1,4 +1,4 @@
-import {useHistory} from 'react-router-dom'
+import {useHistory, useLocation} from 'react-router-dom'
 
 interface CourseProps {
     image: string
@@ -11,6 +11,8 @@ interface CourseProps {
 const Course = (props: CourseProps) => {
 
     const history = useHistory()
+    const location = useLocation()
+    console.log('location', location)
     console.log(history)
     const { price } = props
 

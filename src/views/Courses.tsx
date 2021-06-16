@@ -9,13 +9,13 @@ import course6 from '../assets/course6.jpg'
 
 const Courses = () => {
     return (
-        <div className='section-courses'>
+        <div className='section-courses1'>
             <header>
-                <h2>About Us</h2>
+                <h2>Courses</h2>
             </header>
-            
+
             <div className='courses__title--box'>
-                <h1 className='courses__heading'>Collection of Course</h1>
+                <h1 className='courses__heading'>Collection of Courses</h1>
                 <p className='courses__subHeading'>
                     Learn the latest skills to reach your professional goals.
                 </p>
