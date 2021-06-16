@@ -14,6 +14,11 @@ const Course = (props: CourseProps) => {
     const location = useLocation()
     console.log('location', location)
     console.log(history)
+
+    const handleClick = () => {
+        history.push('/')
+    }
+    
     const { price } = props
 
     const formattedPrice = price.toLocaleString()
@@ -28,7 +33,7 @@ const Course = (props: CourseProps) => {
                 <p className='course__creator'>{props.creator}</p>
                 <h3 className='course__price'>₦{formattedPrice}</h3>
             </div>
-            <button className='button course__btn'>View</button>
+            <button className='button course__btn' onClick={handleClick}>View</button>
         </div>
     )
 }

@@ -35,22 +35,22 @@
     .recentCourses,
     .courses {
         color: $color-grey-dark-2;
-
+        
         &__title--box {
             @extend .heading-3;
             display: grid;
             text-align: center;
             margin: 3rem 0;
         }
-
+        
         &__subHeading {
             color: $color-grey-dark-1;
         }
-
+        
         &__btn {
             margin: 2rem auto;
             display: flex;
-
+            
             span {
                 display: flex;
                 color: $color-secondary;
@@ -58,7 +58,8 @@
             }
         }
     }
-
+    
+}
     .course__cards1 {
         margin: 5rem 0;
         display: grid;
@@ -178,4 +179,3 @@
             // }
         }
     }
-}
