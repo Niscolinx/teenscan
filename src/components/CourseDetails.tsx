@@ -1,10 +1,7 @@
 const courseDetails = (props: any) => {
+    console.log({ props })
 
-    console.log({props})
-
-    return (<div>
-        course details
-    </div>
-        )
+    return <div className='courseDetails'>course details</div>
 }
-export default CourseDetails
+
+export default courseDetails
