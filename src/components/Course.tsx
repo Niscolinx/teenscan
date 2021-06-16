@@ -1,5 +1,6 @@
 import { useHistory } from 'react-router-dom'
-import coursesJson from '../courses.json'
+import React, {useEffect} from 'react'
+
 
 interface CourseProps {
     image: string
@@ -11,7 +12,17 @@ interface CourseProps {
 
 const Course = (props: CourseProps) => {
 
-    console.log({coursesJson})
+    useEffect(() => {
+
+        fetch('../course.json', {
+
+        }).then(res => {
+            console.log({res})
+        }).catch(err => {
+            console.log({err})
+        })
+    }, [])
+
 
     const history = useHistory()
 
