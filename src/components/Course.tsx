@@ -1,3 +1,5 @@
+import {useHistory} from 'react-router-dom'
+
 interface CourseProps {
     image: string
     title: string
@@ -7,6 +9,9 @@ interface CourseProps {
 }
 
 const Course = (props: CourseProps) => {
+
+    const history = useHistory()
+    console.log(history)
     const { price } = props
 
     const formattedPrice = price.toLocaleString()
