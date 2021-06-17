@@ -182,24 +182,27 @@
 .courseDetail {
     margin: 10rem 0;
     display: grid;
-    grid-column: full-start / center-end;
+    grid-column: sidebar-start / full-end;
 
-    &__primary{
+    &__primary {
         display: flex;
         background: #1e1e1c;
         color: white;
     }
-    &__2{
-        
-        img{
+
+    &__secondary {
+        padding: 0 3rem;
+    }
+    &__2 {
+        img {
             width: 400px;
             height: 320px;
             object-fit: cover;
         }
     }
 
-    &__1{
-        h2{
+    &__1 {
+        h2 {
             @extend .heading-2;
             text-transform: capitalize;
             font-style: normal;
