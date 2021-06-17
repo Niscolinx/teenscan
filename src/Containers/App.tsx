@@ -12,6 +12,7 @@ import About from '../views/About'
 import { LastLocationType } from 'react-router-last-location'
 import Courses from '../views/Courses'
 import CourseDetail from '../views/CourseDetail'
+import Checkout from '../views/Checkout'
 
 
 
@@ -46,6 +47,7 @@ function App() {
                 <Route path='/about' component={About} />
                 <Route path='/courses' component={Courses} />
                 <Route path='/courseDetail/:id' component={CourseDetail} />
+                <Route path='/checkout' component={Checkout} />
             {/* <Route
                 path='/Auth/login'
                 render={(props) => <LoginPage {...props} />}
