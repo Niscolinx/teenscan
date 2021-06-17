@@ -26,7 +26,6 @@ const Courses = () => {
             })
     }, [])
 
-    console.log('courses', courses)
 
     return (
         <div className='section-courses1'>

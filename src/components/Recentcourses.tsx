@@ -1,6 +1,10 @@
+import { FaLongArrowAltRight } from 'react-icons/fa'
+import { useEffect, useState } from 'react'
+import {useHistory} from 'react-router-dom'
+import axios from 'axios'
+
 import Course from './Course'
 import Scrollable from '../components/Scrollable'
-import { FaLongArrowAltRight } from 'react-icons/fa'
 
 import course1 from '../assets/course1.jpg'
 import course2 from '../assets/course2.jpg'
@@ -10,6 +14,27 @@ import course5 from '../assets/course5.jpg'
 import course6 from '../assets/course6.jpg'
 
 const RecentCourses = () => {
+
+    const [courses, setCourses] = useState([])
+    
+    const history = useHistory()
+
+    const courseImages = [course1, course2, course3, course4, course5, course6]
+    
+    useEffect(() => {
+        axios('/courses.json')
+            .then((res) => {
+                const data = res.data
+                setCourses(data)
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    }, [])
+
+    const handleClick = () => {
+        history.push('/courses')
+    }
     return (
         <>
             <div className='recentCourses__title--box'>
@@ -21,52 +46,26 @@ const RecentCourses = () => {
 
             <div className='course__cards'>
                 <Scrollable>
-                    <Course
-                        title='Everything to know about Blogging and Starting your own Blog'
-                        creator='John Doe'
-                        price={10000}
-                        image={course1}
-                        id={1}
-                    />
-                    <Course
-                        title='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatem blanditiis culpa dolorem iusto eaque, enim tenetur corrupti dolores exercitationem ad debitis excepturi eveniet nam facilis quae, recusandae tempora. Officiis!'
-                        creator='John Doe'
-                        price={10000}
-                        image={course2}
-                        id={2}
-                    />
-                    <Course
-                        title='Title of the course'
-                        creator='John Doe'
-                        price={10000}
-                        image={course3}
-                        id={3}
-                    />
-                    <Course
-                        title='Title of the course'
-                        creator='John Doe'
-                        price={14000}
-                        image={course4}
-                        id={4}
-                    />
-                    <Course
-                        title='Title of the course'
-                        creator='John Doe'
-                        price={19000}
-                        image={course5}
-                        id={5}
-                    />
-                    <Course
-                        title='Title of the course'
-                        creator='John Doe'
-                        price={22000}
-                        image={course6}
-                        id={6}
-                    />
+                    {courses.map((course: any, index: number) => {
+                        return (
+                            <Course
+                                title={course.title}
+                                creator={course.creator}
+                                price={course.price}
+                                image={courseImages[index]}
+                                description={course.description}
+                                includes={course.includes}
+                                requirements={course.requirements}
+                                overview={course.overview}
+                                objectives={course.objectives}
+                                id={course.id}
+                            />
+                        )
+                    })}
                 </Scrollable>
             </div>
 
-            <button className='btn recentCourses__btn'>
+            <button className='btn recentCourses__btn' onClick={handleClick}>
                 View More
                 <span>
                     <FaLongArrowAltRight />
