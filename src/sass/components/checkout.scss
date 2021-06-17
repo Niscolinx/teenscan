@@ -1,13 +1,29 @@
 .checkout {
-    margin: 10rem 0;
+    margin: 14rem 0;
     display: grid;
     grid-column: full-start / center-end;
     gap: 3rem;
+    justify-content: center;
 
     h3 {
         font-size: 2rem;
         background: $linear-gradient;
         background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    &__select{
+        width: 30rem;
+        outline: none;
+        padding: 1rem 3rem;
+        cursor: pointer;
+
+        option{
+            margin: 1rem;
+            background: blue;
+            color:yellow;
+            cursor: pointer;
+            padding: 3rem;
+        }
     }
 }
