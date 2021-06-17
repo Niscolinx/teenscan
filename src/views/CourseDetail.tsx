@@ -20,7 +20,12 @@ const courseDetail = (props: any) => {
 
     return (
         <div className='courseDetail'>
-            <div className='courseDetail__2'></div>
+            <div className='courseDetail__2'>
+                <img src={image} alt='' />
+                <h3>{price}</h3>
+                
+                <button>Buy now</button>
+            </div>
             <div className='courseDetail__1'>
                 <h2>{title}</h2>
                 <p>{description}</p>
