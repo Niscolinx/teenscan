@@ -258,6 +258,7 @@
     &__btn {
         display: grid;
         justify-self: center;
+        align-self: center;
         background: white;
         color: $color-secondary;
         font-weight: 700;
