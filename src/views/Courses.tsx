@@ -1,5 +1,5 @@
-import {useEffect} from 'react'
-
+import { useEffect, useState } from 'react'
+import axios from 'axios'
 
 import Course from '../components/Course'
 
@@ -12,11 +12,22 @@ import course6 from '../assets/course6.jpg'
 
 const Courses = () => {
 
+    const [courses, setCourses] = useState({})
+
     useEffect(() => {
-       fetch('/courses.json')
-           .then((response) => response.json())
-           .then((data) => console.log(data))
+    
+
+        axios('/courses.json')
+            .then(res => {
+                const data = JSON.stringify(res.data)
+                setCourses(data)
+            })
+            .catch(err => {
+                console.log(err)
+            })
     }, [])
+
+
     return (
         <div className='section-courses1'>
             <header>
