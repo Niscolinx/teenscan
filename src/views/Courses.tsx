@@ -13,8 +13,6 @@ import course6 from '../assets/course6.jpg'
 const Courses = () => {
     const [courses, setCourses] = useState([])
 
-    console.log('courses', course1, course2, course3, course4, course5, course6)
-
     const courseImages = [course1, course2, course3, course4, course5, course6]
 
     useEffect(() => {
