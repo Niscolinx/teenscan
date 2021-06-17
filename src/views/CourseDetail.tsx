@@ -4,7 +4,7 @@ const CourseDetail = (props: any) => {
 
     const history = useHistory()
 
-    const selectedCourse = props.match.params.id.split(':')[1]
+    //const selectedCourse = props.match.params.id.split(':')[1]
 
     console.log('course detail', props.location.state.props)
 

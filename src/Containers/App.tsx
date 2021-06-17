@@ -46,7 +46,7 @@ function App() {
             />
                 <Route path='/about' component={About} />
                 <Route path='/courses' component={Courses} />
-                <Route path='/courseDetail/:id' component={CourseDetail} />
+                <Route path='/courseDetail' component={CourseDetail} />
                 <Route path='/checkout' component={Checkout} />
             {/* <Route
                 path='/Auth/login'
