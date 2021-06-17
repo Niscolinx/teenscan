@@ -1,9 +1,6 @@
 import { useHistory } from 'react-router-dom'
 import course1 from '../assets/course1.jpg'
 
-import path from 'path'
-
-
 interface CourseProps {
     image: string
     title: string
@@ -14,13 +11,8 @@ interface CourseProps {
 
 const Course = (props: CourseProps) => {
 
-   // console.log(path.join(__dirname, `../assets/${props.image}`))
-    console.log('single image', props.image)
-    //console.log(`../assets/${props.image}`)
+    console.log('single image', require(props.image))
  
-    const img = '../assets/course1.jpg'
-
-    console.log(img)
 
     const history = useHistory()
 
@@ -35,7 +27,7 @@ const Course = (props: CourseProps) => {
         <div className='course'>
             <div className='course__imgbox'>
                 <img
-                    src={require(`../assets${props.image}`)}
+                    src={`../assets/${props.image}`}
                     alt='courseImg'
                     className='course__img'
                 />

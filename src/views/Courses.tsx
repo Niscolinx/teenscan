@@ -56,13 +56,6 @@ const Courses = () => {
                     })
                 }
 
-                <Course
-                    title='Everything to know about Blogging and Starting your own Blog'
-                    creator='John Doe'
-                    price={10000}
-                    image={course1}
-                    id={1}
-                />
                 {/* <Course
                     title='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatem blanditiis culpa dolorem iusto eaque, enim tenetur corrupti dolores exercitationem ad debitis excepturi eveniet nam facilis quae, recusandae tempora. Officiis!'
                     creator='John Doe'
