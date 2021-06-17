@@ -1,4 +1,9 @@
+import { useHistory } from 'react-router-dom'
+
 const courseDetail = (props: any) => {
+
+    const history = useHistory()
+
     const selectedCourse = props.match.params.id.split(':')[1]
 
     console.log('course detail', props.location.state.props)
@@ -16,9 +21,11 @@ const courseDetail = (props: any) => {
         requirements,
     } = props.location.state.props
 
+    const formattedPrice = price.toLocaleString()
 
-        const formattedPrice = price.toLocaleString()
-
+    const handleBuy = () => {
+        history.push('/checkout')
+    }
 
     return (
         <div className='courseDetail'>
@@ -34,7 +41,10 @@ const courseDetail = (props: any) => {
                     </p>
                     <h3>₦{formattedPrice}</h3>
 
-                    <button className='button courseDetail__btn'>
+                    <button
+                        className='button courseDetail__btn'
+                        onClick={handleBuy}
+                    >
                         Buy now
                     </button>
                 </div>

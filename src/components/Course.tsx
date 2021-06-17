@@ -18,7 +18,7 @@ const Course = (props: CourseProps) => {
     const history = useHistory()
 
     const handleClick = () => {
-        history.push(`/courseDetail/:${props.id}`, {
+        history.push(`/courseDetail`, {
             props,
         })
     }
