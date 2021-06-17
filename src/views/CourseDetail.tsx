@@ -1,6 +1,6 @@
 import { useHistory } from 'react-router-dom'
 
-const courseDetail = (props: any) => {
+const CourseDetail = (props: any) => {
 
     const history = useHistory()
 
@@ -95,4 +95,4 @@ const courseDetail = (props: any) => {
     )
 }
 
-export default courseDetail
+export default CourseDetail
