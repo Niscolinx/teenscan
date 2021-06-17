@@ -1,15 +1,12 @@
-{
-    "1": {
+[
+    {
+        "id": 1,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "name": "Odoemena Augustine Chinonso",
         "image": "../assets/course1.jpg",
-        "includes": [
-            "Certificate of Completion"
-        ],
-        "requirements": [
-            "Access to a computer with an internet connection"
-        ],
+        "includes": ["Certificate of Completion"],
+        "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
@@ -29,17 +26,14 @@
             "Plugin"
         ]
     },
-    "2": {
+    {
+        "id": 2,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "name": "Odoemena Augustine Chinonso",
         "image": "../assets/course1.jpg",
-        "includes": [
-            "Certificate of Completion"
-        ],
-        "requirements": [
-            "Access to a computer with an internet connection"
-        ],
+        "includes": ["Certificate of Completion"],
+        "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
@@ -59,17 +53,14 @@
             "Plugin"
         ]
     },
-    "3": {
+    {
+        "id": 3,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "name": "Odoemena Augustine Chinonso",
         "image": "../assets/course1.jpg",
-        "includes": [
-            "Certificate of Completion"
-        ],
-        "requirements": [
-            "Access to a computer with an internet connection"
-        ],
+        "includes": ["Certificate of Completion"],
+        "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
@@ -89,17 +80,14 @@
             "Plugin"
         ]
     },
-    "4": {
+    {
+        "id": 4,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "name": "Odoemena Augustine Chinonso",
         "image": "../assets/course1.jpg",
-        "includes": [
-            "Certificate of Completion"
-        ],
-        "requirements": [
-            "Access to a computer with an internet connection"
-        ],
+        "includes": ["Certificate of Completion"],
+        "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
@@ -119,17 +107,14 @@
             "Plugin"
         ]
     },
-    "5": {
+    {
+        "id": 5,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "name": "Odoemena Augustine Chinonso",
         "image": "../assets/course1.jpg",
-        "includes": [
-            "Certificate of Completion"
-        ],
-        "requirements": [
-            "Access to a computer with an internet connection"
-        ],
+        "includes": ["Certificate of Completion"],
+        "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
@@ -149,4 +134,4 @@
             "Plugin"
         ]
     }
-}
+]

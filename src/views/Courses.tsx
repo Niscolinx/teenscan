@@ -11,12 +11,12 @@ import course5 from '../assets/course5.jpg'
 import course6 from '../assets/course6.jpg'
 
 const Courses = () => {
-    const [courses, setCourses] = useState({})
+    const [courses, setCourses] = useState([])
 
     useEffect(() => {
         axios('/courses.json')
             .then((res) => {
-                const data = JSON.stringify(res.data)
+                const data = res.data
                 setCourses(data)
             })
             .catch((err) => {
@@ -24,7 +24,7 @@ const Courses = () => {
             })
     }, [])
 
-   console.log(Object.values(courses))
+    console.log('courses', courses)
 
     return (
         <div className='section-courses1'>
@@ -40,6 +40,7 @@ const Courses = () => {
             </div>
 
             <div className='course__cards1'>
+
                 <Course
                     title='Everything to know about Blogging and Starting your own Blog'
                     creator='John Doe'
