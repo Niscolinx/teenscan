@@ -6,10 +6,10 @@ interface CourseProps {
     creator: string
     price: number
     id: number
-    includes: string[]
-    requirements: string[]
-    overview: string[]
-    objectives: string[]
+    includes?: string[]
+    requirements?: string[]
+    overview?: string[]
+    objectives?: string[]
 }
 
 const Course = (props: CourseProps) => {
