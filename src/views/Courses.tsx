@@ -41,6 +41,21 @@ const Courses = () => {
 
             <div className='course__cards1'>
 
+                {
+                    courses.map((course:any) => {
+                        console.log(course.title)
+                        return (
+                            <Course
+                                title={course.title}
+                                creator={course.creator}
+                                price={course.price}
+                                image={course.image}
+                                id={course.id}
+                            />
+                        )
+                    })
+                }
+
                 <Course
                     title='Everything to know about Blogging and Starting your own Blog'
                     creator='John Doe'
@@ -48,7 +63,7 @@ const Courses = () => {
                     image={course1}
                     id={1}
                 />
-                <Course
+                {/* <Course
                     title='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatem blanditiis culpa dolorem iusto eaque, enim tenetur corrupti dolores exercitationem ad debitis excepturi eveniet nam facilis quae, recusandae tempora. Officiis!'
                     creator='John Doe'
                     price={10000}
@@ -82,7 +97,7 @@ const Courses = () => {
                     price={22000}
                     image={course6}
                     id={6}
-                />
+                /> */}
             </div>
         </div>
     )

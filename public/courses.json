@@ -3,8 +3,8 @@
         "id": 1,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
-        "name": "Odoemena Augustine Chinonso",
-        "image": "../assets/course1.jpg",
+        "creator": "Odoemena Augustine Chinonso",
+        "image": "../course1.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
@@ -24,14 +24,14 @@
             "Installation/Theme",
             "Affiliate Marketing",
             "Plugin"
-        ]
+        ],
+        "price": 30000
     },
     {
         "id": 2,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
-        "name": "Odoemena Augustine Chinonso",
-        "image": "../assets/course1.jpg",
+        "creator": "Odoemena Augustine Chinonso",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
@@ -51,14 +51,14 @@
             "Installation/Theme",
             "Affiliate Marketing",
             "Plugin"
-        ]
+        ],
+        "price": 30000
     },
     {
         "id": 3,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
-        "name": "Odoemena Augustine Chinonso",
-        "image": "../assets/course1.jpg",
+        "creator": "Odoemena Augustine Chinonso",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
@@ -78,14 +78,14 @@
             "Installation/Theme",
             "Affiliate Marketing",
             "Plugin"
-        ]
+        ],
+        "price": 30000
     },
     {
         "id": 4,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
-        "name": "Odoemena Augustine Chinonso",
-        "image": "../assets/course1.jpg",
+        "creator": "Odoemena Augustine Chinonso",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
@@ -105,14 +105,14 @@
             "Installation/Theme",
             "Affiliate Marketing",
             "Plugin"
-        ]
+        ],
+        "price": 30000
     },
     {
         "id": 5,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
-        "name": "Odoemena Augustine Chinonso",
-        "image": "../assets/course1.jpg",
+        "creator": "Odoemena Augustine Chinonso",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
@@ -132,6 +132,7 @@
             "Installation/Theme",
             "Affiliate Marketing",
             "Plugin"
-        ]
+        ],
+        "price": 30000
     }
 ]

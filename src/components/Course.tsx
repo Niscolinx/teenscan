@@ -1,5 +1,8 @@
 import { useHistory } from 'react-router-dom'
-import React, { useEffect } from 'react'
+import course1 from '../assets/course1.jpg'
+
+import path from 'path'
+
 
 interface CourseProps {
     image: string
@@ -10,22 +13,11 @@ interface CourseProps {
 }
 
 const Course = (props: CourseProps) => {
-    // useEffect(() => {
-    //     fetch('/courses.json')
-    //         .then((response) => response.json())
-    //         .then((data) => console.log(data))
 
-    //     // fetch('/courses.json')
-    //     //     .then((res) => {
-    //     //         res.json()
-    //     //     })
-    //     //     .then((resData) => {
-    //     //         console.log({ resData })
-    //     //     })
-    //     //     .catch((err) => {
-    //     //         console.log({ err })
-    //     //     })
-    // }, [])
+   // console.log(path.join(__dirname, `../assets/${props.image}`))
+    console.log('single image', props.image)
+    //console.log(`../assets/${props.image}`)
+ 
 
     const history = useHistory()
 
@@ -40,7 +32,7 @@ const Course = (props: CourseProps) => {
         <div className='course'>
             <div className='course__imgbox'>
                 <img
-                    src={props.image}
+                    src={course1}
                     alt='courseImg'
                     className='course__img'
                 />
