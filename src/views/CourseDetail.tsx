@@ -30,12 +30,13 @@ const courseDetail = (props: any) => {
                     <h2>{title}</h2>
                     <p>{description}</p>
                     <p className='courseDetail__creator'>
-                        {' '}
-                        Created by {creator}
+                        Created by <span>{creator}</span>
                     </p>
-                    <h3>{formattedPrice}</h3>
+                    <h3>₦{formattedPrice}</h3>
 
-                    <button className='button courseDetail__btn'>Buy now</button>
+                    <button className='button courseDetail__btn'>
+                        Buy now
+                    </button>
                 </div>
             </div>
             <div className='courseDetail__secondary'>

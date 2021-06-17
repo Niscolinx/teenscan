@@ -183,10 +183,11 @@
     margin: 10rem 0;
     display: grid;
     grid-column: sidebar-start / full-end;
+    gap: 3rem;
 
     &__primary {
         display: grid;
-        grid-template-columns: min-content 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
         gap: 3rem;
         background: #1e1e1c;
         color: white;
@@ -197,9 +198,16 @@
     &__secondary {
         padding: 0 8rem;
         font-size: 1.4rem;
+        display: grid;
+        gap: 2rem;
 
-        ul{
+        ul {
             list-style: circle;
+
+            li{
+                font-size: 1.5rem;
+                font-weight: 500;
+            }
         }
     }
     &__2 {
@@ -220,16 +228,27 @@
             font-style: normal;
         }
 
-        p{
+        p {
             font-size: 1.4rem;
         }
 
+        h3{
+            font-size: 2rem;
+            font-weight: 800;
+        }
     }
-    &__creator{
-        font-weight: 600;
+    &__creator {
+        font-weight: 400;
+        font-size: 0.8rem;
+        color: $color-secondary;
+        span {
+            font-weight: 600;
+            font-size: 1.4rem;
+            color: white;
+        }
     }
 
-    &__btn{
+    &__btn {
         display: grid;
         justify-self: center;
         background: white;
