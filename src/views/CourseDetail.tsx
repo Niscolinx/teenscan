@@ -16,21 +16,26 @@ const courseDetail = (props: any) => {
         requirements,
     } = props.location.state.props
 
-    console.log('title', title, 'id', id)
+
+        const formattedPrice = price.toLocaleString()
+
 
     return (
         <div className='courseDetail'>
             <div className='courseDetail__primary'>
                 <div className='courseDetail__2'>
                     <img src={image} alt='' />
-                    <h3>{price}</h3>
-
-                    <button>Buy now</button>
                 </div>
                 <div className='courseDetail__1'>
                     <h2>{title}</h2>
                     <p>{description}</p>
-                    <p> Created by {creator}</p>
+                    <p className='courseDetail__creator'>
+                        {' '}
+                        Created by {creator}
+                    </p>
+                    <h3>{formattedPrice}</h3>
+
+                    <button className='button courseDetail__btn'>Buy now</button>
                 </div>
             </div>
             <div className='courseDetail__secondary'>

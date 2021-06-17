@@ -185,13 +185,22 @@
     grid-column: sidebar-start / full-end;
 
     &__primary {
-        display: flex;
+        display: grid;
+        grid-template-columns: min-content 1fr;
+        gap: 3rem;
         background: #1e1e1c;
         color: white;
+        justify-items: center;
+        padding: 2rem 4rem;
     }
 
     &__secondary {
-        padding: 0 3rem;
+        padding: 0 8rem;
+        font-size: 1.4rem;
+
+        ul{
+            list-style: circle;
+        }
     }
     &__2 {
         img {
@@ -202,10 +211,31 @@
     }
 
     &__1 {
+        display: grid;
+        gap: 1rem;
+
         h2 {
             @extend .heading-2;
             text-transform: capitalize;
             font-style: normal;
         }
+
+        p{
+            font-size: 1.4rem;
+        }
+
+    }
+    &__creator{
+        font-weight: 600;
+    }
+
+    &__btn{
+        display: grid;
+        justify-self: center;
+        background: white;
+        color: $color-secondary;
+        font-weight: 700;
+        border-radius: 2rem;
+        align-items: center;
     }
 }
