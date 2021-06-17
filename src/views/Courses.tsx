@@ -44,14 +44,13 @@ const Courses = () => {
             </div>
 
             <div className='course__cards1'>
-                {courses.map((course: any) => {
-                    console.log(course.title)
+                {courses.map((course: any, index: number) => {
                     return (
                         <Course
                             title={course.title}
                             creator={course.creator}
                             price={course.price}
-                            image={course.image}
+                            image={courseImages[index]}
                             id={course.id}
                         />
                     )

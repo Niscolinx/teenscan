@@ -138,5 +138,33 @@
             "Plugin"
         ],
         "price": 30000
+    },
+    {
+        "id": 6,
+        "title": "Everything to know about blogging and starting your own blog",
+        "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
+        "creator": "Odoemena Augustine Chinonso",
+        "image": "course5.jpg",
+        "includes": ["Certificate of Completion"],
+        "requirements": ["Access to a computer with an internet connection"],
+        "what you will learn": [
+            "Learn advanced Python features, like the collections module and how to work with timestamps",
+            "Understand complex topics, like decorators",
+            "Learn to use Object Oriented Programming with classes!",
+            "Build a complete understanding from the ground up!"
+        ],
+        "overview": [
+            "Strategy - Choosing a Niche",
+            "Creating your brand",
+            "Building a top Blog",
+            "Creating Content",
+            "Promoting your Blog and Videos",
+            "Monetizing your Blog",
+            "Wordpress.com",
+            "Installation/Theme",
+            "Affiliate Marketing",
+            "Plugin"
+        ],
+        "price": 30000
     }
 ]
