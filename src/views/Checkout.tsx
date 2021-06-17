@@ -4,7 +4,7 @@ const Checkout = () => {
             <h3>Checkout</h3>
 
             <select className='checkout__select'>
-                <option value='localPay'>Local Deposit</option>
+                <option value='localPay' >Local Deposit</option>
                 <option value='Paystack'>Card Payment</option>
             </select>
 
@@ -16,7 +16,7 @@ const Checkout = () => {
                     <p>N30,000</p>
                 </div>
 
-                <button className='button'>Complete Payment</button>
+                <button className='button checkout__btn'>Complete Payment</button>
             </div>
         </div>
     )

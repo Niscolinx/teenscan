@@ -4,26 +4,47 @@
     grid-column: full-start / center-end;
     gap: 3rem;
     justify-content: center;
+    justify-items: center;
 
     h3 {
         font-size: 2rem;
+        text-transform: uppercase;
         background: $linear-gradient;
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
-    &__select{
+    &__select {
         width: 30rem;
         outline: none;
         padding: 1rem 3rem;
         cursor: pointer;
+        margin-bottom: 3rem;
 
-        option{
-            margin: 1rem;
-            background: blue;
-            color:yellow;
-            cursor: pointer;
+        option {
             padding: 3rem;
+            font-size: 1.2rem;
         }
+    }
+
+    &__details{
+        display: grid;
+        gap: 1rem;
+
+        h3{
+            font-size: 1.7rem;
+            text-transform: capitalize;
+        }
+
+        p{
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
+
+    &__btn{
+
+        color: white;
+        background: $color-secondary;
     }
 }
