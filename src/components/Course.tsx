@@ -6,15 +6,20 @@ interface CourseProps {
     creator: string
     price: number
     id: number
+    includes: string[]
+    requirements: string[]
+    overview: string[]
+    objectives: string[]
 }
 
 const Course = (props: CourseProps) => {
- 
-
+    console.log('single course', props)
     const history = useHistory()
 
     const handleClick = () => {
-        history.push(`/courseDetail/:${props.id}`)
+        history.push(`/courseDetail/:${props.id}`, {
+            props,
+        })
     }
 
     const { price } = props

@@ -7,7 +7,7 @@
         "image": "course1.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
-        "what you will learn": [
+        "objectives": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
             "Learn to use Object Oriented Programming with classes!",
@@ -35,7 +35,7 @@
         "image": "course2.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
-        "what you will learn": [
+        "objectives": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
             "Learn to use Object Oriented Programming with classes!",
@@ -63,7 +63,7 @@
         "image": "course3.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
-        "what you will learn": [
+        "objectives": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
             "Learn to use Object Oriented Programming with classes!",
@@ -91,7 +91,7 @@
         "image": "course4.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
-        "what you will learn": [
+        "objectives": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
             "Learn to use Object Oriented Programming with classes!",
@@ -119,7 +119,7 @@
         "image": "course5.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
-        "what you will learn": [
+        "objectives": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
             "Learn to use Object Oriented Programming with classes!",
@@ -147,7 +147,7 @@
         "image": "course5.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
-        "what you will learn": [
+        "objectives": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
             "Understand complex topics, like decorators",
             "Learn to use Object Oriented Programming with classes!",
