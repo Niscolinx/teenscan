@@ -13,7 +13,9 @@ import course6 from '../assets/course6.jpg'
 const Courses = () => {
     const [courses, setCourses] = useState([])
 
-    console.log('courses', course1, course2)
+    console.log('courses', course1, course2, course3, course4, course5, course6)
+
+    const courseImages = [course1, course2, course3, course4, course5, course6]
 
     useEffect(() => {
         axios('/courses.json')
@@ -59,7 +61,7 @@ const Courses = () => {
                     title='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatem blanditiis culpa dolorem iusto eaque, enim tenetur corrupti dolores exercitationem ad debitis excepturi eveniet nam facilis quae, recusandae tempora. Officiis!'
                     creator='John Doe'
                     price={10000}
-                    image={course2}
+                    image={course2, course3, course4, course2, course2}
                     id={2}
                 />
                 <Course
