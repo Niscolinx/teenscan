@@ -11,22 +11,20 @@ import course5 from '../assets/course5.jpg'
 import course6 from '../assets/course6.jpg'
 
 const Courses = () => {
-
     const [courses, setCourses] = useState({})
 
     useEffect(() => {
-    
-
         axios('/courses.json')
-            .then(res => {
+            .then((res) => {
                 const data = JSON.stringify(res.data)
                 setCourses(data)
             })
-            .catch(err => {
+            .catch((err) => {
                 console.log(err)
             })
     }, [])
 
+   console.log(Object.values(courses))
 
     return (
         <div className='section-courses1'>
