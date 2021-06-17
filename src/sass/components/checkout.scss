@@ -1,6 +1,13 @@
 .checkout {
-     margin: 10rem 0;
+    margin: 10rem 0;
     display: grid;
-    grid-column: sidebar-start / full-end;
+    grid-column: full-start / center-end;
     gap: 3rem;
+
+    h3 {
+        font-size: 2rem;
+        background: $linear-gradient;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }

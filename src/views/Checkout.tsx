@@ -12,8 +12,8 @@ const Checkout = () => {
                 <h3>Order details</h3>
 
                 <div className='checkout__details--items'>
-                    <h3>Title of the course</h3>
-                    <h3>N30,000</h3>
+                    <p>Title of the course</p>
+                    <p>N30,000</p>
                 </div>
 
                 <button className='button'>Complete Payment</button>
