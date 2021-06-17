@@ -13,6 +13,8 @@ import course6 from '../assets/course6.jpg'
 const Courses = () => {
     const [courses, setCourses] = useState([])
 
+    console.log('courses', course1, course2)
+
     useEffect(() => {
         axios('/courses.json')
             .then((res) => {
@@ -40,21 +42,18 @@ const Courses = () => {
             </div>
 
             <div className='course__cards1'>
-
-                {
-                    courses.map((course:any) => {
-                        console.log(course.title)
-                        return (
-                            <Course
-                                title={course.title}
-                                creator={course.creator}
-                                price={course.price}
-                                image={course.image}
-                                id={course.id}
-                            />
-                        )
-                    })
-                }
+                {courses.map((course: any) => {
+                    console.log(course.title)
+                    return (
+                        <Course
+                            title={course.title}
+                            creator={course.creator}
+                            price={course.price}
+                            image={course.image}
+                            id={course.id}
+                        />
+                    )
+                })}
 
                 {/* <Course
                     title='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatem blanditiis culpa dolorem iusto eaque, enim tenetur corrupti dolores exercitationem ad debitis excepturi eveniet nam facilis quae, recusandae tempora. Officiis!'

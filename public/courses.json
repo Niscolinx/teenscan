@@ -4,7 +4,7 @@
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "creator": "Odoemena Augustine Chinonso",
-        "image": "../assets/course1.jpg",
+        "image": "course1.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
@@ -32,7 +32,7 @@
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "creator": "Odoemena Augustine Chinonso",
-        "image": "../assets/course2.jpg",
+        "image": "course2.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
@@ -60,7 +60,7 @@
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "creator": "Odoemena Augustine Chinonso",
-        "image": "../assets/course3.jpg",
+        "image": "course3.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
@@ -88,7 +88,7 @@
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "creator": "Odoemena Augustine Chinonso",
-        "image": "../assets/course4.jpg",
+        "image": "course4.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [
@@ -116,7 +116,7 @@
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "creator": "Odoemena Augustine Chinonso",
-        "image": "../assets/course5.jpg",
+        "image": "course5.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
         "what you will learn": [

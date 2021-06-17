@@ -1,5 +1,4 @@
 import { useHistory } from 'react-router-dom'
-import course1 from '../assets/course1.jpg'
 
 interface CourseProps {
     image: string
@@ -10,8 +9,6 @@ interface CourseProps {
 }
 
 const Course = (props: CourseProps) => {
-
-    console.log('single image', require(props.image))
  
 
     const history = useHistory()
@@ -27,7 +24,7 @@ const Course = (props: CourseProps) => {
         <div className='course'>
             <div className='course__imgbox'>
                 <img
-                    src={`../assets/${props.image}`}
+                    src={props.image}
                     alt='courseImg'
                     className='course__img'
                 />
