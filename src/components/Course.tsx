@@ -18,6 +18,9 @@ const Course = (props: CourseProps) => {
     console.log('single image', props.image)
     //console.log(`../assets/${props.image}`)
  
+    const img = '../assets/course1.jpg'
+
+    console.log(img)
 
     const history = useHistory()
 
@@ -32,7 +35,7 @@ const Course = (props: CourseProps) => {
         <div className='course'>
             <div className='course__imgbox'>
                 <img
-                    src={course1}
+                    src={require(`../assets${props.image}`)}
                     alt='courseImg'
                     className='course__img'
                 />
