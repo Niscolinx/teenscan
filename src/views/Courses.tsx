@@ -49,6 +49,7 @@ const Courses = () => {
                             creator={course.creator}
                             price={course.price}
                             image={courseImages[index]}
+                            description={course.description}
                             includes={course.includes}
                             requirements={course.requirements}
                             overview={course.overview}

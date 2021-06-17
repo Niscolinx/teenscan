@@ -9,8 +9,11 @@ const courseDetail = (props: any) => {
 
     return (
         <div className='courseDetail'>
-            course details
-            <h1>{title}</h1>
+            <div className='courseDetail__1'>
+                <h2>{ title}</h2>
+
+            </div>
+            <div className='courseDetail__2'></div>
         </div>
     )
 }

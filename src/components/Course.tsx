@@ -6,6 +6,7 @@ interface CourseProps {
     creator: string
     price: number
     id: number
+    description?: string
     includes?: string[]
     requirements?: string[]
     overview?: string[]
