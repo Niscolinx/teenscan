@@ -34,12 +34,6 @@ const Checkout = (props: any) => {
     return (
         <div className='checkout'>
             <h3 className='checkout__header'>Checkout</h3>
-
-            <select className='checkout__select'>
-                <option value='localPay'>Local Deposit</option>
-                <option value='Paystack'>Card Payment</option>
-            </select>
-
             <div className='checkout__paymentType'>
                 <h4>Account Details</h4>
 
