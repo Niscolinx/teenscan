@@ -11,6 +11,15 @@
         background: $linear-gradient;
         background-clip: text;
         -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 1.4rem;
+         text-transform: uppercase;
+        background: $linear-gradient;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     &__select {
@@ -28,7 +37,6 @@
 
     &__details {
         display: grid;
-        gap: 1rem;
 
         h3 {
             font-size: 1.7rem;
