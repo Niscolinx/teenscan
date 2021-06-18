@@ -1,7 +1,9 @@
 import { PaystackButton } from 'react-paystack'
+import {useHistory} from 'react-router-dom'
 
 const Checkout = (props: any) => {
-    console.log('checkout props', props.location.state)
+
+    const history = useHistory()
     const { title, price } = props.location.state
 
     const config = {
@@ -13,13 +15,13 @@ const Checkout = (props: any) => {
     const formattedPrice = price.toLocaleString()
 
     const handlePaystackSuccessAction = (reference: any) => {
-        // Implementation for whatever you want to do with reference and after success call.
-        console.log(reference)
+        console.log('reference', reference)
+
+        history.push('/courses')
     }
 
-    // you can call this function anything
+    
     const handlePaystackCloseAction = () => {
-        // implementation for  whatever you want to do when the Paystack dialog closed.
         console.log('closed')
     }
 
