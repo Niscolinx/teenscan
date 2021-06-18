@@ -8,6 +8,13 @@ const Checkout = () => {
                 <option value='Paystack'>Card Payment</option>
             </select>
 
+            <div className="checkout__paymentType">
+
+                <p>Bank Name: <span>Gurantee Trust Bank</span></p>
+                <p>Account Name: <span>Teens Can Blog Tech Comm.</span></p>
+                <p>Account Number: <span>0632650272</span></p>
+            </div>
+
             <div className='checkout__details'>
                 <h3>Order details</h3>
 

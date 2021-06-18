@@ -40,10 +40,14 @@
             font-size: 1.5rem;
             font-weight: 500;
         }
+
+        &--items{
+            padding-bottom: 2rem;
+        }
     }
 
     &__btn{
-
+        font-weight: 500;
         color: white;
         background: $color-secondary;
     }
