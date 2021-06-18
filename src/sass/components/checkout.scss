@@ -14,9 +14,9 @@
         text-align: center;
     }
 
-    h4{
+    h4 {
         font-size: 1.4rem;
-         text-transform: uppercase;
+        text-transform: uppercase;
         background: $linear-gradient;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -52,8 +52,13 @@
             display: grid;
             padding-bottom: 2rem;
 
-            p{
-                font-size: 1rem;
+            p {
+                font-size: 1.4rem;
+
+                span {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                }
             }
         }
     }
@@ -68,7 +73,7 @@
         border-top: 1px solid $color-grey-light-2;
         border-bottom: 1px solid $color-grey-light-2;
         padding: 1rem 0;
-        
+
         p {
             font-size: 1.4rem;
 

@@ -31,8 +31,8 @@ const Checkout = (props: any) => {
                 <h4>Summary</h4>
 
                 <div className='checkout__details--items'>
-                    <p>course: {title}</p>
-                    <p>price: ₦{formattedPrice}</p>
+                    <p>course: <span>{title}</span></p>
+                    <p>price: <span>₦{formattedPrice}</span></p>
                 </div>
 
                 <button className='button checkout__btn'>
