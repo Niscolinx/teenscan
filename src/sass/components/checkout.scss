@@ -4,7 +4,6 @@
     grid-column: full-start / center-end;
     gap: 3rem;
     justify-content: center;
-    justify-items: center;
 
     h3 {
         font-size: 2rem;
@@ -27,28 +26,39 @@
         }
     }
 
-    &__details{
+    &__details {
         display: grid;
         gap: 1rem;
 
-        h3{
+        h3 {
             font-size: 1.7rem;
             text-transform: capitalize;
         }
 
-        p{
+        p {
             font-size: 1.5rem;
             font-weight: 500;
         }
 
-        &--items{
+        &--items {
             padding-bottom: 2rem;
         }
     }
 
-    &__btn{
+    &__btn {
         font-weight: 500;
         color: white;
         background: $color-secondary;
+    }
+
+    &__paymentType {
+        p {
+            font-size: 1.4rem;
+
+            span {
+                font-size: 1.5rem;
+                font-weight: 500;
+            }
+        }
     }
 }
