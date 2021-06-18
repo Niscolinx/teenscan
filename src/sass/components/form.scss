@@ -69,14 +69,14 @@
 }
 
 .form__displayError {
-    font-size: clamp(1.7rem, 3vw, 2rem);
+    font-size: 1.2rem;
     background-color: rgb(158, 26, 26);
     color: white;
     padding: 1rem 3rem;
     border-radius: 1rem;
 }
 .form__displayMessage {
-    font-size: clamp(1.7rem, 3vw, 2rem);
+    font-size: 1.2rem;
     background-color: rgb(4, 58, 16);
     color: white;
     padding: 1rem 3rem;
