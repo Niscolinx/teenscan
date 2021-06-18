@@ -14,7 +14,7 @@ import course7 from '../assets/course7.jpeg'
 const Courses = () => {
     const [courses, setCourses] = useState([])
 
-    const courseImages = [course1, course2, course3, course4, course5, course6]
+    const courseImages = [course1, course2, course3, course4, course5, course6, course7]
 
     useEffect(() => {
         axios('/courses.json')
