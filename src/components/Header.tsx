@@ -9,7 +9,10 @@ const Header = () => {
 
     return (
         <>
+            <Link to='/'>
+
             <img src={Logo} alt='logo' className='header__logo' />
+            </Link>
 
             <Link to='/courses' className='header__homenav'>
                 Courses
