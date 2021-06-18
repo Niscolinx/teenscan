@@ -34,6 +34,23 @@ const Checkout = (props: any) => {
     return (
         <div className='checkout'>
             <h3 className='checkout__header'>Checkout</h3>
+
+            <div className='checkout__details'>
+                <h4>Summary</h4>
+
+                <div className='checkout__details--items'>
+                    <div>
+                        <span>Course:</span>
+                        <p className='checkout__details--item'>{title}</p>
+                    </div>
+                    <div>
+                        <span>Price:</span>
+                        <p className='checkout__details--item'>
+                            ₦{formattedPrice}{' '}
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div className='checkout__paymentType'>
                 <h4>Account Details</h4>
 
@@ -56,26 +73,9 @@ const Checkout = (props: any) => {
                             0632650272
                         </p>
                     </div>
-                </div>
-            </div>
-
-            <div className='checkout__details'>
-                <h4>Summary</h4>
-
-                <div className='checkout__details--items'>
-                    <div>
-                        <span>Course:</span>
-                        <p className='checkout__details--item'>{title}</p>
-                    </div>
-                    <div>
-                        <span>Price:</span>
-                        <p className='checkout__details--item'>
-                            ₦{formattedPrice}{' '}
-                        </p>
-                    </div>
-                </div>
 
                     <PaystackButton {...componentProps} />
+                </div>
             </div>
         </div>
     )
