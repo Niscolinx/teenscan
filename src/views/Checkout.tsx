@@ -1,33 +1,34 @@
 import { PaystackButton } from 'react-paystack'
+
 const Checkout = (props: any) => {
     console.log('checkout props', props.location.state)
     const { title, price } = props.location.state
 
-
-const config = {
-    email: 'teenscanblog@gmail.com',
-    amount: 20000,
-    publicKey: 'pk_test_93e3bae833c60377335c8a9e9ade423acdb9f9f7',
-}
+    const config = {
+        email: 'teenscanblog@gmail.com',
+        amount: 20000,
+        publicKey: 'pk_test_93e3bae833c60377335c8a9e9ade423acdb9f9f7',
+    }
 
     const formattedPrice = price.toLocaleString()
-     const handlePaystackSuccessAction = (reference: any) => {
-         // Implementation for whatever you want to do with reference and after success call.
-         console.log(reference)
-     }
 
-     // you can call this function anything
-     const handlePaystackCloseAction = () => {
-         // implementation for  whatever you want to do when the Paystack dialog closed.
-         console.log('closed')
-     }
+    const handlePaystackSuccessAction = (reference: any) => {
+        // Implementation for whatever you want to do with reference and after success call.
+        console.log(reference)
+    }
 
-     const componentProps = {
-         ...config,
-         text: 'Paystack Button Implementation',
-         onSuccess: (reference:any) => handlePaystackSuccessAction(reference),
-         onClose: handlePaystackCloseAction,
-     }
+    // you can call this function anything
+    const handlePaystackCloseAction = () => {
+        // implementation for  whatever you want to do when the Paystack dialog closed.
+        console.log('closed')
+    }
+
+    const componentProps = {
+        ...config,
+        text: 'Complete Payment',
+        onSuccess: (reference: any) => handlePaystackSuccessAction(reference),
+        onClose: handlePaystackCloseAction,
+    }
 
     return (
         <div className='checkout'>
@@ -79,15 +80,10 @@ const config = {
                     </div>
                 </div>
 
-                <button className='button checkout__btn'>
                     <PaystackButton {...componentProps} />
-                </button>
             </div>
         </div>
     )
 }
 
 export default Checkout
-
-
-
