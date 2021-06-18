@@ -1,9 +1,7 @@
 import { useHistory } from 'react-router-dom'
 
 const CourseDetail = (props: any) => {
-
     const history = useHistory()
-
 
     const {
         title,
@@ -22,8 +20,8 @@ const CourseDetail = (props: any) => {
 
     const handleBuy = () => {
         history.push('/checkout', {
-            title,
-            price
+            title: 'hello',
+            price: 32343,
         })
     }
 
