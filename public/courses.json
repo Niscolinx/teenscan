@@ -87,29 +87,41 @@
         "id": 4,
         "title": "Data Analysis with Advance Microsoft Excel (from Beginner to Expert)",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
-        "creator": "Odoemena Augustine Chinonso",
+        "creator": "Unachukwu Emmanuel",
         "image": "course4.jpg",
-        "includes": ["Certificate of Completion"],
+        "includes": ["Certificate of Completion", "Full lifetime access"],
         "requirements": ["Access to a computer with an internet connection"],
         "objectives": [
-            "Learn advanced Python features, like the collections module and how to work with timestamps",
-            "Understand complex topics, like decorators",
-            "Learn to use Object Oriented Programming with classes!",
-            "Build a complete understanding from the ground up!"
+            "Learn all Microsoft Excel tools",
+            " Learn the most common Excel functions used in the Office",
+            " Maintain large sets of Excel data in a list or table (plus data analysis )",
+            " Microsoft Excel Interface (menu bar, sheets, cells, columns, rows) ",
+            " Basic functions Microsoft Excel (printing, resizing, Autofill, Shortcuts, templates)",
+            " Work with data (find and replacing text, Constant link in formulas, Import text, Linking text) in Microsoft Excel",
+            " Work with formulas ( brief information about all types of formulas) in Microsoft Excel",
+
+            " FORMULAS",
+            "Studying math formulas SUMM, AUTOSUM, AVERAGE, AVERAGEA in Microsoft Excel.",
+            "Studying logical formulas and statements (TRUE, FALSE, IF, IFERROR) in Microsoft Excel",
+            "Studying other types of formulas ( VLOOKUP, HLOOKUP, MIN,MAX, DATE, DAY, TODAY) in Microsoft Excel",
+            "Studying advance formulas (SUMIF, SUMIFS, COUNTIF, COUNTIFS) in Microsoft Excel",
+
+            " Formatting (Draw, Merging, Splitting text, Bordering, Filing (Coloring), Data grouping, text formatting) in Microsoft Excel",
+
+            " Filtering and sorting in Microsoft Excel",
+            " Working with Smart Tables (and slicing) in Microsoft Excel",
+            " Creating Charts in Microsoft Excel",
+            " Extra functions (Protect information, Changing menu bars, Notes and comments) in Microsoft Excel",
+            " Learn the most useful functions in Excel used in business",
+            " Learn to analyze large data sets with Pivot Tables",
+            " Learn to wow your boss with great looking management dashboards",
+            " Get your CV/Resume ready to impress on your next job application",
+            " Projects for your portfolios"
         ],
         "overview": [
-            "Strategy - Choosing a Niche",
-            "Creating your brand",
-            "Building a top Blog",
-            "Creating Content",
-            "Promoting your Blog and Videos",
-            "Monetizing your Blog",
-            "Wordpress.com",
-            "InstallationTheme",
-            "Affiliate Marketing",
-            "Plugin"
+        
         ],
-        "price": 30000
+        "price": 45000
     },
     {
         "id": 5,
