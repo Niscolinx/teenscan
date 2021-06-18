@@ -1,7 +1,7 @@
 const Checkout = () => {
     return (
         <div className='checkout'>
-            <h3>Checkout</h3>
+            <h3 className='checkout__header'>Checkout</h3>
 
             <select className='checkout__select'>
                 <option value='localPay' >Local Deposit</option>
@@ -10,9 +10,9 @@ const Checkout = () => {
 
             <div className="checkout__paymentType">
 
-                <h3>
+                <h4>
                     Account Details
-                </h3>
+                </h4>
 
                 <p>Bank Name: <span>Gurantee Trust Bank</span></p>
                 <p>Account Name: <span>Teens Can Blog Tech Comm.</span></p>
@@ -20,7 +20,7 @@ const Checkout = () => {
             </div>
 
             <div className='checkout__details'>
-                <h3>Summary</h3>
+                <h4>Summary</h4>
 
                 <div className='checkout__details--items'>
                     <p>Title of the course</p>

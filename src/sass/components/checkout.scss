@@ -2,10 +2,10 @@
     margin: 14rem 0;
     display: grid;
     grid-column: full-start / center-end;
-    gap: 3rem;
+    gap: 2rem;
     justify-content: center;
 
-    h3 {
+    &__header {
         font-size: 2rem;
         text-transform: uppercase;
         background: $linear-gradient;
@@ -52,6 +52,10 @@
     }
 
     &__paymentType {
+        border-top: 1px solid $color-grey-light-2;
+        border-bottom: 1px solid $color-grey-light-2;
+        padding: 1rem 0;
+        
         p {
             font-size: 1.4rem;
 
