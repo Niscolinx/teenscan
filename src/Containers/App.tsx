@@ -13,6 +13,7 @@ import { LastLocationType } from 'react-router-last-location'
 import Courses from '../views/Courses'
 import CourseDetail from '../views/CourseDetail'
 import Checkout from '../views/Checkout'
+import Contact from '../views/Contact'
 
 
 
@@ -45,6 +46,7 @@ function App() {
                 render={Home}
             />
                 <Route path='/about' component={About} />
+                <Route path='/contact' component={Contact} />
                 <Route path='/courses' component={Courses} />
                 <Route path='/courseDetail' component={CourseDetail} />
                 <Route path='/checkout' component={Checkout} />

@@ -1,8 +1,14 @@
 import Teens4 from '../assets/teens4.jpeg'
 import { FaLongArrowAltRight } from 'react-icons/fa'
+import {useHistory} from 'react-router-dom'
 
 
 const BookUs = () => {
+    const history = useHistory()
+
+    const handleClick = () => {
+        history.push('/contact')
+    }
     return (
         <div className='bookUs'>
             <div className='bookUs__1'>
@@ -12,7 +18,7 @@ const BookUs = () => {
                         trainings, community projects etc.
                     </h1>
 
-                    <button className='btn bookUs__btn'>
+                    <button className='btn bookUs__btn' onClick={handleClick}>
                         Get In Touch{' '}
                         <span>
                             <FaLongArrowAltRight />
