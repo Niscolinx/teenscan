@@ -1,5 +1,5 @@
 .checkout {
-    margin: 14rem 0;
+    margin: 14rem 0 8rem 0;
     display: grid;
     grid-column: full-start / center-end;
     gap: 2rem;
@@ -36,26 +36,26 @@
     }
 
     &__details {
-        display: grid;
-
-        h3 {
-            font-size: 1.7rem;
-            text-transform: capitalize;
-        }
-
-        p {
-            font-size: 1.5rem;
-            font-weight: 500;
-        }
-
         &--items {
-            display: grid;
             padding-bottom: 2rem;
+            gap: 1rem;
+            display: grid;
 
-            p {
-                font-size: 1.4rem;
+            div {
+                display: grid;
+                justify-items: start;
+                grid-template-columns: 1fr 1fr;
 
-                span {
+                .checkout__details--item {
+                    font-weight: 600;
+                }
+
+                h4 {
+                    font-size: 1.7rem;
+                    text-transform: capitalize;
+                }
+
+                p {
                     font-size: 1.5rem;
                     font-weight: 500;
                 }
@@ -73,13 +73,30 @@
         border-top: 1px solid $color-grey-light-2;
         border-bottom: 1px solid $color-grey-light-2;
         padding: 1rem 0;
+        gap: 1rem;
+        display: grid;
 
-        p {
-            font-size: 1.4rem;
+        &--items {
+            padding-bottom: 2rem;
+            gap: 1rem;
+            display: grid;
 
-            span {
-                font-size: 1.5rem;
-                font-weight: 500;
+            div {
+                display: grid;
+                justify-items: start;
+                grid-template-columns: 1fr 1fr;
+                .checkout__paymentType--item {
+                    font-weight: 600;
+                }
+                h4 {
+                    font-size: 1.7rem;
+                    text-transform: capitalize;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                }
             }
         }
     }

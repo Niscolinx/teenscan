@@ -16,23 +16,42 @@ const Checkout = (props: any) => {
             <div className='checkout__paymentType'>
                 <h4>Account Details</h4>
 
-                <p>
-                    Bank Name: <span>Gurantee Trust Bank</span>
-                </p>
-                <p>
-                    Account Name: <span>Teens Can Blog Tech Comm.</span>
-                </p>
-                <p>
-                    Account Number: <span>0632650272</span>
-                </p>
+                <div className='checkout__paymentType--items'>
+                    <div>
+                        <span>Bank Name:</span>
+                        <p className='checkout__paymentType--item'>
+                            Gurantee Trust Bank
+                        </p>
+                    </div>
+                    <div>
+                        <span>Account Name:</span>
+                        <p className='checkout__paymentType--item'>
+                            Teens Can Blog Tech Comm.
+                        </p>
+                    </div>
+                    <div>
+                        <span>Account Number:</span>
+                        <p className='checkout__paymentType--item'>
+                            0632650272
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <div className='checkout__details'>
                 <h4>Summary</h4>
 
                 <div className='checkout__details--items'>
-                    <p>course: <span>{title}</span></p>
-                    <p>price: <span>₦{formattedPrice}</span></p>
+                    <div>
+                        <span>Course:</span>
+                        <p className='checkout__details--item'>{title}</p>
+                    </div>
+                    <div>
+                        <span>Price:</span>
+                        <p className='checkout__details--item'>
+                            ₦{formattedPrice}{' '}
+                        </p>
+                    </div>
                 </div>
 
                 <button className='button checkout__btn'>
