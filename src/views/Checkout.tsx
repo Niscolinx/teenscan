@@ -6,7 +6,7 @@ const Checkout = (props: any) => {
 
     const config = {
         email: 'teenscanblog@gmail.com',
-        amount: price,
+        amount: price * 100,
         publicKey: 'pk_test_93e3bae833c60377335c8a9e9ade423acdb9f9f7',
     }
 
