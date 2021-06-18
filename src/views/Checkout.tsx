@@ -26,6 +26,7 @@ const Checkout = (props: any) => {
     const componentProps = {
         ...config,
         text: 'Complete Payment',
+        className:'button checkout__btn',
         onSuccess: (reference: any) => handlePaystackSuccessAction(reference),
         onClose: handlePaystackCloseAction,
     }
