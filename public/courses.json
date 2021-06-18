@@ -28,7 +28,7 @@
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "creator": "Odoemena Augustine Chinonso",
         "image": "course2.jpg",
-        "includes": ["Certificate of Completion"],
+        "includes": ["Certificate of Completion", "Full lifetime access"],
         "requirements": ["Access to a computer with an internet connection"],
         "objectives": [
             "Learn advanced Python features, like the collections module and how to work with timestamps",
@@ -52,11 +52,15 @@
     },
     {
         "id": 3,
-        "title": "Everything to know about blogging and starting your own blog",
-        "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
-        "creator": "Odoemena Augustine Chinonso",
+        "title": "Complete Front End Development - The full beginner Guide(incl CSS Grid, Hooks, React)",
+        "description": "The easiest way to learn modern web design, HTML5 and CSS3 step-by-step from scratch. Dive in and learn Javascript,React.js, Routing, Animations and more",
+        "creator": "Igboanugwo Collins",
         "image": "course3.jpg",
-        "includes": ["Certificate of Completion", "Full lifetime access", "Assignments"],
+        "includes": [
+            "Certificate of Completion",
+            "Full lifetime access",
+            "Assignments"
+        ],
         "requirements": [
             "No prior web design or coding knowledge required!",
             "Any operating system: Mac, PC, Linux"
@@ -69,22 +73,30 @@
             "Provide amazing user experiences by leveraging the power of JavaScript with ease",
             "Learn about React Hooks and React Components",
             "Plan, design and code robust and fully custom, responsive websites and applications"
-
         ],
         "overview": [
             "Dive into HTML",
             "Formatting with CSS",
             "Web design basics",
-            "Flexbox and CSS grid",
-            "Amazing Web project",
+            "Flexbox & CSS grid",
+            "Practice Project: realtours",
             "Responsive Web design with media queries",
             "Javascript Fundamentals",
-            "Javascript in the Browser: DOM and Events Fundamentals",
-            "InstallationTheme",
-            "Affiliate Marketing",
-            "Plugin"
+            "Javascript in the Browser: DOM & Events Fundamentals",
+            "Functions in Javascript",
+            "Working with Arrays, Objects & functions",
+            "React Basics & Working with Components",
+            "React State & working with Events",
+            "Styling React Components with",
+            "Time to Practice: A Complete Practice Project",
+            "Advanced: Handling Side Effects, Using Reducers & Context API",
+            "A Look Behind the React & optimization techniques",
+            "An Alternative Way of Building Components: Class-based Components",
+            "Working with Forms & User Input",
+            "Practice Project: Building a food app",
+            "Course Roundup"
         ],
-        "price": 30000
+        "price": 40000
     },
     {
         "id": 4,
@@ -126,6 +138,43 @@
     },
     {
         "id": 5,
+        "title": "Owo FX Forex Strategy Full Course",
+        "description": " A Comprehensive Forex Trading Course--Learn From an actual Forex Money Manager",
+        "creator": "Douglas",
+        "image": "course5.jpg",
+        "includes": ["Certificate of Completion", "Full lifetime access"],
+        "requirements": ["Access to a computer with an internet connection"],
+        "objectives": [
+            "What FOREX actually means",
+            "How to protect your Account against liquidation",
+            "A simple yet effective forex stategy"
+        ],
+        "overview": [
+            "What is forex",
+            "Spread",
+            "Pip",
+            "Different market entry",
+            "Stoploss",
+            "Take profit",
+            "Intro to Smart money",
+            "Order blocks",
+            "Imbalance",
+            "Liquidity",
+            "Market Structure",
+            "Stop hunt",
+            "Trendline",
+            "S/R zones",
+            "Owofx market entry/strategy",
+            "How to take profit",
+            "Trade management",
+            "Trading plan",
+            "Zoom Calls/market Analysis",
+            "Trade Examples"
+        ],
+        "price": 47000
+    },
+    {
+        "id": 6,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "creator": "Odoemena Augustine Chinonso",
@@ -153,7 +202,7 @@
         "price": 30000
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Everything to know about blogging and starting your own blog",
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "creator": "Odoemena Augustine Chinonso",
