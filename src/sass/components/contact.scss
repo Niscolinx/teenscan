@@ -1,0 +1,29 @@
+.contact{
+    grid-column: sidebar-start / full-end;
+
+    display: grid;
+    align-items: center;
+    
+
+    header {
+      
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(87, 0, 4, 0.746)), url(../../assets/banner1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 40vh;
+        background-size: cover;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+
+        h2 {
+            @extend .heading-1;
+            font-size: 3rem;
+            color: white;
+            font-weight: 800;
+        }
+        @include respond(tab-port) {
+            height: 20vh;
+        }
+    }
+}
