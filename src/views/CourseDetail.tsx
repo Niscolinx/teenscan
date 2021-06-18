@@ -21,7 +21,10 @@ const CourseDetail = (props: any) => {
     const formattedPrice = price.toLocaleString()
 
     const handleBuy = () => {
-        history.push('/checkout', props)
+        history.push('/checkout', {
+            title,
+            price
+        })
     }
 
     return (
