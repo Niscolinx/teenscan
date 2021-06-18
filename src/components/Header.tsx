@@ -3,10 +3,6 @@ import Logo from '../assets/Logo.png'
 import { BiSearch } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-// interface ModalHandler {
-//     displayModal: boolean
-//     toDisplay: string
-// }
 
 const Header = () => {
     // const [handleMouse, setHandleMouse] = useState('none')

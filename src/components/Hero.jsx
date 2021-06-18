@@ -1,8 +1,15 @@
 import HeroSvg from '../assets/herowave.svg'
 import ReactTypingEffect from 'react-typing-effect'
 import { FaLongArrowAltRight } from 'react-icons/fa'
+import {useHistory} from 'react-router-dom'
 
 const Hero = () => {
+    const history = useHistory()
+
+    const handleClick = () => {
+        history.push('/courses')
+    }
+
     return (
         <div className='hero'>
             <div className='hero__box'>
@@ -29,7 +36,7 @@ const Hero = () => {
                         Explore your creativity with classes in Data Analysis,
                         Web Development, design, and more.
                     </p>
-                    <button className='btn hero__btn'>
+                    <button className='btn hero__btn' onClick={handleClick}>
                         Get Started{' '}
                         <span>
                             <FaLongArrowAltRight />
