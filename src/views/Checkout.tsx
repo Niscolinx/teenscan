@@ -1,5 +1,5 @@
 const Checkout = (props: any) => {
-    console.log('checkout props', props)
+    console.log('checkout props', props.location.state)
     //  const {
     //      title,
     //      price,
