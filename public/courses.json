@@ -20,7 +20,7 @@
             "Affiliate Marketing",
             "Plugin"
         ],
-        "price": 30000
+        "price": 40000
     },
     {
         "id": 2,
@@ -31,22 +31,23 @@
         "includes": ["Certificate of Completion", "Full lifetime access"],
         "requirements": ["Access to a computer with an internet connection"],
         "objectives": [
-            "Learn advanced Python features, like the collections module and how to work with timestamps",
-            "Understand complex topics, like decorators",
-            "Learn to use Object Oriented Programming with classes!",
-            "Build a complete understanding from the ground up!"
+            "The entire graphic design side of developing brand and brand assets.",
+            "How to prepare all types of files for the press, bleed, pantone inks, ad specs, crop and bleed marks etc",
+            "You will be able to layout/design all types of designs including full page ads and digital graphics",
+            "learn to adapt a brand's look across all design mediums",
+            "Design and layout stationary including business cards, letterhead and envelopes",
+            "Develop a website mock-up including working wireframe in Adobe Xd",
+            "Learn two new Adobe programs Adobe Xd and Adobe Dimensions",
+            "Learn how to work with 3D objects",
+            "Create custom brush textures and background graphics in Adobe Photoshop",
+            "Learn how to create and present your logo design and brand",
+            "Learn about branding standards and brand assets",
+            "Be able to design and present a T-Shirt design"
         ],
         "overview": [
-            "Strategy - Choosing a Niche",
-            "Creating your brand",
-            "Building a top Blog",
-            "Creating Content",
-            "Promoting your Blog and Videos",
-            "Monetizing your Blog",
-            "Wordpress.com",
-            "InstallationTheme",
-            "Affiliate Marketing",
-            "Plugin"
+            "What is Graphics Design",
+            "Preparation of files for bleeding etc",
+            "Design and layout package design"
         ],
         "price": 30000
     },
@@ -147,7 +148,7 @@
         "id": 5,
         "title": "Owo FX Forex Strategy Full Course",
         "description": " A Comprehensive Forex Trading Course--Learn From an actual Forex Money Manager",
-        "creator": "Douglas",
+        "creator": "Douglas Peters",
         "image": "course5.jpg",
         "includes": ["Certificate of Completion", "Full lifetime access"],
         "requirements": ["Access to a computer with an internet connection"],
