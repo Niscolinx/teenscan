@@ -5,8 +5,6 @@ const CourseDetail = (props: any) => {
     const history = useHistory()
 
 
-    console.log('course detail', props.location.state.props)
-
     const {
         title,
         id,
@@ -23,7 +21,7 @@ const CourseDetail = (props: any) => {
     const formattedPrice = price.toLocaleString()
 
     const handleBuy = () => {
-        history.push('/checkout')
+        history.push('/checkout', props)
     }
 
     return (
