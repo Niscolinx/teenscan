@@ -1,12 +1,7 @@
 const Checkout = (props: any) => {
     console.log('checkout props', props.location.state)
-     const {
-         title,
-         price,
+    const { title, price } = props.location.state
 
-     } = props.location.state
-
- 
     const formattedPrice = price.toLocaleString()
 
     return (
@@ -36,8 +31,8 @@ const Checkout = (props: any) => {
                 <h4>Summary</h4>
 
                 <div className='checkout__details--items'>
-                    <p>{title}</p>
-                    <p>₦{formattedPrice}</p>
+                    <p>course: {title}</p>
+                    <p>price: ₦{formattedPrice}</p>
                 </div>
 
                 <button className='button checkout__btn'>
