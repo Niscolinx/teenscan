@@ -1,13 +1,12 @@
 const Checkout = (props: any) => {
     console.log('checkout props', props.location.state)
-    //  const {
-    //      title,
-    //      price,
+     const {
+         title,
+         price,
 
-    //  } = props.location.state.props
+     } = props.location.state
 
-    const title = 'jhad'
-    const price = 231233
+ 
     const formattedPrice = price.toLocaleString()
 
     return (

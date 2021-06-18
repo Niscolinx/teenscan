@@ -20,8 +20,9 @@ const CourseDetail = (props: any) => {
 
     const handleBuy = () => {
         history.push('/checkout', {
-            title: 'hello',
-            price: 32343,
+            id,
+            title,
+            price
         })
     }
 
