@@ -2,17 +2,12 @@
     {
         "id": 1,
         "title": "Everything to know about blogging and starting your own blog",
-        "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
+        "description": "Build a successful blog using these proven blogging strategies for content, promotion, list building, and monetization",
         "creator": "Odoemena Augustine Chinonso",
         "image": "course1.jpg",
         "includes": ["Certificate of Completion"],
         "requirements": ["Access to a computer with an internet connection"],
-        "objectives": [
-            "Learn advanced Python features, like the collections module and how to work with timestamps",
-            "Understand complex topics, like decorators",
-            "Learn to use Object Oriented Programming with classes!",
-            "Build a complete understanding from the ground up!"
-        ],
+        "objectives": ["Build a blog from startup to finish"],
         "overview": [
             "Strategy - Choosing a Niche",
             "Creating your brand",
@@ -61,22 +56,30 @@
         "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
         "creator": "Odoemena Augustine Chinonso",
         "image": "course3.jpg",
-        "includes": ["Certificate of Completion"],
-        "requirements": ["Access to a computer with an internet connection"],
+        "includes": ["Certificate of Completion", "Full lifetime access", "Assignments"],
+        "requirements": [
+            "No prior web design or coding knowledge required!",
+            "Any operating system: Mac, PC, Linux"
+        ],
         "objectives": [
-            "Learn advanced Python features, like the collections module and how to work with timestamps",
-            "Understand complex topics, like decorators",
-            "Learn to use Object Oriented Programming with classes!",
-            "Build a complete understanding from the ground up!"
+            "Code at an expert level of proficiency with HTML & CSS",
+            "Learn UX and UI design for beginners",
+            "Learn visual design fundamentals for beginners",
+            "Explore modern web design tools like figma",
+            "Provide amazing user experiences by leveraging the power of JavaScript with ease",
+            "Learn about React Hooks and React Components",
+            "Plan, design and code robust and fully custom, responsive websites and applications"
+
         ],
         "overview": [
-            "Strategy - Choosing a Niche",
-            "Creating your brand",
-            "Building a top Blog",
-            "Creating Content",
-            "Promoting your Blog and Videos",
-            "Monetizing your Blog",
-            "Wordpress.com",
+            "Dive into HTML",
+            "Formatting with CSS",
+            "Web design basics",
+            "Flexbox and CSS grid",
+            "Amazing Web project",
+            "Responsive Web design with media queries",
+            "Javascript Fundamentals",
+            "Javascript in the Browser: DOM and Events Fundamentals",
             "InstallationTheme",
             "Affiliate Marketing",
             "Plugin"
@@ -86,7 +89,7 @@
     {
         "id": 4,
         "title": "Data Analysis with Advance Microsoft Excel (from Beginner to Expert)",
-        "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
+        "description": "Master Excel pivots & learn data analysis w/ advanced Excel cases from a top Excel & business intelligence instructor",
         "creator": "Unachukwu Emmanuel",
         "image": "course4.jpg",
         "includes": ["Certificate of Completion", "Full lifetime access"],
@@ -118,9 +121,7 @@
             " Get your CV/Resume ready to impress on your next job application",
             " Projects for your portfolios"
         ],
-        "overview": [
-        
-        ],
+        "overview": [],
         "price": 45000
     },
     {
