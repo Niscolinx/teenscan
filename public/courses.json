@@ -24,9 +24,9 @@
     },
     {
         "id": 2,
-        "title": "Everything to know about blogging and starting your own blog",
-        "description": "Lorem hello world, in the mask of things not happening , thi sis what you have to do in order to survive",
-        "creator": "Odoemena Augustine Chinonso",
+        "title": "Graphic Design Mastery: The Full Branding & Design Process",
+        "description": "Follows the Full Graphic Design Process for A Company: Logo, Ad, Social Media, T-Shirt, Package, Website Design & More!",
+        "creator": "Ebuka Ikenna John",
         "image": "course2.jpg",
         "includes": ["Certificate of Completion", "Full lifetime access"],
         "requirements": ["Access to a computer with an internet connection"],
@@ -52,7 +52,7 @@
     },
     {
         "id": 3,
-        "title": "Complete Front End Development - The full beginner Guide(incl CSS Grid, Hooks, React)",
+        "title": "Complete Front End Development - The full beginner Guide(incl CSS Grid, ES6, Hooks, React)",
         "description": "The easiest way to learn modern web design, HTML5 and CSS3 step-by-step from scratch. Dive in and learn Javascript,React.js, Routing, Animations and more",
         "creator": "Igboanugwo Collins",
         "image": "course3.jpg",
@@ -128,12 +128,19 @@
             " Creating Charts in Microsoft Excel",
             " Extra functions (Protect information, Changing menu bars, Notes and comments) in Microsoft Excel",
             " Learn the most useful functions in Excel used in business",
-            " Learn to analyze large data sets with Pivot Tables",
-            " Learn to wow your boss with great looking management dashboards",
+            " Learn to analyze large data sets with Pivot Tables"
+        ],
+        "overview": [
+            "Microsoft Excel",
+            "Functions in Excel",
+            "Working with data",
+            "Formulas",
+            "Advanced Formulas",
+            "Formatting",
+            "Learn to wow your boss with great looking management dashboards",
             " Get your CV/Resume ready to impress on your next job application",
             " Projects for your portfolios"
         ],
-        "overview": [],
         "price": 45000
     },
     {
