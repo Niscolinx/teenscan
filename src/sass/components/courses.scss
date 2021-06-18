@@ -173,6 +173,8 @@
         &__creator {
             font-size: 1.2rem;
             font-weight: 300;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         // &__price {
         // }
