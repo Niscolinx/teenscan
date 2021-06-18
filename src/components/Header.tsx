@@ -11,17 +11,6 @@ const Header = () => {
         <>
             <img src={Logo} alt='logo' className='header__logo' />
 
-            {/* <div className='modal' onMouseLeave={handleMouseLeave}>
-                <Link to='/' onMouseOver={handleMouseEnter}>
-                    Categories
-                </Link>
-                <p
-                    className='modal_spacer'
-                    onMouseLeave={handleSpacerLeave}
-                ></p>
-                {categoryModal}
-            </div> */}
-
             <Link to='/courses' className='header__homenav'>
                 Courses
             </Link>
