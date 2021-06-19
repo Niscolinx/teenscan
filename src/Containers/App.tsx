@@ -49,7 +49,7 @@ function App() {
                 <Route path='/contact' component={Contact} />
                 <Route path='/courses' component={Courses} />
                 <Route path='/courseDetail' component={CourseDetail} />
-                <Route path='/checkout' component={Checkout} />
+                <Route path='/checkout/:id' component={Checkout} />
             {/* <Route
                 path='/Auth/login'
                 render={(props) => <LoginPage {...props} />}

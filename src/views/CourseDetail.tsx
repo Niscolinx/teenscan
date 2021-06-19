@@ -19,7 +19,7 @@ const CourseDetail = (props: any) => {
     const formattedPrice = price.toLocaleString()
 
     const handleBuy = () => {
-        history.push('/checkout', {
+        history.push(`/checkout/:${id}`, {
             id,
             title,
             price

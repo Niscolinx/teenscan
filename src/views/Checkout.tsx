@@ -35,6 +35,15 @@ const Checkout = (props: any) => {
 
     return (
         <div className='checkout'>
+            <div className="checkout__backdrop">
+                <form className="checkout__form">
+                    <input />
+                    <input />
+                    <input />
+
+                    
+                </form>
+            </div>
             <h3 className='checkout__header'>Checkout</h3>
 
             <div className='checkout__details'>
