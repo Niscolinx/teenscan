@@ -1,7 +1,7 @@
 import HeroSvg from '../assets/herowave.svg'
 import ReactTypingEffect from 'react-typing-effect'
 import { FaLongArrowAltRight } from 'react-icons/fa'
-import {useHistory} from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 const Hero = () => {
     const history = useHistory()

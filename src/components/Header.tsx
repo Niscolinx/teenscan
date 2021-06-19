@@ -3,15 +3,11 @@ import Logo from '../assets/Logo.png'
 import { BiSearch } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
-
 const Header = () => {
-
-
     return (
         <>
             <Link to='/'>
-
-            <img src={Logo} alt='logo' className='header__logo' />
+                <img src={Logo} alt='logo' className='header__logo' />
             </Link>
 
             <Link to='/courses' className='header__homenav'>

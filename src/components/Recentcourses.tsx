@@ -12,6 +12,7 @@ import course3 from '../assets/course3.jpg'
 import course4 from '../assets/course4.jpg'
 import course5 from '../assets/course5.jpg'
 import course6 from '../assets/course6.jpg'
+import course7 from '../assets/course7.jpeg'
 
 const RecentCourses = () => {
 
@@ -19,7 +20,7 @@ const RecentCourses = () => {
     
     const history = useHistory()
 
-    const courseImages = [course1, course2, course3, course4, course5, course6]
+    const courseImages = [course1, course7, course3, course4, course5, course6, course2]
     
     useEffect(() => {
         axios('/courses.json')
