@@ -1,5 +1,6 @@
 import { PaystackButton } from 'react-paystack'
-import {useHistory} from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
+import {useState} from 'react'
 
 const Checkout = (props: any) => {
 
@@ -33,16 +34,115 @@ const Checkout = (props: any) => {
         onClose: handlePaystackCloseAction,
     }
 
-    return (
-        <div className='checkout'>
-            <div className="checkout__backdrop">
-                <form className="checkout__form">
-                    <input />
-                    <input />
-                    <input />
+             const [email, setEmail] = useState('')
+             const [message, setMessage] = useState('')
+             const [name, setName] = useState('')
+             const [handleSummit, setHandleSummit] = useState(false)
+             const [error, setError] = useState(false)
+             const [displayMessage, setDisplayMessage] = useState('')
+
+             const inputHandler = (input: any) => {
+                 const inputName = input.target.name
+                 const inputValue = input.target.value
+
+                 if (inputName === 'user_name') {
+                     setName(inputValue)
+                 }
+
+                 if (inputName === 'user_email') {
+                     setEmail(inputValue)
+                 }
+
+                 if (inputName === 'message') {
+                     setMessage(inputValue)
+                 }
+             }
+
+             const templateParams = {
+                 user_name: name,
+                 user_email: email,
+                 message,
+             }
+
+             const handleForm = (e: any) => {
+                 e.preventDefault()
+
+                 setHandleSummit(true)
+
+                 if (email === '' || message === '' || name === '') {
+                     setError(true)
+                     console.log('not sent')
+                     setDisplayMessage('Fields cannot be empty')
+                 } else {
+                     setError(false)
+                     setDisplayMessage('...Sending')
 
                     
-                </form>
+                 }
+             }
+
+    return (
+        <div className='checkout'>
+            <div className='checkout__backdrop'>
+                <div className='contact-box'>
+                    <h3 className='heading-3'>Leave a message</h3>
+                    {handleSummit && (
+                        <p
+                            className={
+                                error
+                                    ? 'form__displayError'
+                                    : 'form__displayMessage'
+                            }
+                        >
+                            {displayMessage}
+                        </p>
+                    )}
+                    <form className='contact-form' onSubmit={handleForm}>
+                        <div className='contact-form__item'>
+                            <label htmlFor='name'>FirstName:</label>
+                            <input
+                                className='contact-form__input'
+                                onChange={inputHandler}
+                                type='text'
+                                name='user_name'
+                                value={name}
+                            />
+                        </div>
+                        <div className='contact-form__item'>
+                            <label htmlFor='name'>LastName:</label>
+                            <input
+                                className='contact-form__input'
+                                onChange={inputHandler}
+                                type='text'
+                                name='user_name'
+                                value={name}
+                            />
+                        </div>
+
+                        <div className='contact-form__item'>
+                            <label htmlFor='mail'>Your e-mail:</label>
+                            <input
+                                className='contact-form__input'
+                                onChange={inputHandler}
+                                type='text'
+                                name='user_email'
+                                value={email}
+                            />
+                        </div>
+
+                     
+                        <button
+                            type='submit'
+                            className='button contact-form__btn'
+                        >
+                            send
+                        </button>
+                    </form>
+
+                    <div className='contact-box__details'>
+                      
+                    </div>
+                </div>
             </div>
             <h3 className='checkout__header'>Checkout</h3>
 

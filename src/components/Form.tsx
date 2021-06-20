@@ -59,7 +59,7 @@ const Form = () => {
                      .then(
                          (result) => {
                              setDisplayMessage('Message sent')
-                             console.log(result.text, 'email sent')
+                             console.log(result.text, 'email sent!')
                              setEmail('')
                              setName('')
                              setMessage('')
