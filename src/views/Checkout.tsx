@@ -45,10 +45,10 @@ const Checkout = (props: any) => {
                  const inputName = input.target.name
                  const inputValue = input.target.value
 
-                 if (inputName === 'user_name') {
+                 if (inputName === 'first_name') {
                      setFirstName(inputValue)
                  }
-                 if (inputName === 'message') {
+                 if (inputName === 'last_name') {
                      setLastName(inputValue)
                  }
 
@@ -100,7 +100,7 @@ const Checkout = (props: any) => {
                                 className='contact-form__input'
                                 onChange={inputHandler}
                                 type='text'
-                                name='user_name'
+                                name='first_name'
                                 value={firstName}
                             />
                         </div>
@@ -110,7 +110,7 @@ const Checkout = (props: any) => {
                                 className='contact-form__input'
                                 onChange={inputHandler}
                                 type='text'
-                                name='user_name'
+                                name='last_name'
                                 value={lastName}
                             />
                         </div>
