@@ -55,16 +55,14 @@ function Layout(props: LayoutProps) {
 
     toRender = (
         <>
-            <div className='rootbackdrop'>
-                <p>rootbackdrop</p>
-            </div>
+        
             <div className='header'>
                 <Header />
             </div>
             <main className='main'>{props.children}</main>
             <div className='section-footer'>
                 <Footer />
-            </div>{' '}
+            </div>
         </>
     )
 
