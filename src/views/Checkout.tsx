@@ -35,8 +35,8 @@ const Checkout = (props: any) => {
     }
 
              const [email, setEmail] = useState('')
-             const [message, setMessage] = useState('')
-             const [name, setName] = useState('')
+             const [firstName, setFirstName] = useState('')
+             const [lastName, setLastName] = useState('')
              const [handleSummit, setHandleSummit] = useState(false)
              const [error, setError] = useState(false)
              const [displayMessage, setDisplayMessage] = useState('')
@@ -46,30 +46,26 @@ const Checkout = (props: any) => {
                  const inputValue = input.target.value
 
                  if (inputName === 'user_name') {
-                     setName(inputValue)
+                     setFirstName(inputValue)
+                 }
+                 if (inputName === 'message') {
+                     setLastName(inputValue)
                  }
 
                  if (inputName === 'user_email') {
                      setEmail(inputValue)
                  }
 
-                 if (inputName === 'message') {
-                     setMessage(inputValue)
-                 }
              }
 
-             const templateParams = {
-                 user_name: name,
-                 user_email: email,
-                 message,
-             }
+        
 
              const handleForm = (e: any) => {
                  e.preventDefault()
 
                  setHandleSummit(true)
 
-                 if (email === '' || message === '' || name === '') {
+                 if (email === '' || firstName === '' || lastName === '') {
                      setError(true)
                      console.log('not sent')
                      setDisplayMessage('Fields cannot be empty')
@@ -91,7 +87,7 @@ const Checkout = (props: any) => {
                             className={
                                 error
                                     ? 'form__displayError'
-                                    : 'form__displayMessage'
+                                    : ''
                             }
                         >
                             {displayMessage}
@@ -105,7 +101,7 @@ const Checkout = (props: any) => {
                                 onChange={inputHandler}
                                 type='text'
                                 name='user_name'
-                                value={name}
+                                value={firstName}
                             />
                         </div>
                         <div className='contact-form__item'>
@@ -115,7 +111,7 @@ const Checkout = (props: any) => {
                                 onChange={inputHandler}
                                 type='text'
                                 name='user_name'
-                                value={name}
+                                value={lastName}
                             />
                         </div>
 
@@ -139,9 +135,7 @@ const Checkout = (props: any) => {
                         </button>
                     </form>
 
-                    <div className='contact-box__details'>
-                      
-                    </div>
+            
                 </div>
             </div>
             <h3 className='checkout__header'>Checkout</h3>
