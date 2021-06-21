@@ -105,18 +105,19 @@
     }
 
      &-box {
+        
         display: grid;
         justify-items: center;
         align-items: center;
         width: 100%;
-        background: rgba(0, 0, 0, 0.726);
+        background: rgba(0, 0, 0, 0.883);
         position: fixed;
         height: 100vh;
     }
     
     &-form {
         background: white;
-        padding: 2rem;
+        padding: 2rem 3rem;
         border-radius: 1rem;
         gap: 2rem;
         display: grid;
