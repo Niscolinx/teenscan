@@ -80,8 +80,7 @@ const Checkout = (props: any) => {
     return (
         <div className='checkout'>
             <div className='checkout__backdrop'>
-                <div className='contact-box'>
-                    <h3 className='heading-3'>Leave a message</h3>
+                <div className='checkout-box'>
                     {handleSummit && (
                         <p
                             className={
@@ -93,21 +92,21 @@ const Checkout = (props: any) => {
                             {displayMessage}
                         </p>
                     )}
-                    <form className='contact-form' onSubmit={handleForm}>
-                        <div className='contact-form__item'>
+                    <form className='checkout-form' onSubmit={handleForm}>
+                        <div className='checkout-form__item'>
                             <label htmlFor='name'>FirstName:</label>
                             <input
-                                className='contact-form__input'
+                                className='checkout-form__input'
                                 onChange={inputHandler}
                                 type='text'
                                 name='first_name'
                                 value={firstName}
                             />
                         </div>
-                        <div className='contact-form__item'>
+                        <div className='checkout-form__item'>
                             <label htmlFor='name'>LastName:</label>
                             <input
-                                className='contact-form__input'
+                                className='checkout-form__input'
                                 onChange={inputHandler}
                                 type='text'
                                 name='last_name'
@@ -115,10 +114,10 @@ const Checkout = (props: any) => {
                             />
                         </div>
 
-                        <div className='contact-form__item'>
+                        <div className='checkout-form__item'>
                             <label htmlFor='mail'>Your e-mail:</label>
                             <input
-                                className='contact-form__input'
+                                className='checkout-form__input'
                                 onChange={inputHandler}
                                 type='text'
                                 name='user_email'
@@ -129,9 +128,9 @@ const Checkout = (props: any) => {
                      
                         <button
                             type='submit'
-                            className='button contact-form__btn'
+                            className='button checkout-form__btn'
                         >
-                            send
+                            proceed
                         </button>
                     </form>
 
