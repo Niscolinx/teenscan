@@ -1,9 +1,8 @@
-import { PaystackButton } from 'react-paystack'
+import { usePaystackPayment } from 'react-paystack'
 import { useHistory } from 'react-router-dom'
-import {useState} from 'react'
+import { useState } from 'react'
 
 const Checkout = (props: any) => {
-
     const history = useHistory()
     const { title, price } = props.location.state
 
@@ -11,88 +10,79 @@ const Checkout = (props: any) => {
         email: 'teenscanblog@gmail.com',
         amount: price * 100,
         publicKey: 'pk_test_93e3bae833c60377335c8a9e9ade423acdb9f9f7',
+        text: 'Proceed',
+        className: 'button checkout__btn',
     }
 
     const formattedPrice = price.toLocaleString()
 
-    const handlePaystackSuccessAction = (reference: any) => {
+    const onSuccess = (reference: any) => {
         console.log('reference', reference)
 
         history.push('/courses')
     }
 
-    
-    const handlePaystackCloseAction = () => {
+    const onClose = () => {
         console.log('closed')
     }
 
-    const componentProps = {
-        ...config,
-        text: 'Pay With Card',
-        className:'button checkout__btn',
-        onSuccess: (reference: any) => handlePaystackSuccessAction(reference),
-        onClose: handlePaystackCloseAction,
-    }
+    const initializePayment = usePaystackPayment(config)
 
-             const [email, setEmail] = useState('')
-             const [firstName, setFirstName] = useState('')
-             const [lastName, setLastName] = useState('')
-             const [handleSummit, setHandleSummit] = useState(false)
-             const [error, setError] = useState(false)
+    const [email, setEmail] = useState('')
+    const [firstName, setFirstName] = useState('')
+    const [lastName, setLastName] = useState('')
+    const [handleSummit, setHandleSummit] = useState(false)
+    const [error, setError] = useState(false)
     const [displayMessage, setDisplayMessage] = useState('')
-    
+
     const [displayBackdrop, setDisplayBackdrop] = useState('none')
 
-             const inputHandler = (input: any) => {
-                 const inputName = input.target.name
-                 const inputValue = input.target.value
+    const inputHandler = (input: any) => {
+        const inputName = input.target.name
+        const inputValue = input.target.value
 
-                 if (inputName === 'first_name') {
-                     setFirstName(inputValue)
-                 }
-                 if (inputName === 'last_name') {
-                     setLastName(inputValue)
-                 }
+        if (inputName === 'first_name') {
+            setFirstName(inputValue)
+        }
+        if (inputName === 'last_name') {
+            setLastName(inputValue)
+        }
 
-                 if (inputName === 'user_email') {
-                     setEmail(inputValue)
-                 }
+        if (inputName === 'user_email') {
+            setEmail(inputValue)
+        }
+    }
 
-             }
+    const handleForm = (e: any) => {
+        e.preventDefault()
 
-        
+        setHandleSummit(true)
 
-             const handleForm = (e: any) => {
-                 e.preventDefault()
+        if (email === '' || firstName === '' || lastName === '') {
+            setError(true)
+            console.log('not sent')
+            setDisplayMessage('Fields cannot be empty')
+        } else {
+            setError(false)
+            setDisplayMessage('...Sending')
 
-                 setHandleSummit(true)
+            initializePayment(onSuccess, onClose)
+        }
+    }
 
-                 if (email === '' || firstName === '' || lastName === '') {
-                     setError(true)
-                     console.log('not sent')
-                     setDisplayMessage('Fields cannot be empty')
-                 } else {
-                     setError(false)
-                     setDisplayMessage('...Sending')
-
-                    
-                 }
-             }
-    
-    
+    const toggleBackdrop = () => {
+        setDisplayBackdrop('block')
+    }
 
     return (
         <div className='checkout'>
-            <div className='checkout__backdrop' style={displayBackdrop}>
+            <div
+                className='checkout__backdrop'
+                style={{ display: displayBackdrop }}
+            >
                 <div className='checkout-box'>
                     {handleSummit && (
-                        <p
-                            className={
-                                error
-                                    ? 'form__displayError'
-                                    : ''
-                            }
-                        >
+                        <p className={error ? 'form__displayError' : ''}>
                             {displayMessage}
                         </p>
                     )}
@@ -128,17 +118,7 @@ const Checkout = (props: any) => {
                                 value={email}
                             />
                         </div>
-
-                     
-                        <button
-                            type='submit'
-                            className='button checkout-form__btn'
-                        >
-                            proceed
-                        </button>
                     </form>
-
-            
                 </div>
             </div>
             <h3 className='checkout__header'>Checkout</h3>
@@ -182,7 +162,12 @@ const Checkout = (props: any) => {
                         </p>
                     </div>
 
-                    <PaystackButton {...componentProps} />
+                    <button
+                        className='button checkout__btn'
+                        onClick={toggleBackdrop}
+                    >
+                        Pay with Card
+                    </button>
                 </div>
             </div>
         </div>
