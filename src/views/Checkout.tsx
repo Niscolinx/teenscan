@@ -39,7 +39,9 @@ const Checkout = (props: any) => {
              const [lastName, setLastName] = useState('')
              const [handleSummit, setHandleSummit] = useState(false)
              const [error, setError] = useState(false)
-             const [displayMessage, setDisplayMessage] = useState('')
+    const [displayMessage, setDisplayMessage] = useState('')
+    
+    const [displayBackdrop, setDisplayBackdrop] = useState('none')
 
              const inputHandler = (input: any) => {
                  const inputName = input.target.name
@@ -76,10 +78,12 @@ const Checkout = (props: any) => {
                     
                  }
              }
+    
+    
 
     return (
         <div className='checkout'>
-            <div className='checkout__backdrop'>
+            <div className='checkout__backdrop' style={displayBackdrop}>
                 <div className='checkout-box'>
                     {handleSummit && (
                         <p
