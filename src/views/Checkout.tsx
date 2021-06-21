@@ -3,15 +3,25 @@ import { useHistory } from 'react-router-dom'
 import { useState } from 'react'
 
 const Checkout = (props: any) => {
+
+    const [email, setEmail] = useState('')
+    const [firstName, setFirstName] = useState('')
+    const [lastName, setLastName] = useState('')
+    const [handleSummit, setHandleSummit] = useState(false)
+    const [error, setError] = useState(false)
+    const [displayMessage, setDisplayMessage] = useState('')
+    const [displayBackdrop, setDisplayBackdrop] = useState('none')
+
     const history = useHistory()
     const { title, price } = props.location.state
 
     const config = {
-        email: 'teenscanblog@gmail.com',
+        email,
+        firstName,
+        lastName,
         amount: price * 100,
         publicKey: 'pk_test_93e3bae833c60377335c8a9e9ade423acdb9f9f7',
-        text: 'Proceed',
-        className: 'button checkout__btn',
+        
     }
 
     const formattedPrice = price.toLocaleString()
@@ -28,14 +38,6 @@ const Checkout = (props: any) => {
 
     const initializePayment = usePaystackPayment(config)
 
-    const [email, setEmail] = useState('')
-    const [firstName, setFirstName] = useState('')
-    const [lastName, setLastName] = useState('')
-    const [handleSummit, setHandleSummit] = useState(false)
-    const [error, setError] = useState(false)
-    const [displayMessage, setDisplayMessage] = useState('')
-
-    const [displayBackdrop, setDisplayBackdrop] = useState('none')
 
     const inputHandler = (input: any) => {
         const inputName = input.target.name
@@ -118,6 +120,10 @@ const Checkout = (props: any) => {
                                 value={email}
                             />
                         </div>
+
+                        <button className='button checkout__btn'>
+                            Proceed
+                        </button>
                     </form>
                 </div>
             </div>
