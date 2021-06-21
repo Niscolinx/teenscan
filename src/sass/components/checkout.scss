@@ -93,17 +93,7 @@
         }
     }
 
-    &-box {
-        display: grid;
-        justify-items: center;
-        grid-column: 1 / -1;
-       // margin: 7rem 0;
-        width: 100%;
-        gap: 3rem;
-        background: rgba(0, 0, 0, 0.726);
-        position: fixed;
-        height: 100vh;
-    }
+   
 
     &__backdrop{
         position: absolute;
@@ -114,7 +104,21 @@
         z-index: 30;
     }
 
+     &-box {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.726);
+        position: fixed;
+        height: 100vh;
+    }
+    
     &-form {
+        background: white;
+        padding: 2rem;
+        border-radius: 1rem;
+        gap: 2rem;
         display: grid;
         grid-column: 1 / -1;
 
@@ -123,7 +127,6 @@
         justify-items: center;
         align-items: center;
         //gap: 2rem;
-        width: 50vw;
 
         font-size: 1.4rem;
         font-weight: 500;
