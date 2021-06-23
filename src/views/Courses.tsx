@@ -45,6 +45,7 @@ const Courses = () => {
                 {courses.map((course: any, index: number) => {
                     return (
                         <Course
+                            key={course.id}
                             title={course.title}
                             creator={course.creator}
                             price={course.price}

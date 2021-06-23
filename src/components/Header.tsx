@@ -1,26 +1,29 @@
 import React from 'react'
 import Logo from '../assets/Logo.png'
-import { BiSearch } from 'react-icons/bi'
+//import { BiSearch } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
         <>
+            <div>
+
             <Link to='/'>
                 <img src={Logo} alt='logo' className='header__logo' />
             </Link>
 
             <Link to='/courses' className='header__homenav'>
-                Courses
+                    Courses
             </Link>
+                </div>
 
-            <div className='header__input-box'>
+            {/* <div className='header__input-box'>
                 <BiSearch className='header__input-box--searchIcon' />
                 <input
                     className='header__input-box--input'
                     placeholder='What do you want to learn'
                 />
-            </div>
+            </div> */}
 
             <ul className='header__list'>
                 <li>
