@@ -19,13 +19,13 @@ const Header = () => {
             </Link>
 
             <div className='header__input-box'>
-                <BiSearch className='header__input-box--searchIcon' />
+                {/* <BiSearch className='header__input-box--searchIcon' />
                 <form onSubmit={handleSearch}>
                     <input
                         className='header__input-box--input'
                         placeholder='What do you want to learn'
                     />
-                </form>
+                </form> */}
             </div>
 
             <ul className='header__list'>
