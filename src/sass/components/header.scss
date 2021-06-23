@@ -6,7 +6,8 @@
     z-index: 10;
     display: grid;
     grid-template-columns:
-        min-content 1fr minmax(min-content, 1fr);
+        min-content minmax(min-content, 11rem) minmax(min-content, 1fr)
+        minmax(min-content, 1fr);
     align-items: center;
     justify-items: center;
     font-size: 1.3rem;
@@ -80,18 +81,21 @@
         &__logo {
             height: 5rem;
         }
+
+     
     }
     @include respond(bigger-phone) {
+
         &__logo {
             height: 8rem;
         }
 
-        &__homenav {
+        &__homenav{
             display: none;
         }
 
-        &__input-box {
-            display: none;
+        &__input-box{
+            display: none
         }
     }
 }
