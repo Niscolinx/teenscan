@@ -1,12 +1,13 @@
 import React from 'react'
 import team from '../assets/team.jpeg'
 import team1 from '../assets/team1.jpg'
-import team2 from '../assets/team2.jpg'
-import team3 from '../assets/team3.jpg'
-import team5 from '../assets/team5.jpg'
+import team2 from '../assets/team2.jpeg'
+import team3 from '../assets/team3.jpeg'
+import team5 from '../assets/team5.jpeg'
 import team6 from '../assets/team6.jpg'
 import team7 from '../assets/team7.jpg'
 import team8 from '../assets/team8.png'
+import team9 from '../assets/team9.jpeg'
 
 const Team = () => {
     return (
@@ -84,6 +85,16 @@ const Team = () => {
                     <div className='team__profile--details'>
                         <h3>Content Creator</h3>
                         <p>Maylor</p>
+                    </div>
+                </div>
+                <div className='team__profile'>
+                    <div className='team__img'>
+                        <img src={team9} alt='' />
+                    </div>
+
+                    <div className='team__profile--details'>
+                        <h3>Content Creator</h3>
+                        <p>Rejoice</p>
                     </div>
                 </div>
 
