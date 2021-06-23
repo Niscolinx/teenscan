@@ -66,18 +66,30 @@ const Footer = () => {
                 <div className='footer__social--items'>
                     <p>
                         <span>Follow Us |</span>
-                        <Link to='http://www.facebook.com/teenscanblog'>
+                        <a
+                            href='http://www.facebook.com/teenscanblog'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
                             <AiFillFacebook />
-                        </Link>
-                        <Link to='https://instagram.com/teenscan_blog?utm_medium=copy_link'>
+                        </a>
+                        <a
+                            href='https://instagram.com/teenscan_blog?utm_medium=copy_link'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
                             <AiFillInstagram />
-                        </Link>
-                        {/* <Link to='/'>
+                        </a>
+                        {/* <a href='/'>
                             <AiFillTwitterSquare />
-                        </Link> */}
-                        <Link to='https://www.linkedin.com/company/53484455'>
+                        </a> */}
+                        <a
+                            href='https://www.linkedin.com/company/53484455'
+                            target='_blank'
+                             rel="noreferrer"
+                        >
                             <AiFillLinkedin />
-                        </Link>
+                        </a>
                     </p>
                 </div>
             </div>
