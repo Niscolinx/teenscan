@@ -2,8 +2,8 @@
     margin: 10rem 3rem;
     display: flex;
     flex-direction: column;
-    // max-width: 37.5rem;
-    min-width: 20.3rem;
+    max-width: 37.5rem;
+    //min-width: 10.3rem;
     transition: all 3s;
 
     &__heading {
@@ -24,10 +24,11 @@
         position: relative;
         display: flex;
         transition: all 3s;
+        width: 20rem;
     }
 
     &__profile {
-        animation: slideShow 25s linear infinite;
+        animation: slideShow 10s linear infinite;
         border-radius: 1rem 1rem 0 0;
         width: 100%;
         transition: all 3s;
