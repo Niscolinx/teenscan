@@ -14,7 +14,6 @@ interface CourseProps {
 }
 
 const Course = (props: CourseProps) => {
-    console.log('single course', props)
     const history = useHistory()
 
     const handleClick = () => {
