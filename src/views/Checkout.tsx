@@ -3,7 +3,6 @@ import { useHistory } from 'react-router-dom'
 import { useState } from 'react'
 
 const Checkout = (props: any) => {
-
     const [email, setEmail] = useState('')
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
@@ -36,7 +35,6 @@ const Checkout = (props: any) => {
     }
 
     const initializePayment = usePaystackPayment(config)
-
 
     const inputHandler = (input: any) => {
         const inputName = input.target.name
@@ -82,12 +80,12 @@ const Checkout = (props: any) => {
                 style={{ display: displayBackdrop }}
             >
                 <div className='checkout-box'>
-                    {handleSummit && (
-                        <p className={error ? 'form__displayError' : ''}>
-                            {displayMessage}
-                        </p>
-                    )}
                     <form className='checkout-form' onSubmit={handleForm}>
+                        {handleSummit && (
+                            <p className={error ? 'form__displayError' : ''}>
+                                {displayMessage}
+                            </p>
+                        )}
                         <div className='checkout-form__item'>
                             <label htmlFor='name'>FirstName:</label>
                             <input
