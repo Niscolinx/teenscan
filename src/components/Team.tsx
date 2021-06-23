@@ -65,7 +65,7 @@ const Team = () => {
                     </div>
                     <div className='team__profile--details'>
                         <h3>Graphics Designer</h3>
-                        <p>Ebuka Ikenna John</p>
+                        <p>Chidi Ikenna </p>
                     </div>
                 </div>
                 <div className='team__profile'>
