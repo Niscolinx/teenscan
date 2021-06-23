@@ -20,8 +20,7 @@ const Checkout = (props: any) => {
         firstName,
         lastName,
         amount: price * 100,
-        publicKey: 'pk_test_93e3bae833c60377335c8a9e9ade423acdb9f9f7',
-        
+        publicKey: 'pk_live_878caadb0fde0d1cfd8959218f1c3ca77e0f5ca7',
     }
 
     const formattedPrice = price.toLocaleString()
