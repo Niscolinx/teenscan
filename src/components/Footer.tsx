@@ -66,16 +66,16 @@ const Footer = () => {
                 <div className='footer__social--items'>
                     <p>
                         <span>Follow Us |</span>
-                        <Link to='/'>
+                        <Link to='http://www.facebook.com/teenscanblog'>
                             <AiFillFacebook />
                         </Link>
-                        <Link to='/'>
+                        <Link to='https://instagram.com/teenscan_blog?utm_medium=copy_link'>
                             <AiFillInstagram />
                         </Link>
-                        <Link to='/'>
+                        {/* <Link to='/'>
                             <AiFillTwitterSquare />
-                        </Link>
-                        <Link to='/'>
+                        </Link> */}
+                        <Link to='https://www.linkedin.com/company/53484455'>
                             <AiFillLinkedin />
                         </Link>
                     </p>

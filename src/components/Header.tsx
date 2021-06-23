@@ -4,6 +4,10 @@ import { BiSearch } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
+
+    const handleSearch = () => {
+        
+    }
     return (
         <>
             <Link to='/'>
@@ -16,10 +20,12 @@ const Header = () => {
 
             <div className='header__input-box'>
                 <BiSearch className='header__input-box--searchIcon' />
-                <input
-                    className='header__input-box--input'
-                    placeholder='What do you want to learn'
-                />
+                <form onSubmit={handleSearch}>
+                    <input
+                        className='header__input-box--input'
+                        placeholder='What do you want to learn'
+                    />
+                </form>
             </div>
 
             <ul className='header__list'>
