@@ -7,7 +7,7 @@ import {
     AiFillPhone,
     AiFillFacebook,
     AiFillInstagram,
-    // AiFillTwitterSquare,
+     AiFillTwitterSquare,
     AiFillLinkedin,
 } from 'react-icons/ai'
 
@@ -80,13 +80,17 @@ const Footer = () => {
                         >
                             <AiFillInstagram />
                         </a>
-                        {/* <a href='/'>
+                        <a
+                            href='https://twitter.com/teenscanblog?s=21'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
                             <AiFillTwitterSquare />
-                        </a> */}
+                        </a>
                         <a
                             href='https://www.linkedin.com/company/53484455'
                             target='_blank'
-                             rel="noreferrer"
+                            rel='noreferrer'
                         >
                             <AiFillLinkedin />
                         </a>
