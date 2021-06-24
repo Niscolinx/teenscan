@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
 
-    const handleSearch = () => {
+    // const handleSearch = () => {
         
-    }
+    // }
     return (
         <>
             <Link to='/'>
