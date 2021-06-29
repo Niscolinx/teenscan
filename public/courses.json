@@ -180,5 +180,34 @@
             "Trade Examples"
         ],
         "price": 30000
+    },
+    {
+        "id": 6,
+        "title": "Learn Web Development using Wordpress",
+        "description": "Perhaps you want to start creating professional web sites. Maybe you want to start a small freelance business or take control of your own business web site. Maybe your a designer dipping a toe in to the digital world.  Or, perhaps, you just want to learn to develop complete sites in Wordpress the right way. Whatever your reason if you want to learn the in's and out's of Wordpress, this course is for you. This isn't a course that teaches you how to type content in to existing Wordpress themes!  This program is designed to give you full command of the Wordpress environment so you can make dynamic web sites that look anyway you want and are easy to update and maintain.  You're diving DEEP into Wordpress discussing theme development, mobile ready sites, templates and much, much more.",
+        "creator": "Douglas Peters",
+        "image": "course6.jpg",
+        "includes": ["Certificate of Completion", "Full lifetime access"],
+        "requirements": ["Access to a computer with an internet connection"],
+        "objectives": [
+            "How to build Amazing websites using wordpress",
+            "How to design and develop amazing wordpress websites",
+            "How to install plugins, configure and host wordpress websites"
+        ],
+        "overview": [
+            " Introduction to wordpress",
+            "Domain",
+            "Hosting",
+            "Cpanel",
+            " Introduction to MAMP SERVER",
+            " Creating and designing a wordpress site offline using MAMP Server",
+            " Database creation and installation of wordpress",
+            " Theme installation and customization using elementor etc",
+            " Plugins installation",
+            " Final customization",
+            " Student assignment",
+            " Bonus( free premium templates and premium plugins)"
+        ],
+        "price": 30000
     }
 ]
