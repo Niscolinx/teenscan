@@ -10,6 +10,7 @@ import course4 from '../assets/course4.jpg'
 import course5 from '../assets/course5.jpg'
 import course6 from '../assets/course6.jpg'
 import course7 from '../assets/course7.jpeg'
+import course8 from '../assets/course8.jpeg'
 
 const Courses = () => {
     const [courses, setCourses] = useState([])
