@@ -209,5 +209,41 @@
             " Bonus( free premium templates and premium plugins)"
         ],
         "price": 30000
+    },
+    {
+        "id": 7,
+        "title": "Matering the Art of Project Management",
+        "description": "Project Management is an exciting profession. Moving from one project to another, a Project manage constantly faces new businesses, new processes and systems, new people, and new situations. Such a dynamic environment helps you learn more all the time, and advances your skills much faster than traditional jobs do. Developing the ability to structure chaos into a project, along with solid project management knowledge and skills, will make your endeavors more successful than ever – whether it is the performance of a big organization, your own career progression, a new business start-up, or even your personal life projects",
+        "creator": "Douglas Peters",
+        "image": "course6.jpg",
+        "includes": ["Certificate of Completion", "Full lifetime access"],
+        "requirements": ["Access to a computer with an internet connection"],
+        "objectives": [
+             "What is  Project & Project Management is",
+"Why Projects are Authorized",
+"Define Project Management Office (PMO)",
+"Understanding the Impact of Organizational Structures and other Influences on Project Management",
+"Identify the Skills required to be a successful Project Manager",
+ "Verify the 49 Processes, 5 Process Groups & 10 Knowledge Areas of Project Management.",
+"Understand how to Engage Project Management Processes in Practice.",
+"Identify the 7 Processes of Project Integration Management",
+ "Use the different Project Selection Methods.",
+"Explain the Inputs, Tools & Techniques and Outputs that are required for the 7 Project Integration Management Processes."
+        ],
+        "overview": [
+            " Introduction to wordpress",
+            "Domain",
+            "Hosting",
+            "Cpanel",
+            " Introduction to MAMP SERVER",
+            " Creating and designing a wordpress site offline using MAMP Server",
+            " Database creation and installation of wordpress",
+            " Theme installation and customization using elementor etc",
+            " Plugins installation",
+            " Final customization",
+            " Student assignment",
+            " Bonus( free premium templates and premium plugins)"
+        ],
+        "price": 30000
     }
 ]
