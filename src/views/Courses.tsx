@@ -4,7 +4,7 @@ import axios from 'axios'
 import Course from '../components/Course'
 
 import course1 from '../assets/course1.jpg'
-import course2 from '../assets/course2.jpg'
+// import course2 from '../assets/course2.jpg'
 import course3 from '../assets/course3.jpg'
 import course4 from '../assets/course4.jpg'
 import course5 from '../assets/course5.jpg'
@@ -15,7 +15,7 @@ import course8 from '../assets/course8.jpeg'
 const Courses = () => {
     const [courses, setCourses] = useState([])
 
-    const courseImages = [course1, course7, course3, course4, course5, course6, course2, course8]
+    const courseImages = [course1, course7, course3, course4, course5, course6, course8]
 
     useEffect(() => {
         axios('/courses.json')
