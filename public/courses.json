@@ -190,9 +190,8 @@
         "includes": ["Certificate of Completion", "Full lifetime access"],
         "requirements": ["Access to a computer with an internet connection"],
         "objectives": [
-            "How to build Amazing websites using wordpress",
-            "How to design and develop amazing wordpress websites",
-            "How to install plugins, configure and host wordpress websites"
+            "This program is designed to give you full command of the Wordpress environment so you can make dynamic web sites that look anyway you want and are easy to update and maintain.  You're diving DEEP into Wordpress discussing theme development, mobile ready sites, templates and much, much more.",
+
         ],
         "overview": [
             " Introduction to wordpress",
@@ -214,12 +213,18 @@
         "id": 7,
         "title": "Matering the Art of Project Management",
         "description": "Project Management is an exciting profession. Moving from one project to another, a Project manage constantly faces new businesses, new processes and systems, new people, and new situations. Such a dynamic environment helps you learn more all the time, and advances your skills much faster than traditional jobs do. Developing the ability to structure chaos into a project, along with solid project management knowledge and skills, will make your endeavors more successful than ever – whether it is the performance of a big organization, your own career progression, a new business start-up, or even your personal life projects",
-        "creator": "Douglas Peters",
+        "creator": "Green Emmanuel",
         "image": "course6.jpg",
         "includes": ["Certificate of Completion", "Full lifetime access"],
         "requirements": ["Access to a computer with an internet connection"],
         "objectives": [
-            "What is Project & Project Management",
+           
+             Developing the ability to structure chaos into a project, along with solid project management knowledge and skills, will make your endeavors more successful than ever – whether it is the performance of a big organization, your own career progression, a new business start-up, or even your personal life projects!
+
+            
+        ],
+        "overview": [
+             "What is Project & Project Management",
             "Why Projects are Authorized",
             "Define Project Management Office (PMO)",
             "Understanding the Impact of Organizational Structures and other Influences on Project Management",
@@ -229,9 +234,7 @@
             "Identify the 7 Processes of Project Integration Management",
             "Use the different Project Selection Methods.",
             "Explain the Inputs, Tools & Techniques and Outputs that are required for the 7 Project Integration Management Processes."
-        ],
-        "overview": [
-            Developing the ability to structure chaos into a project, along with solid project management knowledge and skills, will make your endeavors more successful than ever – whether it is the performance of a big organization, your own career progression, a new business start-up, or even your personal life projects!
+           
         ],
         "price": 30000
     }
