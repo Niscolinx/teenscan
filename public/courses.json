@@ -190,8 +190,7 @@
         "includes": ["Certificate of Completion", "Full lifetime access"],
         "requirements": ["Access to a computer with an internet connection"],
         "objectives": [
-            "This program is designed to give you full command of the Wordpress environment so you can make dynamic web sites that look anyway you want and are easy to update and maintain.  You're diving DEEP into Wordpress discussing theme development, mobile ready sites, templates and much, much more.",
-
+            "This program is designed to give you full command of the Wordpress environment so you can make dynamic web sites that look anyway you want and are easy to update and maintain.  You're diving DEEP into Wordpress discussing theme development, mobile ready sites, templates and much, much more."
         ],
         "overview": [
             " Introduction to wordpress",
@@ -218,13 +217,10 @@
         "includes": ["Certificate of Completion", "Full lifetime access"],
         "requirements": ["Access to a computer with an internet connection"],
         "objectives": [
-           
-             Developing the ability to structure chaos into a project, along with solid project management knowledge and skills, will make your endeavors more successful than ever – whether it is the performance of a big organization, your own career progression, a new business start-up, or even your personal life projects!
-
-            
+            " Developing the ability to structure chaos into a project, along with solid project management knowledge and skills, will make your endeavors more successful than ever – whether it is the performance of a big organization, your own career progression, a new business start-up, or even your personal life projects!"
         ],
         "overview": [
-             "What is Project & Project Management",
+            "What is Project & Project Management",
             "Why Projects are Authorized",
             "Define Project Management Office (PMO)",
             "Understanding the Impact of Organizational Structures and other Influences on Project Management",
@@ -234,7 +230,6 @@
             "Identify the 7 Processes of Project Integration Management",
             "Use the different Project Selection Methods.",
             "Explain the Inputs, Tools & Techniques and Outputs that are required for the 7 Project Integration Management Processes."
-           
         ],
         "price": 30000
     }
