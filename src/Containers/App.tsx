@@ -106,8 +106,7 @@ function App() {
     return (
         <div className='rootApp'>
             <a
-                href='https://wa.me/+12232272130'
-                alt=''
+                href='https://wa.me/+2348123669728'
                 target='_blank'
                 rel='noopener noreferrer'
             >
