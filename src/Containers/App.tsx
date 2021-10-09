@@ -15,6 +15,8 @@ import CourseDetail from '../views/CourseDetail'
 import Checkout from '../views/Checkout'
 import Contact from '../views/Contact'
 
+import WhatsappLivechat from '../assets/whatsapp.png'
+
 
 
 function App() {
@@ -103,9 +105,19 @@ function App() {
 
     return (
         <div className='rootApp'>
-             <Layout isAdmin={location}>
-                {AuthGuard}
-            </Layout>
+            <a
+                href='https://wa.me/+12232272130'
+                alt=''
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                <img
+                    src={WhatsappLivechat}
+                    alt=''
+                    className='liveChat__whatsapp'
+                />
+            </a>
+            <Layout isAdmin={location}>{AuthGuard}</Layout>
         </div>
     )
 }
