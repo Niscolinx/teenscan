@@ -12,6 +12,8 @@ const Home = () => {
             <div className='section-hero'>
                 <Hero />{' '}
             </div>
+            <div id='ff-compose'></div>
+
             <div className='section-wrap'>
                 <div className='section-courses'>
                     <RecentCourses />

@@ -6,10 +6,11 @@ const Contact = () => {
 
     return (
         <div className='contact'>
+
             <header>
                 <h2>Contact Us</h2>
             </header>
-            <Form/>
+            <Form />
         </div>
     )
 }
