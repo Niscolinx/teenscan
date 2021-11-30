@@ -8,7 +8,6 @@
             [col-start] minmax(min-content, 14rem) [col-end]
         )
         [center-end] minmax(3rem, 1fr) [full-end];
-   
 }
 .section-wrap {
     display: grid;
@@ -22,8 +21,6 @@
             [col-start] minmax(min-content, 14rem) [col-end]
         )
         [center-end] minmax(3rem, 1fr) [full-end];
-
-    
 }
 
 .section-hero {
@@ -36,9 +33,36 @@
         height: 40vh;
     }
 
-     @include respond(tab-port-min) {
+    @include respond(tab-port-min) {
         background: url(../../assets/hero.svg);
         background-repeat: no-repeat;
+    }
+}
+
+.section-masterclass {
+    grid-column: sidebar-start / -1;
+    margin: 10rem 5rem;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    .masterclass_img {
+        width: 80%;
+        margin-bottom: 2rem;
+
+        img {
+            width: 100%;
+        }
+
+        @include respond(bigger-phone) {
+            width: 100%;
+        }
+    }
+
+    .ff-form .ff-powered-img img {
+        display: none !important;
     }
 }
 
@@ -46,8 +70,6 @@
     grid-column: sidebar-start / full-end;
     margin: 10rem 0 4rem 0;
     padding: 0 12rem;
-
-  
 
     @include respond(bigger-phone) {
         padding: 0;
@@ -72,10 +94,10 @@
             display: flex;
 
             span {
-            display: flex;
-            color: $color-secondary;
-            animation: moveInLeft 2s infinite;
-        }
+                display: flex;
+                color: $color-secondary;
+                animation: moveInLeft 2s infinite;
+            }
         }
     }
 }
@@ -90,7 +112,6 @@
 }
 .section-testimonial {
     grid-column: sidebar-start / center-end;
-    
 }
 
 .section-footer {
@@ -221,9 +242,7 @@
 }
 
 .scrollable {
-    
     &__item {
-
         position: relative;
         display: flex;
         overflow: auto;
