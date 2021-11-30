@@ -45,7 +45,7 @@
     display: grid;
     justify-content: center;
     justify-items: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
 
     .masterclass_img {
@@ -63,6 +63,14 @@
 
     .ff-form .ff-powered-img img {
         display: none !important;
+    }
+
+    #ff-compose {
+        button:not(.ff-submit) {
+            display: none;
+        }
+
+       
     }
 }
 
