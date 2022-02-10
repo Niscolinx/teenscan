@@ -14,12 +14,12 @@ const Home = () => {
             <div className='section-hero'>
                 <Hero />{' '}
             </div>
-            <div className='section-masterclass'>
+            {/* <div className='section-masterclass'>
                 <div className='masterclass_img'>
                     <img src={masterclassReg} alt='' />
                 </div>
                 <div id='ff-compose'></div>
-            </div>
+            </div> */}
 
             <div className='section-wrap'>
                 <div className='section-courses'>
